@@ -1,0 +1,3 @@
+[build]
+  publish = "build"
+  command = "lektor build --output-path ./build"
