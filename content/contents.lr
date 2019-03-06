@@ -1,8 +1,12 @@
-title: Ian Stevens
+_model: main
+---
+title: Written + Seen
 ---
 body:
 
-This is a basic demo website that shows how to use Lektor for a basic
-website with some pages and a blog.
----
-owner: Ian Stevens
+#### flickr_image ####
+id: 4707/28011210939_50d351e6c6
+----
+alt: Snow-covered white Cadillac with a red stripe
+----
+class: col-md-6 col-sm-12
