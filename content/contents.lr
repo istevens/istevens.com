@@ -4,9 +4,19 @@ title: Written + Seen
 ---
 body:
 
-#### flickr_image ####
+#### photo_block ####
+photos:
+
+##### photo #####
 id: 4707/28011210939_50d351e6c6
-----
+-----
 alt: Snow-covered white Cadillac with a red stripe
-----
+-----
+class: col-md-6 col-sm-12
+
+##### photo #####
+id: 4707/28011210939_50d351e6c6
+-----
+alt: Snow-covered white Cadillac with a red stripe
+-----
 class: col-md-6 col-sm-12
