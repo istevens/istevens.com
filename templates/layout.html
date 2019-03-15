@@ -20,12 +20,8 @@
     </section>
 
     <footer>
-        <ul>
-            <li><a href="https://twitter.com/istevens" title="Ian Stevens on Twitter">Twitter</a></li>
-            <li><a href="https://flickr.com/istevens" title="Ian Stevens on Flickr">Flickr</a></li>
-            <li><a href="https://linkedin.com/in/istevens" title="Ian Stevens on LinkedIn">LinkedIn</a></li>
-            <li><a href="https://medium.com/@istevens" title="Ian Stevens on Medium">Medium</a></li>
-        </ul>
+        {% set footer = site.get('/footer') %}
+        {{ footer.body }}
 
         <p>&copy; Copyright 2019 by {{ name }}.</p>
     </footer>

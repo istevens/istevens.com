@@ -1,0 +1,14 @@
+_model: page
+---
+title: footer
+---
+body:
+
+Ian Stevens is …
+
+* [Twitter](https://twitter.com/istevens)
+* [Flickr](https://flickr.com/istevens)
+* [LinkedIn](https://linkedin.com/in/istevens)
+* [Medium](https://medium.com/@istevens)
+---
+_hidden: yes
