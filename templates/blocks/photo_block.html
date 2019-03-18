@@ -1,7 +1,20 @@
-<div class="row">
-    {% for photo in this.photos.blocks %}
-        <img src="https://farm1.staticflickr.com/{{ photo.id }}_z.jpg"
-             alt="{{ photo.alt }}"
-             class="photo {{ photo.class }}" />
-    {% endfor %}
-</div>
+{% macro show_photo_row(photos, class) %}
+    <div class="row justify-content-sm-center">
+        {% for photo in photos %}
+            <div class="photo {{ class }}">
+                <img src="https://farm1.staticflickr.com/{{ photo.id }}_z.jpg"
+                     alt="{{ photo.alt }}"
+                     class="img-fluid" />
+            </div>
+        {% endfor %}
+    </div>
+{% endmacro %}
+
+{% set photos = this.photos.blocks %}
+<section class="gallery">
+    {{ show_photo_row(photos[:2], "col-sm-6") }}
+
+    {% if photos|length > 2 %}
+        {{ show_photo_row(photos[2:3], "col-sm-4") }}
+    {% endif %}
+</section>
