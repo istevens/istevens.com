@@ -9,9 +9,11 @@
     {% set posts = site.query('/blog').limit(blocks|length * 3) %}
     {% for block in blocks %}
 
-        {% for post in posts.limit(3) %}
-            {{ render_blog_post(post, true) }}
-        {% endfor %}
+        <section class="articles">
+            {% for post in posts.limit(3) %}
+                {{ render_blog_post(post, true) }}
+            {% endfor %}
+        </section>
 
         {{ block }}
     {% endfor %}

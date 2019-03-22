@@ -1,3 +1,16 @@
+article {
+    margin-bottom: 2em;
+}
+
+.articles {
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+
+article .dek {
+     font-size: 1.25em;
+}
+
 .gallery .photo {
     padding: 0 0.5em 1em 0.5em;
 }

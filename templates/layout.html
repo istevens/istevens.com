@@ -1,4 +1,5 @@
 {% set name = 'Ian Stevens' %}
+{% set in_index = this._model == 'main' %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,9 +11,13 @@
     <title>{% block title %}Welcome{% endblock %} — {{ name }}</title>
 </head>
 
-<body>
-    <header>
-        <h1>{{ name }}</h1>
+<body class="{{ this._model }}">
+    <header {% if in_index %}class="jumbotron"{% endif %}>
+        {% if in_index %}
+            <h1>{{ name }}</h1>
+        {% else %}
+            <a href="/"><h1>{{ name }}</h1></a>
+        {% endif %}
     </header>
 
     <section id="content" class="page container-fluid">
