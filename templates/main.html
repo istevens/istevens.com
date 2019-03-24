@@ -13,6 +13,10 @@
             {% for post in posts.limit(3) %}
                 {{ render_article(post, true) }}
             {% endfor %}
+
+            <nav>
+                <a href="/articles">Read more articles …</a>
+            </nav>
         </section>
 
         {{ block }}
