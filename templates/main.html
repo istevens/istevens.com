@@ -4,6 +4,12 @@
 {% block bodyclass %}main{% endblock %}
 {% block body %}
 
+    <section id="about">
+        {% set about = site.get('/about') %}
+        <header><h2>{{ about.title }}</h2></header>
+        {{ about.body }}
+    </section>
+
     {% set blocks = this.body.blocks %}
     {% set posts = site.query('/articles').limit(blocks|length * 3) %}
     {% for block in blocks %}
