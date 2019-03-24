@@ -12,11 +12,13 @@
 
 {% set photos = this.photos.blocks %}
 <section class="gallery">
-    <h2>{{ this.title }}</h2>
+    <header>
+        <h2>{{ this.title }}</h2>
 
-    {% if this.dek %}
-        <p>{{ this.dek }}</p>
-    {% endif %}
+        {% if this.dek %}
+            <p>{{ this.dek }}</p>
+        {% endif %}
+    </header>
 
     {{ show_photo_row(photos[:2], "col-sm-6") }}
 
