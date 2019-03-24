@@ -4,11 +4,31 @@ title: footer
 ---
 body:
 
-Ian Stevens is …
+## More from Ian
 
-* [Twitter](https://twitter.com/istevens)
-* [Flickr](https://flickr.com/istevens)
-* [LinkedIn](https://linkedin.com/in/istevens)
-* [Medium](https://medium.com/@istevens)
+* [See more photos on Flickr](https://flickr.com/istevens)
+* [Follow @istevens on Twitter](https://twitter.com/istevens)
+* [Follow @istevens on Medium](https://medium.com/@istevens)
+* [Read blog posts from 2002-2012](http://crazedmonkey.com/)
+
+## How to contact Ian
+
+* [Tweet @istevens](https://twitter.com/istevens)
+* [Contact on LinkedIn](https://linkedin.com/in/istevens)
+* Or use this form:
+
+<form name="contact" method="POST" netlify>
+<div class="form-group">
+<input class="form-control" type="text" placeholder="First and last name" name="name" required/>
+</div>
+<div class="form-group">
+<input class="form-control" type="email" placeholder="Email address (eg. name@domain.com)" name="email" required/>
+</div>
+<div class="form-group">
+<textarea class="form-control" id="message" placeholder="Why are you contacting Ian?" maxlength="140" rows="7"></textarea>
+</div>
+<button id="submit" class="btn btn-primary pull-right" type="sub
+mit">Get in touch</button>
+</form>
 ---
 _hidden: yes
