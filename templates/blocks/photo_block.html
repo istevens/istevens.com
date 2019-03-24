@@ -12,6 +12,12 @@
 
 {% set photos = this.photos.blocks %}
 <section class="gallery">
+    <h2>{{ this.title }}</h2>
+
+    {% if this.dek %}
+        <p>{{ this.dek }}</p>
+    {% endif %}
+
     {{ show_photo_row(photos[:2], "col-sm-6") }}
 
     {% if photos|length > 2 %}

@@ -3,13 +3,13 @@
 {% block title %}{{ this.title }}{% endblock %}
 {% block bodyclass %}main{% endblock %}
 {% block body %}
-    <h2>{{ this.title }}</h2>
 
     {% set blocks = this.body.blocks %}
     {% set posts = site.query('/blog').limit(blocks|length * 3) %}
     {% for block in blocks %}
 
         <section class="articles">
+            <h2>Recent articles</h2>
             {% for post in posts.limit(3) %}
                 {{ render_blog_post(post, true) }}
             {% endfor %}
