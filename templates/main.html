@@ -6,15 +6,14 @@
 
     <section id="about">
         {% set about = site.get('/about') %}
-        <header><h2>{{ about.title }}</h2></header>
 
         <div class="row">
-            <div class="col-sm-4">
-                <img id="portrait" alt="Ian Stevens" src="{{ about.attachments.first()|url }}"/>
+            <div class="col centered">
+                <h2>{{ about.body }}</h2>
             </div>
 
-            <div class="col">
-                {{ about.body }}
+            <div class="col-sm-4">
+                <img id="portrait" alt="Ian Stevens" src="{{ about.attachments.first()|url }}"/>
             </div>
         </div>
     </section>

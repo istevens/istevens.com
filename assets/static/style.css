@@ -6,6 +6,11 @@ section {
     margin-bottom: 3em;
 }
 
+section > header h2 {
+    font-size: 2em;
+    border-bottom: 1px solid black;
+}
+
 section>header, footer>h2 {
     margin-bottom: 1em;
 }
@@ -14,9 +19,17 @@ footer>ul {
     margin-bottom: 2em;
 }
 
+footer {
+    border-top: 1px solid black;
+}
+
 #about #portrait {
     width: 100%;
     object-fit: contain;
+}
+
+.centered {
+    margin: auto;
 }
 
 .articles {
@@ -29,5 +42,5 @@ article .dek {
 }
 
 .gallery .photo {
-    padding: 0 0.5em 1em 0.5em;
+    padding: 0.5em 1em;
 }
