@@ -12,15 +12,14 @@
 </head>
 
 <body class="{{ this._model }}">
-    <header {% if in_index %}class="jumbotron"{% endif %}>
-        {% if in_index %}
-            <h1>{{ name }}</h1>
-        {% else %}
-            <a href="/"><h1>{{ name }}</h1></a>
-        {% endif %}
-    </header>
 
-    <section id="content" class="page container-fluid">
+    {% if not in_index %}
+        <header>
+            <a href="/"><h1>{{ name }}</h1></a>
+        </header>
+    {% endif %}
+
+    <section class="page container-fluid">
         {% block body %}{% endblock %}
     </section>
 

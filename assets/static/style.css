@@ -6,12 +6,13 @@ section {
     margin-bottom: 3em;
 }
 
-section > header h2 {
-    font-size: 2em;
+section.content > header h2 {
+    display: inline-block;
+    padding-bottom: 0.125em;
     border-bottom: 1px solid black;
 }
 
-section>header, footer>h2 {
+section>header {
     margin-bottom: 1em;
 }
 
@@ -26,6 +27,10 @@ footer {
 #about #portrait {
     width: 100%;
     object-fit: contain;
+}
+
+#about {
+    background-color: white;
 }
 
 .centered {
