@@ -2,6 +2,14 @@ article {
     margin-bottom: 2em;
 }
 
+.article_banner {
+    width: 100%;
+}
+
+.article_thumb {
+    max-width: 100%;
+}
+
 section {
     margin-bottom: 3em;
 }

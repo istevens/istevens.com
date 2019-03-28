@@ -1,6 +1,13 @@
 {% macro render_article(post, from_index=false) %}
 <article>
     <header>
+        {% set photo = post.attachments.images.first() %}
+        {% if photo and from_index %}
+            <img class="article_thumb" src="{{ photo.thumbnail(500)|url }}"/>
+        {% elif photo %}
+            <img class="article_banner" src="{{ photo|url }}"/>
+        {% endif %}
+
         {% if from_index %}
             <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
         {% else %}
