@@ -5,7 +5,7 @@
         {% if photo and from_index %}
             <img class="article_thumb" src="{{ photo.thumbnail(500)|url }}"/>
         {% elif photo %}
-            <img class="article_banner" src="{{ photo|url }}"/>
+            <img class="article_banner" src="{{ photo.thumbnail(2048)|url }}"/>
         {% endif %}
 
         {% if from_index %}
