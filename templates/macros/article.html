@@ -1,15 +1,17 @@
 {% macro render_article(post, from_index=false) %}
 <article>
-    <header>
+    <header
         {% if from_index %}
-            <a href="{{ post|url }}">
+            ><a href="{{ post|url }}">
+        {% else %}
+            class="single-article page-header">
         {% endif %}
 
         {% set photo = post.attachments.images.first() %}
         {% if photo and from_index %}
-            <img class="article_thumb" src="{{ photo.thumbnail(500)|url }}"/>
+            <img class="article-thumb" src="{{ photo.thumbnail(500)|url }}"/>
         {% elif photo %}
-            <img class="article_banner" src="{{ photo.thumbnail(2048)|url }}"/>
+            <img class="article-banner" src="{{ photo.thumbnail(2048)|url }}"/>
         {% endif %}
 
         <h2>{{ post.title }}</h2>
@@ -22,13 +24,16 @@
             <h3 class="dek">{{ post.dek }}</h3>
         {% endif %}
 
-        {% if not from_index %}
-            <p class="meta">Published on {{ post.pub_date|dateformat('long') }}</p>
-        {% endif %}
     </header>
 
     {% if not from_index %}
         {{ post.body }}
+    {% endif %}
+
+    {% if not from_index %}
+        <footer>
+            <p>Published on {{ post.pub_date|dateformat('long') }}</p>
+        </footer>
     {% endif %}
 </article>
 {% endmacro %}

@@ -1,12 +1,29 @@
+header.single-article {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 3em;
+    background-color: white;
+}
+
+header.single-article h2 {
+    font-size: 3em;
+}
+
 article {
     margin-bottom: 2em;
 }
 
-.article_banner {
+.article-banner {
     width: 100%;
+    margin-bottom: 1em;
 }
 
-.article_thumb {
+article footer {
+    margin-top: 3em;
+}
+
+.article-thumb {
+    margin-bottom: 0.5em;
     max-width: 100%;
 }
 
@@ -14,21 +31,21 @@ section {
     margin-bottom: 3em;
 }
 
-section.content > header h2 {
+.section-header h2 {
     display: inline-block;
     padding-bottom: 0.125em;
     border-bottom: 1px solid black;
 }
 
-section>header {
+section > header {
     margin-bottom: 1em;
 }
 
-footer>ul {
+footer#contact > ul {
     margin-bottom: 2em;
 }
 
-footer {
+footer#contact {
     border-top: 1px solid black;
 }
 
@@ -48,6 +65,10 @@ footer {
 .articles {
     margin-top: 2em;
     margin-bottom: 5em;
+}
+
+.articles article header {
+    margin-top: 3em;
 }
 
 article .dek {
