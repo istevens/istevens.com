@@ -14,9 +14,9 @@
 <body class="{{ this._model }}">
 
     {% if not in_index %}
-        <header>
+        <nav id="top-nav">
             <a href="/"><h1>{{ name }}</h1></a>
-        </header>
+        </nav>
     {% endif %}
 
     <section class="container-fluid">
@@ -29,4 +29,17 @@
 
         <p id="copyright">&copy; 2019 by {{ name }}. <a href="https://github.com/istevens/istevens.com/tree/master">Built using Lektor.</a></p>
     </footer>
+
+    {% if not in_index %}
+        <script type="text/javascript">
+            window.onscroll = function() {
+                if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("top-nav").style.top = "0";
+                } else {
+                    document.getElementById("top-nav").style.top = "-4em";
+                }
+            }
+        </script>
+    {% endif %}
+
 </body>
