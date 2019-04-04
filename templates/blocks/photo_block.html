@@ -11,7 +11,11 @@
 {% endmacro %}
 
 {% set photos = this.photos.blocks %}
-<section class="gallery content">
+<section class="gallery content"
+    {% if this.color != "" %}
+         style="background-color: {{ this.color }}"
+    {% endif %}
+    >
     <header class="section-header">
         <h2>{{ this.title }}</h2>
 
