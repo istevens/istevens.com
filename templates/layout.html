@@ -13,11 +13,9 @@
 
 <body class="{{ this._model }}">
 
-    {% if not in_index %}
-        <nav id="top-nav">
-            <a href="/"><h1>{{ name }}</h1></a>
-        </nav>
-    {% endif %}
+    <nav id="top-nav">
+        <a href="/"><h1>{{ name }}</h1></a>
+    </nav>
 
     <section class="container-fluid page">
         {% block body %}{% endblock %}
