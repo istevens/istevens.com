@@ -1,5 +1,4 @@
 {% extends "layout.html" %}
-{% from "macros/article.html" import render_article %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block bodyclass %}main{% endblock %}
 {% block body %}
@@ -9,7 +8,7 @@
 
         <div class="row row-grid">
             <div class="col centered">
-                <h2>{{ about.body.source }}</h2>
+                {{ about.body }}
             </div>
 
             <div class="col-sm-4">
@@ -18,23 +17,6 @@
         </div>
     </section>
 
-    {% set blocks = this.body.blocks %}
-    {% set posts = site.query('/articles').limit(blocks|length * 3) %}
-
-    <section class="content" id="recent-articles">
-        <header class="section-header"><h1>Recent articles</h1></header>
-
-        <div class="gallery">
-            {% for post in posts.limit(3) %}
-                {{ render_article(post, true) }}
-            {% endfor %}
-        </div>
-
-        <nav class="pagination">
-            <a href="/articles" rel="archive" class="next">Read more articles</a>
-        </nav>
-    </section>
-
-    {{ blocks[0] }}
+    {{ this.body }}
 
 {% endblock %}

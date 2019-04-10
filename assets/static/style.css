@@ -89,6 +89,10 @@ footer#contact {
     margin: 0;
 }
 
+#about p {
+    font-size: 1.5em;
+}
+
 .centered {
     margin: auto;
 }
@@ -130,7 +134,7 @@ article .dek {
 }
 
 @media (min-width: 1280px) {
-    #recent-articles .gallery-item {
+    .posts .gallery-item {
         width: calc(33% - 1rem);
     }
 }

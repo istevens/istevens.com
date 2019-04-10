@@ -4,26 +4,32 @@ title: Written + Seen
 ---
 body:
 
+#### posts ####
+title: Recent Articles
+----
+path: /articles
+----
+count: 3
+----
+more: yes
 #### photo_block ####
 title: Red
 ----
 dek: Some red things
 ----
-color: #fcc
-----
 photos:
 
 ##### photo #####
-id: 4707/28011210939_50d351e6c6
+id: 4574/24051834417_5451b992bf
 -----
 alt: Snow-covered white Cadillac with a red stripe
-
 ##### photo #####
-id: 831/42116374862_b443b99c4f
+id: 4574/38200890064_26b9b65c54
 -----
 alt: Woman in red coat walks in an empty plaza
-
 ##### photo #####
 id: 889/40375808794_1ccf048615
 -----
 alt: Person walking up a ramp pulling an orange cart
+----
+color: #fcc
