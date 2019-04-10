@@ -1,3 +1,8 @@
+body {
+    background: #fffff9;
+    color: #333;
+}
+
 nav a.next::after {
     content: ' \276D';
 }
@@ -80,7 +85,7 @@ footer#contact {
 }
 
 #about {
-    background-color: white;
+    background-color: inherit;
     margin: 0;
 }
 
@@ -98,7 +103,7 @@ article .dek {
 
 #top-nav {
     padding-left: 1em;
-    background: white;
+    background: #fffff9f0;
     width: 100%;
 }
 
