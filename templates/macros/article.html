@@ -1,5 +1,5 @@
 {% macro render_article(post, from_index=false) %}
-<article>
+<article {% if from_index %} class="gallery-item" {% endif %}>
     <header
         {% if from_index %}
             ><a href="{{ post|url }}">
@@ -9,7 +9,7 @@
 
         {% set photo = post.attachments.images.first() %}
         {% if photo and from_index %}
-            <img class="article-thumb" src="{{ photo.thumbnail(500)|url }}"/>
+            <img src="{{ photo.thumbnail(500)|url }}"/>
         {% elif photo %}
             <img class="article-banner" src="{{ photo.thumbnail(2048)|url }}"/>
         {% endif %}

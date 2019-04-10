@@ -2,7 +2,7 @@ nav a.next::after {
     content: ' \276D';
 }
 
-section.page {
+.page {
     padding: 0;
 }
 
@@ -33,9 +33,16 @@ article footer {
     margin-top: 3em;
 }
 
-.article-thumb {
+.gallery-item {
+    margin-bottom: 3em;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+article.gallery-item img {
     margin-bottom: 0.5em;
-    max-width: 100%;
 }
 
 .section-header h2 {
@@ -44,8 +51,8 @@ article footer {
     border-bottom: 1px solid black;
 }
 
-section > header {
-    margin-bottom: 1em;
+.section-header {
+    margin-bottom: 2em;
 }
 
 footer #copyright {
@@ -81,16 +88,8 @@ footer#contact {
     margin: auto;
 }
 
-.articles article header {
-    margin-top: 3em;
-}
-
 article .dek {
      font-size: 1.25em;
-}
-
-.gallery .photo {
-    padding: 0.5em 1em;
 }
 
 #about .row.row-grid [class*="col"] + [class*="col"] {
@@ -112,5 +111,21 @@ article .dek {
 @media (min-width: 768px) {
     #about .row.row-grid [class*="col"] + [class*="col"] {
         margin-top: 0;
+    }
+
+    .gallery {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+    .gallery-item {
+        width: calc(50% - 1rem);
+    }
+}
+
+@media (min-width: 1280px) {
+    #recent-articles .gallery-item {
+        width: calc(33% - 1rem);
     }
 }
