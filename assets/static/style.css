@@ -79,30 +79,12 @@ footer#contact {
     border-top: 1px solid black;
 }
 
-#about #portrait {
-    width: 100%;
-    object-fit: contain;
-}
-
-#about {
-    background-color: inherit;
-    margin: 0;
-}
-
-#about p {
-    font-size: 1.5em;
-}
-
 .centered {
     margin: auto;
 }
 
 article .dek {
      font-size: 1.25em;
-}
-
-#about .row.row-grid [class*="col"] + [class*="col"] {
-    margin-top: 2em;
 }
 
 #top-nav {
@@ -118,9 +100,6 @@ article .dek {
 }
 
 @media (min-width: 768px) {
-    #about .row.row-grid [class*="col"] + [class*="col"] {
-        margin-top: 0;
-    }
 
     .gallery {
         display: flex;
@@ -133,7 +112,7 @@ article .dek {
     }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     .posts .gallery-item {
         width: calc(33% - 1rem);
     }

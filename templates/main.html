@@ -3,19 +3,9 @@
 {% block bodyclass %}main{% endblock %}
 {% block body %}
 
-    <section id="about" class="jumbotron">
-        {% set about = site.get('/about') %}
-
-        <div class="row row-grid">
-            <div class="col centered">
-                {{ about.body }}
-            </div>
-
-            <div class="col-sm-4">
-                <img id="portrait" alt="Ian Stevens" src="{{ about.attachments.first()|url }}"/>
-            </div>
-        </div>
-    </section>
+    <header>
+        <h1><span>Written</span> + <span>Seen</span></h1>
+    </header>
 
     {{ this.body }}
 
