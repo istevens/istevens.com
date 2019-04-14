@@ -2,7 +2,7 @@
 {% set posts = site.query(this.path).limit(this.count) %}
 
 <section class="content posts">
-    <header class="section-header"><h1>{{ this.title }}</h1></header>
+    <header class="section-header heading"><h1>{{ this.title }}</h1></header>
 
     <div class="gallery">
         {% for post in posts %}

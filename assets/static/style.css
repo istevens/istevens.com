@@ -15,6 +15,19 @@ nav a.next::after {
     padding: 3em 1em 5em;
 }
 
+.main #title {
+    padding: 8em 0 21em 0;
+}
+
+.main .heading {
+    text-align: center;
+}
+
+.main .heading span {
+    display: block;
+    line-height: 75%;
+}
+
 .article .content {
     padding: 1em;
 }
@@ -88,9 +101,12 @@ article .dek {
 }
 
 #top-nav {
-    padding-left: 1em;
     background: #fffff9f0;
     width: 100%;
+}
+
+#top-nav a {
+    color: inherit;
 }
 
 .article #top-nav {
