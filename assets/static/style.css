@@ -30,6 +30,8 @@ nav a.next::after {
 
 .article .content {
     padding: 1em;
+    max-width: 60em;
+    margin: auto;
 }
 
 header.single-article {
@@ -53,6 +55,10 @@ article footer {
 
 .posts .gallery-item {
     margin-bottom: 3em;
+}
+
+.posts a {
+    color: inherit;
 }
 
 .gallery-item img {
@@ -113,6 +119,7 @@ article .dek {
     position: fixed;
     top: -4em;
     transition: top 0.3s;
+    padding-left: 1em;
 }
 
 @media (min-width: 768px) {
