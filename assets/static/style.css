@@ -51,7 +51,7 @@ article footer {
     margin-top: 3em;
 }
 
-.gallery-item {
+.posts .gallery-item {
     margin-bottom: 3em;
 }
 
@@ -123,13 +123,22 @@ article .dek {
         justify-content: space-between;
     }
 
-    .gallery-item {
+    .posts .gallery-item {
         width: calc(50% - 1rem);
+    }
+
+    .photos .gallery {
+        flex-direction: column;
+        max-height: 200vmax;
+    }
+
+    .photos .gallery-item {
+        width: 50%;
     }
 }
 
 @media (min-width: 1200px) {
     .posts .gallery-item {
-        width: calc(33% - 1rem);
+        width: calc(100%/3 - 1rem);
     }
 }
