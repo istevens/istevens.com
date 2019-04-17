@@ -1,19 +1,5 @@
-{% from "macros/article.html" import render_article %}
+{% from "macros/article.html" import render_articles %}
+{% from "macros/pagination.html" import render_more %}
 {% set posts = site.query(this.path).limit(this.count) %}
 
-<section class="content posts">
-    <header class="section-header heading"><h1>{{ this.title }}</h1></header>
-
-    <div class="gallery">
-        {% for post in posts %}
-            {{ render_article(post, true) }}
-        {% endfor %}
-    </div>
-
-    {% if this.more %}
-        <nav class="pagination">
-            <a href="{{ this.path }}" rel="archive" class="next">Read more articles</a>
-        </nav>
-    {% endif %}
-</section>
-
+{{ render_articles(this.title, posts, render_more(this.path)) }}

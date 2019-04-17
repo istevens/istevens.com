@@ -1,11 +1,10 @@
 {% extends "layout.html" %}
-{% from "macros/article.html" import render_article %}
+{% from "macros/article.html" import render_articles %}
 {% from "macros/pagination.html" import render_pagination %}
+{% set posts = this.pagination.items %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  {% for child in this.pagination.items %}
-    {{ render_article(child, from_index=true) }}
-  {% endfor %}
 
-  {{ render_pagination(this.pagination) }}
+    {{ render_articles(this.title, posts, render_pagination(this.pagination)) }}
+
 {% endblock %}

@@ -11,7 +11,7 @@ nav a.next::after {
     padding: 0;
 }
 
-.main .content {
+.main .content, .articles .content {
     padding: 3em 1em 5em;
 }
 
@@ -19,7 +19,7 @@ nav a.next::after {
     padding: 8em 0 21em 0;
 }
 
-.main .heading {
+.main .heading, .articles .heading, .section-header  {
     text-align: center;
 }
 
