@@ -3,7 +3,7 @@ body {
     color: #333;
 }
 
-nav a.next::after {
+nav a[rel='next']::after {
     content: ' \276D';
 }
 
