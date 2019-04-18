@@ -19,7 +19,7 @@ nav a[rel='next']::after {
     padding: 8em 0 21em 0;
 }
 
-.main .heading, .articles .heading, .section-header  {
+.centered  {
     text-align: center;
 }
 
@@ -30,6 +30,9 @@ nav a[rel='next']::after {
 
 .article .content {
     padding: 1em;
+}
+
+.article .content, footer#contact {
     max-width: 60em;
     margin: auto;
 }
@@ -69,37 +72,29 @@ article.gallery-item img {
     margin-bottom: 0.5em;
 }
 
-.section-header h1 {
+.underline-titles>h2 {
     display: inline-block;
-    padding-bottom: 0.125em;
+    padding-bottom: 0.5rem;
     border-bottom: 1px solid black;
+    margin-bottom: 1rem;
 }
 
-.section-header {
+.underline-titles {
     margin-bottom: 2em;
 }
 
-footer #copyright {
+#copyright {
     text-align: right;
     margin-top: 3em;
     margin-bottom: 0;
 }
 
 footer#contact {
-    background-color: #ffc;
     padding: 3em 1em 0;
 }
 
 footer#contact > ul {
     margin-bottom: 2em;
-}
-
-footer#contact {
-    border-top: 1px solid black;
-}
-
-.centered {
-    margin: auto;
 }
 
 article .dek {
@@ -109,6 +104,7 @@ article .dek {
 #top-nav {
     background: #fffff9f0;
     width: 100%;
+    text-align: center;
 }
 
 #top-nav a {
@@ -116,6 +112,7 @@ article .dek {
 }
 
 .article #top-nav {
+    text-align: normal;
     position: fixed;
     top: -4em;
     transition: top 0.3s;
@@ -130,7 +127,7 @@ article .dek {
         justify-content: space-between;
     }
 
-    .posts .gallery-item {
+    .posts .gallery-item, #contact .text-block {
         width: calc(50% - 1rem);
     }
 

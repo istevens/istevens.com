@@ -1,11 +1,11 @@
-_model: page
+_model: main
 ---
 title: Footer
 ---
 body:
 
-My name is Ian Stevens. This is my website. I live in Toronto, Canada with
-my two lovely children and my talented and wonderful wife.
+#### text_block ####
+text:
 
 ## More from Ian
 
@@ -16,8 +16,10 @@ my two lovely children and my talented and wonderful wife.
 * [Read blog posts from 2002-2012](http://crazedmonkey.com/)
 * [View activity on Stack Overflow](https://stackoverflow.com/users/220216/ian-stevens)
 * [View activity on GitHub](https://github.com/istevens)
+#### text_block ####
+text:
 
-## How to get in touch
+## Get in touch with Ian
 
 * [Tweet @istevens](https://twitter.com/istevens)
 * [Contact on LinkedIn](https://linkedin.com/in/istevens)

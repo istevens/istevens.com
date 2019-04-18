@@ -22,8 +22,11 @@
     </section>
 
     <footer id="contact">
-        {% set footer = site.get('/footer') %}
-        {{ footer.body }}
+
+        <div class="gallery">
+            {% set footer = site.get('/footer') %}
+            {{ footer.body }}
+        </div>
 
         <p id="copyright">&copy; {{ name }}, 2019. <a href="https://github.com/istevens/istevens.com/tree/master">Built using Lektor.</a></p>
     </footer>
