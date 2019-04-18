@@ -136,7 +136,7 @@ article .dek {
 
     .photos .gallery {
         flex-direction: column;
-        max-height: 200vmax;
+        max-height: 200vw;
     }
 
     .photos .gallery-item {
