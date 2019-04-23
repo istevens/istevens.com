@@ -4,7 +4,7 @@ body {
 }
 
 nav.pagination a[rel='next']::after {
-    content: ' \276D';
+    content: '\00a0\00a0\276d';
 }
 
 nav.pagination {
@@ -39,9 +39,13 @@ nav.pagination {
     padding: 1em;
 }
 
-.article .content, footer#contact {
-    max-width: 60em;
-    margin: auto;
+#top-nav h1,
+.article .content,
+footer#contact,
+.main .content > header {
+    max-width: 60rem;
+    margin-left: auto ;
+    margin-right: auto;
 }
 
 header.single-article {
@@ -65,6 +69,11 @@ article footer {
 
 .posts .gallery-item {
     margin-bottom: 3em;
+}
+
+.photos .gallery {
+    margin-left: -1rem;
+    width: calc(100% + 2rem);
 }
 
 .posts a {
@@ -100,8 +109,9 @@ footer#contact {
     padding: 3em 1em 0;
 }
 
-footer#contact > ul {
-    margin-bottom: 2em;
+footer#contact ul {
+    margin-bottom: 3em;
+    padding-left: 1.125em;
 }
 
 article .dek {
@@ -119,14 +129,19 @@ article .dek {
 }
 
 .article #top-nav {
-    text-align: normal;
+    text-align: left;
     position: fixed;
     top: -4em;
     transition: top 0.3s;
-    padding-left: 1em;
 }
 
-@media (min-width: 768px) {
+.article #top-nav h1 {
+    margin: normal;
+    padding-left: 1rem;
+}
+
+
+@media (min-width: 500px) {
 
     .gallery {
         display: flex;
@@ -139,6 +154,7 @@ article .dek {
     }
 
     .photos .gallery {
+        width: calc(100% + 2rem);
         flex-direction: column;
         max-height: 200vw;
     }
@@ -148,7 +164,7 @@ article .dek {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
     .posts .gallery-item {
         width: calc(100%/3 - 1rem);
     }
