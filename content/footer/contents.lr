@@ -3,6 +3,14 @@ _model: main
 title: Footer
 ---
 body:
+#### text_block ####
+text:
+
+All writing, photography, and design on this site by me, Ian Stevens. It took
+me a few decades, but I'm slowly realizing that I'm a rare breed.
+Technical, creative, curious, and empathetic, I try to know a little about
+everything and strive to explain difficult concepts in plainest terms. I live
+in Toronto with my wonderful wife and two lovely children.
 
 #### text_block ####
 text:
@@ -12,7 +20,7 @@ text:
 * [See more photos on Flickr](https://flickr.com/istevens)
 * [Follow @istevens on Twitter](https://twitter.com/istevens)
 * [Follow @istevens on Medium](https://medium.com/@istevens)
-* [Subscribe to Techstars' Startup Digest Toronto, curated by Ian](https://www.startupdigest.com/digests/toronto)
+* [Read Techstars Startup Digest Toronto, curated by Ian](https://www.startupdigest.com/digests/toronto)
 * [Read blog posts from 2002-2012](http://crazedmonkey.com/)
 * [View activity on Stack Overflow](https://stackoverflow.com/users/220216/ian-stevens)
 * [View activity on GitHub](https://github.com/istevens)

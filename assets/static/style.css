@@ -114,6 +114,10 @@ footer#contact ul {
     padding-left: 1.125em;
 }
 
+footer#contact .gallery {
+    padding-top: 2em;
+}
+
 article .dek {
      font-size: 1.25em;
 }

@@ -31,10 +31,15 @@
     </section>
 
     <footer id="contact">
+        {% set footer = site.get('/footer') %}
+        {% set about = footer.body.blocks[0] %}
+
+        {{ about.text }}
 
         <div class="gallery">
-            {% set footer = site.get('/footer') %}
-            {{ footer.body }}
+            {% for b in footer.body.blocks[1:] %}
+                {{ b }}
+            {% endfor %}
         </div>
 
         <p id="copyright">&copy; {{ name }}, 2019. <a href="https://github.com/istevens/istevens.com/tree/master">Built using Lektor.</a></p>
