@@ -14,11 +14,11 @@ nav.pagination {
     text-align: center;
 }
 
-.page {
+.container-fluid {
     padding: 0;
 }
 
-.main .content, .articles .content {
+.index .content {
     padding: 3em 1em 5em;
 }
 
@@ -35,16 +35,16 @@ nav.pagination {
     line-height: 75%;
 }
 
-.article .content {
+.content {
     padding: 1em;
 }
 
 #top-nav h1,
-.article .content,
 footer#contact,
-.main .content > header {
+.page .content,
+.index .content > header {
     max-width: 60rem;
-    margin-left: auto ;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -121,22 +121,24 @@ article .dek {
 #top-nav {
     background: #fffff9f0;
     width: 100%;
-    text-align: center;
+    text-align: ;
 }
 
 #top-nav a {
     color: inherit;
 }
 
-.article #top-nav {
-    text-align: left;
+.index #top-nav {
+    text-align: center;
+}
+
+.page #top-nav {
     position: fixed;
     top: -4em;
     transition: top 0.3s;
 }
 
-.article #top-nav h1 {
-    margin: normal;
+.page #top-nav h1 {
     padding-left: 1rem;
 }
 

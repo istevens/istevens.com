@@ -1,6 +1,7 @@
 [project]
 name = istevens.com
 url = https://www.ianstevens.ca/
+url_style = absolute
 
 [packages]
 lektor-atom = 0.3

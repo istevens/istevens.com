@@ -20,13 +20,13 @@
     {% block head %}{% endblock %}
 </head>
 
-<body class="{{ this._model }}">
+<body class="{% block bodyclass %}{% endblock %}">
 
     <nav id="top-nav" class="heading">
         <a href="/"><h1>{{ name }}</h1></a>
     </nav>
 
-    <section class="container-fluid page">
+    <section class="container-fluid">
         {% block body %}{% endblock %}
     </section>
 

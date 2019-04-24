@@ -4,6 +4,7 @@
 {% block head %}
     <link rel="alternate" type="application/atom+xml" title="Feed for articles on ianstevens.ca" href="/articles/feed.xml">
 {% endblock %}
+{% block bodyclass %}page{% endblock %}
 {% block body %}
   {{ render_article(this) }}
 {% endblock %}
