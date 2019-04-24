@@ -170,7 +170,7 @@ article .dek {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (orientation: landscape) {
     .posts .gallery-item {
         width: calc(100%/3 - 1rem);
     }
