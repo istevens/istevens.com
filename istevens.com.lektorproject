@@ -1,2 +1,6 @@
 [project]
 name = istevens.com
+url = https://www.ianstevens.ca/
+
+[packages]
+lektor-atom = 0.3
