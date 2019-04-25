@@ -9,10 +9,12 @@
 
         {% set photo = post.attachments.images.first() %}
         {% if photo and from_index %}
-            <img src="{{ photo.thumbnail(500)|url }}"/>
+            <img src="{{ photo.thumbnail(500)|url }}"
         {% elif photo %}
-            <img class="article-banner" src="{{ photo.thumbnail(2048)|url }}"/>
+            <img class="article-banner" src="{{ photo.thumbnail(2048)|url }}"
         {% endif %}
+
+        alt="{{ photo.description }}" />
 
         {% if not from_index %}
             <div class="content">
