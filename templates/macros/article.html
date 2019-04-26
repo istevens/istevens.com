@@ -23,14 +23,15 @@
             <div class="content">
         {% endif %}
 
-        <h2>{{ post.title }}</h2>
+        <h2>{{ post.title|title }}</h2>
 
         {% if from_index %}
                 </a>
         {% endif %}
 
+        {# Strip enclosing <p> tag #}
         {% if post.dek %}
-            <h3 class="dek">{{ post.dek }}</h3>
+            <h3 class="dek">{{ (post.dek|safe)[3:-3] }}</h3>
         {% endif %}
 
         {% if not from_index %}
