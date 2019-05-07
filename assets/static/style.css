@@ -83,6 +83,25 @@ article footer {
     margin-top: 3em;
 }
 
+.index .content::before, footer#contact::before {
+    position: relative;
+    font-size: 3rem;
+    left: calc(50% - 0.5em);
+}
+
+.posts::before {
+    content: '\270f';
+}
+
+.photos::before {
+    content: '\1f4f7';
+}
+
+footer#contact::before {
+    left: calc(50% - 1.5em);
+    content: '\270f  \1f4f7';
+}
+
 .posts .gallery-item {
     margin-bottom: 3em;
 }
