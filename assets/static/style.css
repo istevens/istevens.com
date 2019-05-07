@@ -1,4 +1,5 @@
 body {
+    font-family: sans-serif;
     background: #fffff9;
     color: #333;
 }
@@ -39,7 +40,13 @@ nav.pagination {
 }
 
 .main #title {
-    padding: 8em 0 21em 0;
+    padding-bottom: 21em;
+}
+
+.main #title h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    color: #ccc;
 }
 
 .centered  {
@@ -70,8 +77,19 @@ header.single-article {
     margin-bottom: 3em;
 }
 
+h1,
+h2,
+blockquote,
+nav,
+article.dek {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.index #top-nav h1,
+.index .content::before,
+footer#contact::before,
 header.single-article h2 {
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 .article-banner {
@@ -85,7 +103,6 @@ article footer {
 
 .index .content::before, footer#contact::before {
     position: relative;
-    font-size: 3rem;
     left: calc(50% - 0.5em);
 }
 
@@ -124,8 +141,11 @@ article.gallery-item img {
 }
 
 .underline-titles>h2 {
+    font-weight: 800;
     display: inline-block;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     border-bottom: 1px solid black;
     margin-bottom: 1rem;
 }
@@ -149,26 +169,42 @@ footer#contact ul {
     padding-left: 1.125em;
 }
 
+footer#contact .underline-titles>h2 {
+    padding-left: 0;
+}
+
 footer#contact .gallery {
     padding-top: 2em;
 }
 
-article .dek, blockquote {
+article .dek,
+blockquote {
      font-size: 1.25em;
+     font-weight: 300;
 }
 
 #top-nav {
     background: #fffff9f0;
     width: 100%;
-    text-align: ;
+    text-align: left;
+}
+
+#top-nav h1 {
+    font-weight: 900;
 }
 
 #top-nav a {
     color: inherit;
+    text-decoration: none;
 }
 
-.index #top-nav {
+#top-nav a:hover h1 {
+    color: #333;
+}
+
+.index #top-nav h1 {
     text-align: center;
+    color: #ccc;
 }
 
 .page #top-nav {
