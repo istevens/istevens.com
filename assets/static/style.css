@@ -20,12 +20,23 @@ blockquote>p>a:before {
     content: '– ';
 }
 
+article aside {
+    font-style: italic;
+    background: orange;
+    color: #333;
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    text-align: center;
+}
+
 nav.pagination a[rel='next']::after {
     content: '\00a0\00a0\276d';
 }
 
 nav.pagination {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -66,7 +77,7 @@ nav.pagination {
 footer#contact,
 .page .content,
 .index .content > header {
-    max-width: 60rem;
+    max-width: 55rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -81,6 +92,7 @@ h1,
 h2,
 blockquote,
 nav,
+aside,
 article.dek {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -115,7 +127,7 @@ article footer {
 }
 
 footer#contact::before {
-    left: calc(50% - 1.5em);
+    left: calc(50% - 1.125em);
     content: '\270f  \1f4f7';
 }
 
@@ -179,7 +191,8 @@ footer#contact .gallery {
 
 article .dek,
 blockquote {
-     font-size: 1.25em;
+     font-size: 1.25rem;
+     line-height: 150%;
      font-weight: 300;
 }
 
@@ -221,6 +234,20 @@ blockquote {
 @media (min-width: 500px) {
     blockquote {
         margin: 3rem 5rem;
+    }
+
+    article aside {
+        width: 50%;
+    }
+
+    article aside:nth-of-type(odd) {
+        float: right;
+        margin-right: 0;
+    }
+
+    article aside:nth-of-type(even) {
+        float: left;
+        margin-left: 0;
     }
 
     .gallery {
