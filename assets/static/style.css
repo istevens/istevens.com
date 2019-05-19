@@ -31,6 +31,10 @@ article aside {
     text-align: center;
 }
 
+.centered  {
+    text-align: center;
+}
+
 nav.pagination a[rel='next']::after {
     content: '\00a0\00a0\276d';
 }
@@ -52,21 +56,20 @@ nav.pagination {
 
 .main #title {
     padding-bottom: 21em;
+    display: flex;
+    justify-content: center;
 }
 
 .main #title h1 {
     font-size: 5rem;
     font-weight: 300;
+    line-height: 75%;
+    text-align: right;
     color: #ccc;
 }
 
-.centered  {
-    text-align: center;
-}
-
-.main .heading span {
+.main #title span {
     display: block;
-    line-height: 75%;
 }
 
 .content {
