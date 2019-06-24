@@ -10,141 +10,170 @@ dek: Dek goes here
 ---
 body:
 
-Confirmation bias is one of many cognitive biases which affect how we reason.
-Unlike a leaning or a slant, like left- or right-wing bias, cognitive biases
-are the result of involuntary mental "short-cuts". For example, we often use
-stereotypes to fill in details – often inaccurately — about a member of a
-specific group. These short-cuts may have helped our ancestors quickly tell a
-friend from foe, but they impede logic and accuracy necessary in our modern
-world. [^NELSON2015]
+[Pre-amble telling my journey with this topic.]
 
-While there are many cognitive biases, one particular bias likely does us the
-most harm: confirmation bias. Confirmation bias leads us to hold false beliefs
-with a confidence greater than evidence can justify. [^NICKERSON1998] Those
-affected will often misinterpret new information as supporting a
-previously-held belief. [^RABIN1999] In this way, confirmation bias tricks us
-into accepting untruths and nurtures them until we are certain they are true.
-For example, thanks to confirmation bias we may readily observe and recall
-unusual behaviours in people from distinct ethnicities. This tendency, left
-unchecked, can contribute to racist stereotypes. [^NICKERSON1998]
+Suppose you learned of a disease which causes people to behave irrationally.
+Infected adults make bad judgments of others' ability. Girls as
+young as six with the disease start to view women as less smart than
+men. [Another?]
+
+The symptoms are real, but the disease is not. If it were, there
+might be a cure — or at least a way to slow the contagion. There
+isn't — it's us, and almost everyone on Earth is affected.
+
+This affliction is hard-wired in our brains — an involuntary mental
+"short cut". You may know it as confirmation bias, one of many
+cognitive biases which affect how we reason. Unlike a leaning or a
+slant, like left- or right-wing bias, cognitive biases are the
+result of involuntary mental "short-cuts". For example, we often use
+stereotypes to fill in details – rarely accurately — about a member
+of a specific group. These short-cuts may have helped our ancestors
+quickly tell friend from foe, but they impede logic and accuracy
+necessary in our modern world. [^NELSON2015]
+
+There are many cognitive biases and confirmation bias likely does us the
+most harm, tricking us into accepting untruths and nurturing them
+until we're certain they're true. It leads us to hold false
+beliefs with a confidence greater than evidence can justify.
+[^NICKERSON1998] Those affected will often misinterpret new
+information as supporting a previously-held belief. [^RABIN1999]
+Thanks to confirmation bias we may readily observe and recall
+unusual behaviours in people from distinct ethnicities. This
+tendency, left unchecked, can contribute to racist stereotypes.
+[^NICKERSON1998]
 
 Before confirmation bias had a name, people were thought to be largely
-rational. Any errors in judgment were often blamed on weak
-reasoning. [^LARRICK2004] In his recount of the Peloponnesian War, Thucydides
-(460BC-395BC) called confirmation bias a "habit":
+rational. Errors in judgment were often blamed on weak
+reasoning. [^LARRICK2004] In his recount of the Peloponnesian War almost 2500 years ago, historian Thucydides
+called confirmation bias a "habit":
 
-> "… for it is a habit of mankind to entrust to careless hope what they long
-> for, and to use sovereign reason to thrust aside what they do not fancy."
+> "… and their judgment was based more upon blind wishing than upon any sound
+> prediction; for it is a habit of mankind to entrust to careless hope what
+> they long for, and to use sovereign reason to thrust aside what they do not
+> desire."
+>
+> [Thucydides, 460BC&#x2011;395BC](https://en.wikiquote.org/wiki/Thucydides#Book_IV)
 
-Sir Francis Bacon (1561-1626) was more inclined to treat confirmation bias as a
+Over 400 years ago, Sir Francis Bacon was more inclined to treat confirmation bias as a
 trick of the mind:
 
-> "The human understanding when it has once adopted an opinion (either as
-> being the received opinion or as being agreeable to itself) draws all
-> things else to support and agree with it."
+> "The human understanding when it has once adopted an opinion […]
+> draws all things else to support and agree with it. And though there be a greater
+> number and weight of instances to be found on the other side, yet these it
+> either neglects and despises, or else by some distinction sets aside and
+> rejects, in order that […] its former conclusions may remain inviolate."
+>
+> [Sir Francis Bacon, 1561&#x2011;1626](https://en.wikiquote.org/wiki/Francis_Bacon#Book_I)
 
 It wasn't until 1960, when psychologist Peter Wason performed his first
-selection experiment, that confirmation bias was studied and named.
+selection experiment, that confirmation bias was discovered and
+finally given a name.
 
-Wason's experiment was simple: present a person with three numbers (ie.
-2-4-6), and ask him/her to identify a rule for the three numbers. That person
-was then asked to pick three other numbers which fit his/her supposed rule, and
-were told whether their numbers fit the actual rule. Although the actual rule
-was "any ascending sequence", people would often come up with rules specific
-to the initial triplet (eg. "numbers increasing by two") and would often only
-pick triplets which confirmed their rule (eg. 9-11-13), never triplets which
-would show it to be wrong (eg. 9-10-11). As we will learn later, improper
-selection of evidence is one tendency which contributes to confirmation bias.
+[Illustration needed]
 
-Since Wason's experiment, many studies have shown that not only do we hold
-systematic biases, they can be difficult to correct. [^LARRICK2004] We
-may not even know about our own confirmation bias. Worse, although our
-reasoning about information may be biased, we rationally apply that data to our
-own state of the world. Our bias is hidden from us because we feel we're being
-reasonable, but with skewed information. This bias-influenced reasoning may
-make sense to us, but it results in imperfect decisions. Ignorant to our bias,
-we may become over-confident in our beliefs and risk tainting future reasoning,
-thereby reinforcing our bias. [^JONES2000] [^RABIN1999]
+Wason's experiment was simple: present a person with three numbers (eg.
+2-4-6), and ask them to identify a rule for them. That person
+was then asked to pick three other numbers which fit their _supposed_ rule, and
+were then told whether their numbers fit the _actual_ rule. [Give
+example] The actual rule was always "any ascending sequence", but
+participants often came up with rules specific to their initial
+triplet (eg. "numbers increasing by two" in the case of 2-4-6) and
+would often pick triplets which confirmed their rule (eg. 9-11-13),
+and rarely triplets which would show it to be wrong (eg. 9-10-11).
+As we'll learn later, improper selection of evidence is one tendency
+which contributes to confirmation bias.
 
-
-Why we should care
-==================
-
-As we'll learn later, confirmation bias can change the way we view
-reality. Once affected, we may only see what our beliefs lead us to expect. We may also
-overvalue information or events which support our theories, and undervalue
-information which does not. Bias tends to filter out opposing views and
-supporting facts, leading to overconfidence in our beliefs. Overconfidence, in
-turn, can lead us to make bad choices, sometimes resulting in risky and extreme
+Confirmation bias can change the way we view reality. As with the
+Wason experiment, we may only see what our beliefs lead us to
+expect. We may also add weight to information or events which support
+our theories, and discount information which does not. Bias also
+causes us to filter out opposing views and supporting facts, leading
+to over-confidence in our beliefs. Over-confidence, in turn, can lead
+us to bad choices, sometimes resulting in risky and extreme
 behaviour. [^RABIN1999]
 
-Horoscopes are a mild example of how our bias can affect our behaviour. No
-doubt you know someone who, in some small way, has acted on advice in a
-horoscope or from a psychic. Indeed, such mediums remain popular largely
-*because* we tend to focus on or remember what we expect or desire. We also
-often feel that universally positive traits apply to ourselves, without
-considering how widespread those traits actually are. This opens us to believe
-and place faith in astrology, fortunetellers, and con artists. We often want to
-believe such people, often focusing on when they right, not when they are
-wrong. [^NICKERSON1998]
+Horoscopes are a mild example of how bias can affect our behaviour. No
+doubt you know someone who, in some small way, has acted on advice from a
+horoscope or a psychic. Indeed, such mediums remain popular largely
+*because* we tend to focus on or remember what we expect or desire.
+People also feel that universally positive traits [like…?] apply to
+them, without considering how widespread those traits really
+are. This opens us to believe and place faith in astrology,
+fortune-tellers, and con artists, who — knowingly or now — appeal to
+these traits so that we recognize ourselves in their "predictions".
+We often want to believe such people, focusing on and remembering
+when they are right, not when they are wrong. [^NICKERSON1998]
 
-The same tendency to see or remember what we expect or desire can also feed
+[examples?]
+
+This same tendency to see or remember what we expect or desire can also feed
 more serious conditions such as hypochondria and paranoia. Depressed people
 may also focus on information which strengthens their depression, and ignore
 more positive information which may help them. [^NICKERSON1998]
 
-Tendencies contributing to bias can lead us to confidently make bad decisions
-which affect ourselves as well as others. Think about a group of people you
-might not fully trust, be it based on skin colour, ethnicity, or belief. Have
-you ever gone out of your way to avoid a member of that group? or treated
-someone in that group differently than you would others? Such stereotypes and
-prejudices are largely fed by confirmation bias, and can influence how we treat
+[Chart of tendencies?]
+
+Tendencies contributing to bias can lead us to confidently make bad
+decisions which affect ourselves as well as others. Maybe you know
+someone — a friend or relative — who seems to have nothing good to
+say about a particular group. Have they gone out of their way to
+avoid a member of that group? or treated someone in that group
+differently than they would others? Such stereotypes and prejudices
+are largely fed by confirmation bias, and can influence how we treat
 or view "others".
 
-Our tendency to see what we are led to expect can be detrimental to our opinion
-of people or groups. This selective memory can confirm our belief, and lead us
-to more readily recall unusual behaviour from distinct groups. Belief tainted
-by memory increases our confidence in stereotypes, leading us to more likely
-act on them. [^NELSON2015] Thinking back to a group you may mistrust, which
-negative behaviours do you associate with that group? How about positive or
-benign ones? Several studies have shown how bias can sway how we react to
-people about whom we hold stereotypes — even if we are only *told* those people
-belong to a specific group. [^NICKERSON1998]
+The selective memory behind our tendency to see what we are led to
+expect can be detrimental to our opinion of people or groups.  It
+can confirm our belief, and lead us to more readily recall unusual
+behaviour from distinct groups. Belief tainted by memory increases
+our confidence in stereotypes, leading us to more likely act on
+them. [^NELSON2015] Thinking back to a group you may mistrust, which
+negative behaviours do you associate with that group? How about
+positive or benign ones? Several studies have shown how bias can
+change our reactions to people about whom we hold stereotypes — even
+if we are only *told* those people belong to a specific group.
+[^NICKERSON1998]
 
-In one such study, subjects were shown a video of a girl playing. Half the
-subjects were told the girl's parents were college-educated who held
-white-collar jobs. These subjects were shown the girl playing in a well-to-do
-suburban neighbourhood. The other subjects were told the girl's parents were
-high-school graduates who held blue-collar jobs, and were shown the girl
-playing in a poor inner-city neighbourhood. Half the subjects in each
-group were then asked to evaluate the girl's reading level after viewing an
-identical video of her answering a series of questions. The group which was
-told the girl was from a well-to-do suburban family rated her reading level
-significantly higher than the group which was told she was from the inner-city. [^RABIN1999]
+In one such study, participants were shown a video of a girl
+playing. Half were told the girl's parents were
+college-educated with white-collar jobs. These people were
+shown the girl playing in a well-to-do suburban neighbourhood. The
+other participants were told the girl's parents were high-school
+graduates with blue-collar jobs, and were shown the girl playing
+in a poor neighbourhood. Half the people in each group
+were then asked to evaluate the girl's reading level after viewing
+the same video of her answering a series of questions. The group
+which was told the girl was from a well-to-do suburban family rated
+her reading level significantly higher than the group which was told
+she was from a poorer community. [^RABIN1999]
 
-This biased tendency to judge and make decisions based on confidence in a stereotype doesn't come about after
-years of prejudicial thinking, either. In a study similar to the one above, 5-7
-year-olds were told of a person who was "really, really smart." The children
-were then shown a picture of four adults — two women and two men — and asked to
-pick the "really, really smart" one. At aged 5, boys and girls chose their own
-gender roughly equally. Girls aged 6 or 7, however, were significantly less
-likely than boys the same age to view their own gender positively. In another
-study with different children, boys and girls aged 6 or 7 were asked to comment
-on a game for "really, really smart" children or one for children who "try
-really, really hard." The girls were significantly less interested than the
-boys in the games for smart children. [^BIAN2017]
+This biased tendency to judge and make decisions based on confidence
+in a stereotype isn't born from years of prejudicial thinking,
+either. In a study similar to the one above, 5-7 year-olds were told
+of a person who was "really, really smart." The children were then
+shown a picture of four adults — two women and two men — and asked
+to pick the "really, really smart" one. At aged 5, boys and girls
+chose their own gender roughly equally. Girls aged 6 or 7, however,
+were significantly less likely than boys the same age to view their
+own gender positively. In another study with different children,
+boys and girls aged 6 or 7 were asked to comment on a game for
+"really, really smart" children or one for children who "try really,
+really hard." The girls were significantly less interested than the
+boys in games for "really, really smart" children. [^BIAN2017]
 
-Reading these studies, we may feel that we're "smarter", that our reasoning is
-stronger than others', and that we would not misjudge people, especially a
-child, so easily. Yet people well-versed in reasoning and statistics can still
-have a problem with confirmation bias and stereotypes. For instance, numerous
-peer-reviewed studies claim to show that women are less likely than men to take
-on risk. However, a 2013 "study of studies" claims that these studies and
-their authors are likely affected by stereotypes induced by bias. [^NELSON2015]
-The studies' authors reached inaccurate conclusions by falling prey to a number
-of tendencies behind confirmation bias.
+Like Thucydides, we may feel our reasoning is
+stronger than others', and that we wouldn't fall into the "habit" of
+misjudging people, especially a child, so easily. Yet even people
+who have studied reasoning and statistics can still have a problem
+with confirmation bias and stereotypes. For instance, numerous
+peer-reviewed studies claim to show that women are less likely than
+men to take on risk. However, a 2013 "study of studies" claims that
+these studies and their authors are likely affected by stereotypes
+induced by bias. [^NELSON2015] The studies' authors reached
+inaccurate conclusions by falling prey to a number of tendencies
+behind confirmation bias.
 
-Some studies on risk and gender reinforce existing gender stereotypes by
+Cut? [Some studies on risk and gender reinforce existing gender stereotypes by
 inaccurately citing conclusions of earlier literature, or emphasizing results
 agreeing with stereotypes, while downplaying or not reporting results which
 do not. These confirming results are, in turn, more likely to be published. In
@@ -154,9 +183,21 @@ naturally take on a great deal of risk (such as with child birth, and risk of
 domestic violence) were neglected. Instead, different areas of risk (such as
 finance) were studied and findings extrapolated to a broader context.
 [^NELSON2015] In the following paragraphs, we'll learn how tendencies such as
-overweighing instances of positive confirmation can cause confirmation bias to grow
+over-weighing instances of positive confirmation can cause confirmation bias to grow
 and persist. Because we often pair these tendencies with internally coherent
-patterns of reasoning, few are immune.
+patterns of reasoning, few are immune.]
+
+Since Wason's experiment, many studies have shown that not only do we hold
+systematic biases, they can be difficult to correct. [^LARRICK2004] We
+may not even know about our own confirmation bias. Worse, although our
+reasoning about information may be biased, we still rationally apply that data to our
+own state of the world. We don't see our bias because we feel we're being
+reasonable. We are, but with skewed information. This bias-influenced reasoning may
+make sense to us, but it results in imperfect decisions. Ignorant to our bias,
+we may become over-confident in our beliefs and risk tainting future reasoning,
+thereby reinforcing our bias. [^JONES2000] [^RABIN1999]
+
+[Lead into next articles]
 
 [^JONES2000]: Jones, M., and Sugden, R. (2000). Positive confirmation bias in the acquisition of information. (Dundee Discussion Papers in Economics; No.  115). University of Dundee.
 
