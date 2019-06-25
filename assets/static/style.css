@@ -238,6 +238,10 @@ blockquote {
     padding-left: 1rem;
 }
 
+.admonition-info {
+    padding: 0 1rem 2rem 1rem;
+    font-style: italic;
+}
 
 @media (min-width: 500px) {
     blockquote {
@@ -276,6 +280,10 @@ blockquote {
 
     .photos .gallery-item {
         width: 50%;
+    }
+
+    .admonition-info {
+        padding: 0 2rem 2rem 2rem;
     }
 }
 
