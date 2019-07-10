@@ -12,14 +12,14 @@ body:
 
 !! A while back I was asked to contribute to a book for people in the
 tech industry. The book was intended to be a primer on political, legal, and
-socio-economic systems, behaviours, and history for those building products
+socio-economic systems, behaviours, and history for those creating products
 with the potential to disrupt those systems. My contribution was a chapter on
 confirmation bias, detailing its effects, its workings, and how it can be
 overcome. The book was never published, but my research had a big impact on my
-behaviour. Always careful with my words, I spoke even more carefully to
-avoid passing bias on to others. My writing had such an impact on me that I
-couldn't let it sit unread, and split it into three articles. This is the first
-of three, describing the pernicious influence of confirmation bias.
+behaviour. Always careful with my words, I spoke even more purposefully to
+avoid passing bias on to others. My experience had such an impact that I
+couldn't let my chapter sit unread, and split it into three articles. This is the first
+of the three, describing the pernicious influence of confirmation bias.
 
 Suppose you learned of a disease which causes people to behave irrationally.
 Infected adults make bad judgments of others' ability. Girls as
@@ -30,8 +30,10 @@ The symptoms are real, but the disease is not. If it were, there
 might be a cure — or at least a way to slow the contagion. There
 isn't — it's us, and almost everyone on Earth is affected.
 
+<aside>Confirmation bias leads us to hold false beliefs with a confidence greater than evidence can justify.</aside>
+
 [This affliction is hard-wired in our brains — an involuntary mental
-"short cut". — remove?] You may know it as confirmation bias, one of many
+"short cut". — remove?] You may know it as _confirmation bias_, one of many
 cognitive or unconscious biases which affect how we reason. Unlike a leaning or a
 slant, like left- or right-wing bias, cognitive biases are the
 result of involuntary mental "short-cuts". [For example, we often use
@@ -75,21 +77,21 @@ trick of the mind:
 > [Sir Francis Bacon, 1561&#x2011;1626](https://en.wikiquote.org/wiki/Francis_Bacon#Book_I)
 
 It wasn't until 1960, when psychologist Peter Wason performed his first
-selection experiment, that confirmation finally had a name.
+selection experiment, that confirmation bias finally had a name.
 
-[Illustration
-
-1. (2-4-6) "Even numbers increasing by 2. Does 4-6-8 fit?" (Yes.) "That must be it! :)"
-2. (2-4-6) "It might be increasing by 2, but let me check. Does 1-2-3 fit?" (Yes.) "Guess that wasn't it. :|"]
+<figure>
+<img src="wason.svg"/>
+<figcaption>Wason's selection experiment</figcaption>
+</figure>
 
 Wason's experiment was simple: present a person with three numbers (eg.
 2-4-6), and ask them to guess the rule for those numbers. That
 person was next asked to pick three other numbers which fit their
-hypothesis, and were then told whether their numbers fit the
+hypothesis, and were then told whether those numbers fit the
 _actual_ rule. [Give example] The actual rule was always "any
 ascending sequence", but participants often came up with rules
 specific to their initial triplet (eg. "numbers increasing by two"
-in the case of 2-4-6) and would pick triplets which confirmed
+in the case of 2-4-6). They then tended to pick triplets which confirmed
 their rule (eg. 9-11-13), and rarely triplets which would show it to
 be wrong (eg. 9-10-11). As we'll learn later, improper selection of
 evidence is one tendency which contributes to confirmation bias.
@@ -110,7 +112,7 @@ horoscope or a psychic. Indeed, such mediums remain popular largely
 People also feel that universally positive traits [like…?] apply to
 them, without considering how widespread those traits really
 are. This opens us to place faith in astrology, fortune-tellers, and con
-artists, who — knowingly or now — appeal to those traits so that we recognize
+artists, who — knowingly or not — appeal to those traits so that we recognize
 ourselves in their "predictions".  We often want to believe such people,
 focusing on and remembering when they are right, not when they are wrong.
 [^NICKERSON1998]
@@ -145,24 +147,27 @@ change our reactions to people about whom we hold stereotypes — even
 if we are only *told* those people belong to a specific group.
 [^NICKERSON1998]
 
+<aside>The tendency to make biased decisions based on confidence
+in a stereotype isn't born of years of prejudicial thinking</aside>
+
 In one such study, participants were shown a video of a girl playing. Half
 were told the girl's parents were college-educated with white-collar jobs.
 These people were shown the girl playing in a well-to-do suburban
 neighbourhood. The other participants were told the girl's parents were
-high-school graduates with blue-collar jobs, and were shown the girl playing
+high-school graduates with blue-collar jobs, and were shown her playing
 in a poor urban neighbourhood. People in each of those groups were then shown
-the same video of her answering a series of questions, and were asked to
-evaluate the girl's reading level. The group which was told the girl was from
+the same video of the girl answering a series of questions, and were asked to
+evaluate her reading level. The group which was told the girl was from
 a well-to-do suburban family rated her reading level significantly higher
 than the group which was told she was from a poorer neighbourhood. Both
 groups saw the same Q&A video, were given no other information, yet reached
-different conclusions due to confirmation bias. [^RABIN1999]
+different conclusions because of how they felt about where the girl lived. [^RABIN1999]
 
 [Awkward?] This tendency to make biased decisions based on confidence
 in a stereotype isn't born of years of prejudicial thinking,
 either. In a similar study, 5-7 year-olds were told
 of a person who was "really, really smart." The children were then
-shown a picture of four adults — two women and two men — and asked
+shown a picture of four adults — two women and two men — and were asked
 to pick the "really, really smart" one. At aged 5, boys and girls
 chose their own gender roughly equally. Girls aged 6 or 7, however,
 were significantly less likely than boys the same age to view their
@@ -185,6 +190,9 @@ these studies and their authors are likely affected by stereotypes
 induced by bias. [^NELSON2015] The studies' authors reached
 inaccurate conclusions by falling prey to a number of tendencies
 behind confirmation bias. — cut or better wording]
+
+<aside>We don't see our bias because we feel we're being
+reasonable. We are, but with skewed information.</aside>
 
 [Cut or sum with ref to tendencies to bias? — Some studies on risk and gender reinforce existing gender stereotypes by
 inaccurately citing conclusions of earlier literature, or emphasizing results

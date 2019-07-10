@@ -4,7 +4,7 @@ body {
     color: #333;
 }
 
-blockquote {
+blockquote, figure {
     margin: 2rem;
     font-style: italic;
 }
@@ -18,6 +18,12 @@ blockquote>p>a {
 
 blockquote>p>a:before {
     content: '– ';
+}
+
+figcaption {
+    font-style: italic;
+    font-size: small;
+    text-align: center;
 }
 
 article aside {
@@ -244,7 +250,7 @@ blockquote {
 }
 
 @media (min-width: 500px) {
-    blockquote {
+    blockquote, figure {
         margin: 3rem 5rem;
     }
 
