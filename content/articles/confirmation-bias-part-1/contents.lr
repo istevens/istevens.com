@@ -25,7 +25,7 @@ other two explain how it grows and spreads, and what we can do to fight it.
 of control. The infected are in the millions, and have started behaving
 irrationally. Some have been seen making poor judgments of their and others'
 ability. Girls as young as six with the disease are viewing women as less
-smart than men. [Another?] Scientists are working on a cure, but a viable
+smart than men. Scientists are working on a cure, but a viable
 solution could be weeks away. In the meantime, everyone is urged to use
 caution."
 
@@ -43,17 +43,6 @@ mental "short-cuts", leftovers from when we had to quickly tell friend from
 foe, or avoid potentially dangerous situations.  These short-cuts may
 have kept our ancestors alive, but they impede logic and accuracy necessary in
 our modern world. [^NELSON2015]
-
-[summarize tendencies, possibly chart or infographic] Of the many cognitive biases, confirmation bias likely does us the
-most harm. It tricks us into accepting untruths and nurtures them
-until we're certain they're true. It leads us to hold false
-beliefs with a confidence greater than evidence can justify.
-[^NICKERSON1998] Those affected will often misinterpret new
-information as supporting a previously-held but false belief. [^RABIN1999]
-[Thanks to confirmation bias we may readily observe and recall
-unusual behaviours in people from distinct ethnicities. This
-tendency, left unchecked, can contribute to racist stereotypes.
-[^NICKERSON1998] — awkward, out-of-place]
 
 Before confirmation bias had a name, people were thought to be largely
 rational. An error in judgment was simply a matter of poor
@@ -83,20 +72,32 @@ selection experiment, that confirmation bias finally had a name.
 
 <figure>
 <img src="wason.png"/>
-<figcaption><strong>Fig 1.</strong> Wason's selection experiment. Most people chose test triplets which confirmed their rule (left), while only a few people rationally chose test triplets which didn't confirm their rule. The actual rule was always "any ascending sequence."</figcaption>
+<figcaption><strong>Fig. 1</strong> Wason's selection experiment. Most people tested triplets which confirmed their rule, often based on the initial triplet (left). Only a few people rationally chose test triplets which didn't confirm their rule (right). The actual rule was always "any ascending sequence."</figcaption>
 </figure>
 
-Wason's experiment was simple: present a person with three numbers (eg.
+Wason's experiment was simple: present a person with three numbers (e.g.
 2-4-6), and ask them to guess the rule for those numbers. That
-person was next asked to pick three other numbers which fit their
-hypothesis, and were then told whether those numbers fit the
-_actual_ rule. [Give example] The actual rule was always "any
-ascending sequence", but participants often came up with rules
-specific to their initial triplet (eg. "numbers increasing by two"
-in the case of 2-4-6). They then tended to pick triplets which confirmed
-their rule (eg. 9-11-13), and rarely triplets which would show it to
-be wrong (eg. 9-10-11). As we'll learn later, improper selection of
-evidence is one tendency which contributes to confirmation bias.
+person was then directed to test their theory with their own triplets,
+and was told when each matched the _actual_ rule. Participants often
+came up with rules specific to the initial triplet (e.g. "numbers
+increasing by two" in the case of 2-4-6), and only tested them with triplets
+which fit their theory (e.g. 9-11-13). They rarely chose triplets
+which didn't agree with their theory (e.g. 9-10-11). Most, then, never
+guessed the actual rule, which was always "any ascending sequence."
+Fig. 1 shows an example of the irrational approach most people took,
+as well as a rational one. One of the tendencies which supports
+confirmation bias involves improper selection of evidence.
+
+[summarize tendencies, possibly chart or infographic] Of the many cognitive biases, confirmation bias likely does us the
+most harm. It tricks us into accepting untruths and nurtures them
+until we're certain they're true. It leads us to hold false
+beliefs with a confidence greater than evidence can justify.
+[^NICKERSON1998] Those affected will often misinterpret new
+information as supporting a previously-held but false belief. [^RABIN1999]
+[Thanks to confirmation bias we may readily observe and recall
+unusual behaviours in people from distinct ethnicities. This
+tendency, left unchecked, can contribute to racist stereotypes.
+[^NICKERSON1998] — awkward, out-of-place]
 
 It may not seem dangerous, but confirmation bias can change the way we view reality. As with the
 Wason experiment, we may only see what our beliefs lead us to
@@ -106,6 +107,11 @@ cause us to filter out opposing views and supporting facts, leading
 to over-confidence in our beliefs. Over-confidence, in turn, can lead
 us to bad choices, sometimes resulting in risky and extreme
 behaviour. [^RABIN1999]
+
+<figure>
+<img src="http://chainsawsuit.com/wp-content/uploads/2014/09/20140916-research.png"/>
+<figcaption><strong>Fig. 2</strong> As in Wason's experiment, we tend to pick evidence which confirms our bias. Source: <a href="http://chainsawsuit.com/comic/2014/09/18/screwing-the-pooch/">Chainsawsuit by Kris Straub</a></figcaption>
+</figure>
 
 Horoscopes are a mild example of how bias can affect behaviour. No
 doubt you know someone who, in some small way, has acted on advice from a
@@ -215,7 +221,7 @@ biases, they can be difficult to correct. [^LARRICK2004] We
 may not even know about our own confirmation bias. Worse, although our
 reasoning about information may be biased, we still rationally apply that data to our
 own state of the world. We don't see our bias. We feel we're being
-reasonable, and ee are, but with skewed information. This bias-influenced reasoning may
+reasonable, and we are, but with skewed information. This bias-influenced reasoning may
 make sense to us, but it results in imperfect decisions. Ignorant to our bias,
 we may become over-confident in our beliefs and risk tainting future reasoning,
 thereby reinforcing our bias. [^JONES2000] [^RABIN1999]
