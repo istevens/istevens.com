@@ -21,40 +21,42 @@ couldn't let my chapter sit unread, and split it into three articles. This is th
 of the three, describing the pernicious influence of confirmation bias. The
 other two explain how it grows and spreads, and what we can do to fight it.
 
-Suppose you learned of a disease which causes people to behave irrationally.
-Infected adults make bad judgments of others' ability. Girls as
-young as six with the disease start to view women as less smart than
-men. [Another?]
+"We're getting reports — around the world — of a disease rapidly spreading out
+of control. The infected are in the millions, and have started behaving
+irrationally. Some have been seen making poor judgments of their and others'
+ability. Girls as young as six with the disease are viewing women as less
+smart than men. [Another?] Scientists are working on a cure, but a viable
+solution could be weeks away. In the meantime, everyone is urged to use
+caution."
 
-The symptoms are real, but the disease is not. If it were, there
-might be a cure — or at least a way to slow the contagion. There
-isn't — it's us, and almost everyone on Earth is affected.
+The story and the disease might not be real — but the symptoms are, and almost
+everyone on Earth is affected. If it were a disease, there might be a cure, or
+at least a way to slow the contagion. There isn't. It's us, or more
+specifically our brains.
 
 <aside>Confirmation bias leads us to hold false beliefs with a confidence greater than evidence can justify.</aside>
 
-[This affliction is hard-wired in our brains — an involuntary mental
-"short cut". — remove?] You may know it as _confirmation bias_, one of many
-cognitive or unconscious biases which affect how we reason. Unlike a leaning or a
-slant, like left- or right-wing bias, cognitive biases are the
-result of involuntary mental "short-cuts". [For example, we often use
-stereotypes to fill in details – rarely accurately — about a member
-of a specific group. — cut or clarify?] These short-cuts may have helped our ancestors
-quickly tell friend from foe [false negatives?], but they impede logic and accuracy
-necessary in our modern world. [^NELSON2015]
+You may know this affliction as _confirmation bias_, one of many cognitive or
+unconscious biases which affect how we reason. Unlike a leaning or a slant,
+like left- or right-wing bias, cognitive biases are the result of involuntary
+mental "short-cuts", leftovers from when we had to quickly tell friend from
+foe, or avoid potentially dangerous situations.  These short-cuts may
+have kept our ancestors alive, but they impede logic and accuracy necessary in
+our modern world. [^NELSON2015]
 
-[summarize tendencies, possibly chart or infographic] There are many cognitive biases and confirmation bias likely does us the
-most harm, tricking us into accepting untruths and nurturing them
+[summarize tendencies, possibly chart or infographic] Of the many cognitive biases, confirmation bias likely does us the
+most harm. It tricks us into accepting untruths and nurtures them
 until we're certain they're true. It leads us to hold false
 beliefs with a confidence greater than evidence can justify.
 [^NICKERSON1998] Those affected will often misinterpret new
-information as supporting a previously-held belief. [^RABIN1999]
+information as supporting a previously-held but false belief. [^RABIN1999]
 [Thanks to confirmation bias we may readily observe and recall
 unusual behaviours in people from distinct ethnicities. This
 tendency, left unchecked, can contribute to racist stereotypes.
 [^NICKERSON1998] — awkward, out-of-place]
 
 Before confirmation bias had a name, people were thought to be largely
-rational. Errors in judgment were often blamed on weak
+rational. An error in judgment was simply a matter of poor
 reasoning. [^LARRICK2004] In his recount of the Peloponnesian War almost 2500 years ago, historian Thucydides
 called confirmation bias a "habit":
 
@@ -80,8 +82,8 @@ It wasn't until 1960, when psychologist Peter Wason performed his first
 selection experiment, that confirmation bias finally had a name.
 
 <figure>
-<img src="wason.svg"/>
-<figcaption>Wason's selection experiment</figcaption>
+<img src="wason.png"/>
+<figcaption><strong>Fig 1.</strong> Wason's selection experiment. Most people chose test triplets which confirmed their rule (left), while only a few people rationally chose test triplets which didn't confirm their rule. The actual rule was always "any ascending sequence."</figcaption>
 </figure>
 
 Wason's experiment was simple: present a person with three numbers (eg.
@@ -96,24 +98,24 @@ their rule (eg. 9-11-13), and rarely triplets which would show it to
 be wrong (eg. 9-10-11). As we'll learn later, improper selection of
 evidence is one tendency which contributes to confirmation bias.
 
-Confirmation bias can change the way we view reality. As with the
+It may not seem dangerous, but confirmation bias can change the way we view reality. As with the
 Wason experiment, we may only see what our beliefs lead us to
 expect. We may also add weight to information or events which support
-our theories, and discount information which does not. Bias also
-causes us to filter out opposing views and supporting facts, leading
+our theories, and discount information which does not. Bias may also
+cause us to filter out opposing views and supporting facts, leading
 to over-confidence in our beliefs. Over-confidence, in turn, can lead
 us to bad choices, sometimes resulting in risky and extreme
 behaviour. [^RABIN1999]
 
-Horoscopes are a mild example of how bias can affect our behaviour. No
+Horoscopes are a mild example of how bias can affect behaviour. No
 doubt you know someone who, in some small way, has acted on advice from a
-horoscope or a psychic. Indeed, such mediums remain popular largely
+horoscope or a psychic. Such mediums remain popular largely
 *because* we tend to focus on or remember what we expect or desire.
 People also feel that universally positive traits [like…?] apply to
 them, without considering how widespread those traits really
 are. This opens us to place faith in astrology, fortune-tellers, and con
 artists, who — knowingly or not — appeal to those traits so that we recognize
-ourselves in their "predictions".  We often want to believe such people,
+ourselves in their "predictions". We want to believe such people,
 focusing on and remembering when they are right, not when they are wrong.
 [^NICKERSON1998]
 
@@ -180,19 +182,19 @@ boys in games for "really, really smart" children. [^BIAN2017]
 [Picture illustrating above?]
 
 Like Thucydides, we may feel our reasoning is
-stronger than others', and that we wouldn't fall into the "habit" of
+stronger than others', and that we certainly wouldn't fall into the "habit" of
 misjudging people, especially a child, so easily. Yet even people
 who have studied reasoning and statistics can still have a problem
 with confirmation bias and stereotypes. [For instance, numerous
-peer-reviewed studies claim to show that women are less likely than
+peer-reviewed scientific studies claim to show that women are less likely than
 men to take on risk. However, a 2013 "study of studies" claims that
 these studies and their authors are likely affected by stereotypes
 induced by bias. [^NELSON2015] The studies' authors reached
 inaccurate conclusions by falling prey to a number of tendencies
 behind confirmation bias. — cut or better wording]
 
-<aside>We don't see our bias because we feel we're being
-reasonable. We are, but with skewed information.</aside>
+<aside>We don't see our bias. We feel we're being
+reasonable, and we are, but with skewed information.</aside>
 
 [Cut or sum with ref to tendencies to bias? — Some studies on risk and gender reinforce existing gender stereotypes by
 inaccurately citing conclusions of earlier literature, or emphasizing results
@@ -212,8 +214,8 @@ Since Wason's experiment, many studies have shown that not only do we hold
 biases, they can be difficult to correct. [^LARRICK2004] We
 may not even know about our own confirmation bias. Worse, although our
 reasoning about information may be biased, we still rationally apply that data to our
-own state of the world. We don't see our bias because we feel we're being
-reasonable. We are, but with skewed information. This bias-influenced reasoning may
+own state of the world. We don't see our bias. We feel we're being
+reasonable, and ee are, but with skewed information. This bias-influenced reasoning may
 make sense to us, but it results in imperfect decisions. Ignorant to our bias,
 we may become over-confident in our beliefs and risk tainting future reasoning,
 thereby reinforcing our bias. [^JONES2000] [^RABIN1999]

@@ -20,10 +20,16 @@ blockquote>p>a:before {
     content: '– ';
 }
 
+article figure>img {
+    max-width: 100%;
+    height: auto;
+}
+
 figcaption {
     font-style: italic;
     font-size: small;
     text-align: center;
+    margin-top: 1em;
 }
 
 article aside {
