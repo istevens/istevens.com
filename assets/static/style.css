@@ -261,7 +261,7 @@ blockquote {
     }
 
     article aside {
-        width: 50%;
+        width: calc(100%/3);
     }
 
     article aside:nth-of-type(odd) {
