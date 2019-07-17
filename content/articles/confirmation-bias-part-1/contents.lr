@@ -34,8 +34,6 @@ everyone on Earth is affected. If it were a disease, there might be a cure, or
 at least a way to slow the contagion. There isn't. It's us, or more
 specifically our brains.
 
-<aside>Confirmation bias leads us to hold false beliefs with a confidence greater than evidence can justify.</aside>
-
 You may know this affliction as _confirmation bias_, one of many cognitive or
 unconscious biases which affect how we reason. Unlike a leaning or a slant,
 like left- or right-wing bias, cognitive biases are the result of involuntary
@@ -88,6 +86,8 @@ Fig. 1 shows an example of the irrational approach most people took,
 as well as a rational one. One of the tendencies which supports
 confirmation bias involves improper selection of evidence.
 
+<aside>Confirmation bias leads us to hold false beliefs with a confidence greater than evidence can justify.</aside>
+
 [summarize tendencies, possibly chart or infographic] Of the many cognitive biases, confirmation bias likely does us the
 most harm. It tricks us into accepting untruths and nurtures them
 until we're certain they're true. It leads us to hold false
@@ -108,24 +108,23 @@ to over-confidence in our beliefs. Over-confidence, in turn, can lead
 us to bad choices, sometimes resulting in risky and extreme
 behaviour. [^RABIN1999]
 
-<figure>
-<img src="http://chainsawsuit.com/wp-content/uploads/2014/09/20140916-research.png"/>
-<figcaption><strong>Fig. 2</strong> As in Wason's experiment, we tend to pick evidence which confirms our bias. Source: <a href="http://chainsawsuit.com/comic/2014/09/18/screwing-the-pooch/">Chainsawsuit by Kris Straub</a></figcaption>
-</figure>
-
-Horoscopes are a mild example of how bias can affect behaviour. No
-doubt you know someone who, in some small way, has acted on advice from a
+Horoscopes are a mild example of how bias can affect behaviour. Perhaps
+you know someone who, in some small way, has acted on the advice of a
 horoscope or a psychic. Such mediums remain popular largely
-*because* we tend to focus on or remember what we expect or desire.
+because we want to believe them. To reinforce our belief, we tend
+focus on or remember what we expect or want from them. We also more
+readily recall the times they were right, and forget or discount them
+when they were wrong.
 People also feel that universally positive traits [like…?] apply to
 them, without considering how widespread those traits really
 are. This opens us to place faith in astrology, fortune-tellers, and con
 artists, who — knowingly or not — appeal to those traits so that we recognize
-ourselves in their "predictions". We want to believe such people,
-focusing on and remembering when they are right, not when they are wrong.
-[^NICKERSON1998]
+ourselves in their "predictions". [^NICKERSON1998]
 
-[examples?]
+<figure>
+<img src="http://chainsawsuit.com/wp-content/uploads/2014/09/20140916-research.png"/>
+<figcaption><strong>Fig. 2</strong> As in Wason's experiment, we tend to pick evidence which confirms our bias. Source: <a href="http://chainsawsuit.com/comic/2014/09/18/screwing-the-pooch/">Chainsawsuit by Kris Straub</a></figcaption>
+</figure>
 
 This same tendency to see or remember what we expect or desire can also feed
 more serious conditions such as hypochondria and paranoia. Depressed people
@@ -160,13 +159,13 @@ in a stereotype isn't born of years of prejudicial thinking</aside>
 
 In one such study, participants were shown a video of a girl playing. Half
 were told the girl's parents were college-educated with white-collar jobs.
-These people were shown the girl playing in a well-to-do suburban
-neighbourhood. The other participants were told the girl's parents were
+They were shown the girl playing in a well-to-do suburban
+neighbourhood. The other half was told the girl's parents were
 high-school graduates with blue-collar jobs, and were shown her playing
-in a poor urban neighbourhood. People in each of those groups were then shown
+in a disadvantaged urban neighbourhood. People in each of those groups were then shown
 the same video of the girl answering a series of questions, and were asked to
 evaluate her reading level. The group which was told the girl was from
-a well-to-do suburban family rated her reading level significantly higher
+a well-to-do suburban family rated the girl's reading ability _significantly higher_
 than the group which was told she was from a poorer neighbourhood. Both
 groups saw the same Q&A video, were given no other information, yet reached
 different conclusions because of how they felt about where the girl lived. [^RABIN1999]
@@ -188,13 +187,13 @@ boys in games for "really, really smart" children. [^BIAN2017]
 [Picture illustrating above?]
 
 Like Thucydides, we may feel our reasoning is
-stronger than others', and that we certainly wouldn't fall into the "habit" of
+stronger than others', that we never fall into the "habit" of
 misjudging people, especially a child, so easily. Yet even people
 who have studied reasoning and statistics can still have a problem
 with confirmation bias and stereotypes. [For instance, numerous
 peer-reviewed scientific studies claim to show that women are less likely than
 men to take on risk. However, a 2013 "study of studies" claims that
-these studies and their authors are likely affected by stereotypes
+these studies and their authors were likely affected by stereotypes
 induced by bias. [^NELSON2015] The studies' authors reached
 inaccurate conclusions by falling prey to a number of tendencies
 behind confirmation bias. — cut or better wording]
