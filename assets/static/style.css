@@ -318,3 +318,9 @@ blockquote {
         margin-left: -5rem;
     }
 }
+
+@media print {
+    #top-nav {
+        display: none;
+    }
+}
