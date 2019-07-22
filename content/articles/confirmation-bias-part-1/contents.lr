@@ -12,7 +12,7 @@ body:
 
 !! A while back I volunteered to contribute to a book on the behaviours and
 history of political, legal, and socio-economic systems. It was to be a primer
-for those creating products with the potential to disrupt those systems. My contribution was a chapter on
+for people creating products with the potential to disrupt those systems. My contribution was a chapter on
 confirmation bias, detailing its effects, its workings, and how it can be
 overcome. Though the book was never published, my research had me reconsidering my
 behaviour. Always careful with my words, I started speaking even more purposefully,
@@ -112,7 +112,7 @@ resulting in risky and extreme behaviour. [^RABIN1999]
 <figcaption><strong>Fig. 2</strong> Our tendencies support the formation of confirmation bias.</figcaption>
 </figure>
 
-Horoscopes are a mild example of how bias can affect behaviour. Perhaps
+Horoscopes are a mild example of how confirmation bias can affect behaviour. Perhaps
 you know someone who, in some small way, has acted on the advice of a
 horoscope or a psychic. Such mediums remain popular largely
 because we want to believe them. To reinforce our belief, we tend
@@ -135,10 +135,13 @@ Tendencies contributing to confirmation bias can lead us to confidently make bad
 decisions which affect ourselves and others. Maybe you know
 someone — a friend or relative — who seems to have nothing good to
 say about a particular group. Have they gone out of their way to
-avoid a member of that group? or treated someone in that group
+avoid a member of that group? Or treated someone in that group
 differently than they would others? Such stereotypes and prejudices
 are largely fed by confirmation bias, and can influence how we treat
 or view "others" — people different from us.
+
+<aside>The tendency to make biased decisions based on confidence
+in a stereotype isn't born of years of prejudicial thinking.</aside>
 
 Thanks to confirmation bias we may readily observe and recall
 unusual behaviours in people from distinct ethnicities. This
@@ -149,9 +152,6 @@ them. [^NELSON2015] Several studies have shown how bias can
 change our reactions to people about whom we hold stereotypes — even
 if we are only *told* those people belong to a specific group.
 [^NICKERSON1998]
-
-<aside>The tendency to make biased decisions based on confidence
-in a stereotype isn't born of years of prejudicial thinking</aside>
 
 In one such study, participants were shown a video of a girl playing. Half
 were told the girl's parents were college-educated with white-collar jobs.
@@ -167,8 +167,8 @@ groups saw the same Q&A video, were given no other information, yet reached
 different conclusions because of how they felt about where the girl lived. Consider what happens when caregivers and teachers approach their students with a similar bias. [^RABIN1999]
 
 This tendency to make biased decisions based on confidence
-in a stereotype isn't born of years of prejudicial thinking,
-either. In a similar study, 5-7 year-olds were told
+in a stereotype isn't born of years of prejudicial thinking.
+In a similar study, 5-7 year-olds were told
 of a person who was "really, really smart." The children were then
 shown a picture of four adults — two women and two men — and were asked
 to pick the "really, really smart" one. At aged 5, boys and girls
@@ -180,38 +180,31 @@ boys and girls aged 6 or 7 were asked to comment on a game for
 really hard." The girls were significantly less interested than the
 boys in games for "really, really smart" children. [^BIAN2017]
 
+<aside>We don't see our bias. We feel we're being
+reasonable, and we often are, but with skewed information.</aside>
+
 Like Thucydides, we may feel our reasoning is
 stronger than others', that we never fall into the "habit" of
 misjudging people, especially a child in a video, so easily. Yet people
 who have studied reasoning and statistics can still have a problem
-with confirmation bias and stereotypes. [For instance, numerous
+with confirmation bias and stereotypes. As an example, numerous
 peer-reviewed studies claim to show that women are more risk-averse than
 men. A 2013 "study of studies", however, claims that
-these studies and their authors were likely affected by stereotypes
+those studies and their authors were likely affected by stereotypes
 induced by bias. [^NELSON2015] The studies' authors reached
-inaccurate conclusions by falling prey to a number of tendencies
-behind confirmation bias. — cut or better wording]
-
-<aside>We don't see our bias. We feel we're being
-reasonable, and we often are, but with skewed information.</aside>
-
-[Cut or sum with ref to tendencies to bias? — Some studies on risk and gender reinforce existing gender stereotypes by
-inaccurately citing conclusions of earlier literature, or emphasizing results
-agreeing with stereotypes, while downplaying or not reporting results which
-do not. These confirming results are, in turn, more likely to be published. In
-other studies, confounding variables (some due to socialization and pressure to
-conform to gender expectations) were neglected. In others, areas where women
-naturally take on a great deal of risk (such as with child birth, and risk of
-domestic violence) were neglected. Instead, different areas of risk (such as
-finance) were studied and findings extrapolated to a broader context.
-[^NELSON2015] In the following paragraphs, we'll learn how tendencies such as
-over-weighing instances of positive confirmation can cause confirmation bias to grow
-and persist. Because we often pair these tendencies with internally coherent
-patterns of reasoning, few are immune.]
+inaccurate conclusions by falling prey to tendencies
+behind confirmation bias. Many inaccurately cited conclusions of earlier literature, or emphasized results
+agreeing with stereotypes, while downplaying or omitting results which
+did not. These confirming results were, in turn, more likely to be published.
+Researchers overlooked situations where women
+naturally take on a great deal of risk, such as with child birth or risk of
+domestic violence. Instead, areas of risk, such as
+finance were studied and findings extrapolated to a broader context.
+[^NELSON2015]
 
 Since Wason's experiment, many studies have shown that not only do we hold
-biases, they can be difficult to correct. [^LARRICK2004] We
-may not even know about our own confirmation bias. Worse, although our
+cognitive biases, they can be difficult to correct. [^LARRICK2004] We're
+usually unaware of our own confirmation bias. Worse, although our
 reasoning about information may be biased, we still rationally apply that data to our
 own state of the world. We don't see our bias. We feel we're being
 reasonable, and we often are, but with skewed information. This bias-influenced reasoning may

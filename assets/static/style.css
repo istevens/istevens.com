@@ -23,6 +23,7 @@ blockquote>p>a:before {
 article figure>img {
     display: block;
     max-width: 100%;
+    max-height: 30em;
     height: auto;
     margin: auto;
 }
