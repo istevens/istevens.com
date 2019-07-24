@@ -108,11 +108,16 @@ header.single-article {
 
 h1,
 h2,
+article .content h3,
 blockquote,
 nav,
 aside,
 article.dek {
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+article>header h2 {
+    text-transform: capitalize;
 }
 
 .index #top-nav h1,
