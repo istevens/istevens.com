@@ -20,12 +20,15 @@ blockquote>p>a:before {
     content: '– ';
 }
 
-article figure>img {
+article figure> :first-child {
     display: block;
     max-width: 100%;
+    margin: auto;
+}
+
+article figure>img {
     max-height: 30em;
     height: auto;
-    margin: auto;
 }
 
 figcaption {
