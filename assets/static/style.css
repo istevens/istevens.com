@@ -121,8 +121,6 @@ article>header h2 {
 }
 
 .index #top-nav h1,
-.index .content::before,
-footer#contact::before,
 header.single-article h2 {
     font-size: 3rem;
 }
@@ -136,22 +134,25 @@ article footer {
     margin-top: 3em;
 }
 
-.index .content::before, footer#contact::before {
+.index .content::before,
+footer#contact::before {
     position: relative;
     left: calc(50% - 0.5em);
+    font-family: 'fontello';
+    font-size: 3rem;
 }
 
 .posts::before {
-    content: '\270f';
+    content: '\E80A';
 }
 
 .photos::before {
-    content: '\1f4f7';
+    content: '\E80E';
 }
 
 footer#contact::before {
     left: calc(50% - 1.125em);
-    content: '\270f  \1f4f7';
+    content: '\e80a  \e80e';
 }
 
 .posts .gallery-item {
