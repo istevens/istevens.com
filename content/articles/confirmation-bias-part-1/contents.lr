@@ -1,4 +1,6 @@
-title: Confirmation Bias, Part 1
+title: Three reasons why you make bad decisions, and why it matters
+---
+slug: confirmation-bias-part-1
 ---
 _hidden: no
 ---
@@ -6,7 +8,7 @@ pub_date: 2019-05-01
 ---
 author: Ian Stevens
 ---
-dek: Dek goes here
+dek: How your brain's tendency to selectively gather, interpret, and recall information makes you behave irrationally.
 ---
 body:
 
@@ -29,7 +31,7 @@ smart than men. Scientists are working on a cure, but a viable
 solution could be weeks away. In the meantime, everyone is urged to use
 caution."
 
-Thankfully, this is not a real news story. The disease might not be real, but the symptoms are, and almost
+Thankfully, this is not a real news story. The disease isn't real, but the symptoms are, and almost
 everyone on Earth is affected. If it were a disease, there might be a cure, or
 at least a way to slow the contagion. There isn't. It's us, or more
 specifically our brains.
@@ -97,7 +99,7 @@ information as supporting a previously-held but false belief.
 It may not seem dangerous, but confirmation bias can change the way we view reality. [^RABIN1999]
 
 The Wason experiment demonstrated one tendency contributing to confirmation
-bias — selective evidence gathering. We may only see what our beliefs lead us
+bias: selective evidence gathering. We may only see what our beliefs lead us
 to expect. We also have a tendency to selectively interpret evidence for or
 against a belief. We may add weight to information or events which support
 our theories, and discount information which does not. When it comes to
@@ -140,7 +142,7 @@ ourselves — and lead to a negative self-image.
 
 Tendencies contributing to confirmation bias can lead us to confidently make bad
 decisions which affect ourselves and others. Many people wrongly believe that crime is rising, and vote for candidates who are tougher on crime, despite the reality (see Fig. 3). Maybe you know
-someone — a friend or relative — who seems to have nothing good to
+someone — a friend or relative, perhaps — who seems to have nothing good to
 say about a particular group. Have they gone out of their way to
 avoid a member of that group? Or treated someone in that group
 differently than they would others? Such stereotypes and prejudices
