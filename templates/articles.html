@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% from "macros/article.html" import render_articles %}
+{% from "macros/pagination.html" import render_pagination %}
+{% set posts = this.pagination.items %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block head %}
+    <link rel="alternate" type="application/atom+xml" title="Feed for articles on ianstevens.ca" href="/articles/feed.xml">
+{% endblock %}
+{% block bodyclass %}index{% endblock %}
+{% block body %}
+
+    {{ render_articles(this.title, posts, render_pagination(this.pagination)) }}
+
+{% endblock %}

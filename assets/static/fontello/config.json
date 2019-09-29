@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "134af7f39e491515cc1a6d1eb94d9d8a",
+      "css": "vector-pencil",
+      "code": 59402,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "85017ab6ca074831a8de771b40e9640c",
+      "css": "camera-1",
+      "code": 59406,
+      "src": "entypo"
+    },
+    {
+      "uid": "1n2jlgp5brxxzpvvrly6jbfutnk2fpra",
+      "css": "camera-4",
+      "code": 59410,
+      "src": "modernpics"
+    }
+  ]
+}

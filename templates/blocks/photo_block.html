@@ -1,0 +1,21 @@
+{% set photos = this.photos.blocks %}
+
+<section class="content photos">
+    <header class="underline-titles centered">
+        <h2>{{ this.title }}</h2>
+
+        {% if this.dek %}
+            <p>{{ this.dek }}</p>
+        {% endif %}
+    </header>
+
+    <div class="gallery">
+        {% for photo in photos %}
+            <div class="gallery-item">
+                <img src="https://farm1.staticflickr.com/{{ photo.id }}_z.jpg"
+                     alt="{{ photo.alt }}" />
+            </div>
+        {% endfor %}
+    </div>
+
+</section>

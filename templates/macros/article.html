@@ -1,0 +1,72 @@
+{% macro render_article(post, from_index=false) %}
+<article {% if from_index %} class="gallery-item" {% endif %}>
+    <header
+        {% if from_index %}
+            ><a href="{{ post|url }}">
+        {% else %}
+            class="single-article page-header">
+        {% endif %}
+
+        {% set header = post.attachments.images.get('header.jpg') %}
+        {% if header %}
+            <img
+            {% if from_index %}
+                src="{{ header.thumbnail(500)|url }}"
+            {% else %}
+                src="{{ header.thumbnail(1280)|url }}" class="article-banner"
+            {% endif %}
+
+            alt="{{ header.description }}" />
+        {% endif %}
+
+        {% if not from_index %}
+            <div class="content">
+        {% endif %}
+
+        <h2>{{ post.title }}</h2>
+
+        {% if from_index %}
+                </a>
+        {% endif %}
+
+        {# Strip enclosing <p> tag #}
+        {% if post.dek %}
+            <h3 class="dek">{{ (post.dek|safe)[3:-3] }}</h3>
+        {% endif %}
+
+        {% if not from_index %}
+            </div>
+        {% endif %}
+    </header>
+
+    {% if not from_index %}
+        <div class="content">
+            {{ post.body }}
+
+            <footer>
+                <p>Published on {{ post.pub_date|dateformat('long') }}.
+                {% if post.mediumUrl %}
+                    Also <a href="{{post.mediumUrl}}" rel="alternate">available on Medium.</a>
+                    {% endif %}
+                </p>
+            </footer>
+        </div>
+    {% endif %}
+</article>
+{% endmacro %}
+
+{% macro render_articles(title, posts, pagination) %}
+    <section class="content posts">
+
+        <header class="underline-titles centered"><h2>{{ title }}</h2></header>
+
+        <div class="gallery">
+            {% for post in posts %}
+                {{ render_article(post, true) }}
+            {% endfor %}
+        </div>
+
+        {{ pagination }}
+
+    </section>
+{% endmacro %}

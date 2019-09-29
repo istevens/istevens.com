@@ -1,0 +1,53 @@
+_model: main
+---
+title: Written + Seen
+---
+body:
+
+#### posts ####
+title: Recent Articles
+----
+path: /articles
+----
+count: 3
+----
+more: yes
+#### photo_block ####
+title: Featured Abstracts
+----
+dek: For me, photography is about playing with truth. I like to reduce a scene to its barest components, often resulting in an image loosely tied to reality.
+----
+photos:
+
+##### photo #####
+id: 950/42006568831_e6490681de
+-----
+alt: Red brick, white concrete, and blue background
+##### photo #####
+id: 4574/38200890064_26b9b65c54
+-----
+alt: Rain falling on an outdoor ping pong table
+##### photo #####
+id: 4574/24051834417_5451b992bf
+-----
+alt: Black posts sticking out of red clay
+##### photo #####
+id: 981/28263187588_de139c2cc8
+-----
+alt: Glass buildings reflected in another glass building
+##### photo #####
+id: 1789/42482896504_b26a0e2207
+-----
+alt: Orange grids
+##### photo #####
+id: 1827/29708294118_faca4587d8
+-----
+alt: Crane reflected multiple times in glass building
+##### photo #####
+id: 4848/44448610590_e049104f6b
+-----
+alt: Toy zebra on wood deck with plastic chair
+##### photo #####
+id: 7876/47295181901_a57a3858cf
+-----
+alt: Snow falling on railing with tree in background

@@ -1,0 +1,62 @@
+{% set name = site.config.PROJECT.name %}
+{% set in_index = this._model == 'main' %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-22954563-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-22954563-2');
+    </script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/static/fontello/css/fontello.css'|url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/static/style.css'|url }}">
+    <title>{% block title %}Welcome{% endblock %} — {{ name }}</title>
+    {% block head %}{% endblock %}
+</head>
+
+<body class="{% block bodyclass %}{% endblock %}">
+
+    <nav id="top-nav" class="heading">
+        <a href="/"><h1>{{ name }}</h1></a>
+    </nav>
+
+    <section class="container-fluid">
+        {% block body %}{% endblock %}
+    </section>
+
+    <footer id="contact">
+        {% set footer = site.get('/footer') %}
+        {% set about = footer.body.blocks[0] %}
+
+        {{ about.text }}
+
+        <div class="gallery">
+            {% for b in footer.body.blocks[1:] %}
+                {{ b }}
+            {% endfor %}
+        </div>
+
+        <p id="copyright">&copy; {{ name }}, 2019. <a href="https://github.com/istevens/istevens.com/tree/master">Built using Lektor.</a></p>
+    </footer>
+
+    {% if not in_index %}
+        <script type="text/javascript">
+            window.onscroll = function() {
+                if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    document.getElementById("top-nav").style.top = "0";
+                } else {
+                    document.getElementById("top-nav").style.top = "-4em";
+                }
+            }
+        </script>
+    {% endif %}
+
+</body>

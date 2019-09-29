@@ -1,0 +1,9 @@
+_model: page
+---
+title: Sorry, there's nothing here.
+---
+body: Check your link or [explore the site](/).
+---
+_discoverable: no
+---
+_slug: 404.html

@@ -1,0 +1,5 @@
+{% from "macros/article.html" import render_articles %}
+{% from "macros/pagination.html" import render_more %}
+{% set posts = site.query(this.path).limit(this.count) %}
+
+{{ render_articles(this.title, posts, render_more(this.path)) }}
