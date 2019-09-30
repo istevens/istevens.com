@@ -1,0 +1,170 @@
+title: Confirmation Bias Part 2
+---
+slug: confirmation-bias-part-2
+---
+_hidden: no
+---
+_discoverable: no
+---
+pub_date: 2019-05-01
+---
+author: Ian Stevens
+---
+dek: Dek goes here
+---
+body:
+
+!! A while back I volunteered to contribute to a book on the behaviours and
+history of political, legal, and socio-economic systems. It was to be a primer
+for people creating products with the potential to disrupt those systems. My contribution was a chapter on
+confirmation bias, detailing its effects, its workings, and how it can be
+overcome. Though the book was never published, my research had me reconsidering my
+behaviour. Always careful with my words, I started speaking even more purposefully,
+not wanting to pass bias on to others. The experience had such an impact that I
+couldn't let my chapter sit unread, and split it into three articles. This is the second
+of the three.
+
+How it grows and sticks with us
+===============================
+
+Confirmation bias can affect us all, but it doesn't happen by itself. It needs
+agreeable conditions to grow, flourish, and persist. Several tendencies can
+introduce bias as we develop our belief, while leaving our learning process
+intact. All stages of belief development are affected, from initial
+hypothesis generation, to searching for, testing, interpreting, and recalling
+evidence. [KLAYMAN1995]_
+
+Have you ever firmly believed something was true only to find out – years later
+– that it had no basis in reality? Maybe you had forgotten how you had come to
+believe in something which, under scrutiny, you realised was competely false.
+How could you have been so wrong? Chances are you took something you heard or
+read at face value, and carried it with you for years.
+
+Sometimes we form a belief from weak evidence. This is where confirmation
+bias starts to take hold. Governed by something known as *primacy effect*, that
+kernel of belief is powerful and can take root in your brain. Information
+acquired early can carry more weight and is more easily recalled. Belief will
+then start to collect around those first pieces of information. With belief
+backed by initial weak evidence, we may have problems correctly interpreting
+better — possibly contradictory — information received later. [RABIN1999]_
+
+Evidence search/selection vs. interpretation
+--------------------------------------------
+
+<figure>
+<img src="http://chainsawsuit.com/wp-content/uploads/2014/09/20140916-research.png"/>
+<figcaption><strong>Fig. 2</strong> As in Wason's experiment, we tend to pick evidence which confirms our bias. Source: <a href="http://chainsawsuit.com/comic/2014/09/18/screwing-the-pooch/">Chainsawsuit by Kris Straub</a></figcaption>
+</figure>
+
+
+Michael McDonald & Kenny Loggins, "What a Fool Believes"::
+
+    But what a fool believes he sees
+    No wise man has the power to reason away
+
+Once we start to form a belief around initial evidence, we'll often gather supporting
+data. You may feel you're impartial and open to adjusting your belief
+accordingly, but the opposite is often true. Determining the likelihood that our belief
+is true based on other beliefs — each with their own odds of being true — can be
+difficult. [#bayes]_ Even the most analytical minds fail at this task. For one, we often prefer positive
+tests of belief. These tests can confirm belief but will not uncover false
+negatives. [KLAYMAN1995]_ Using Wason's 2-4-6 task as an example, subjects
+tested their theory by picking three numbers which fit it, not
+three numbers which would fit a different but also valid theory, or which did not fit
+the theory at all. For example, someone who believes that the 2-4-6 number
+sequence represents even numbers increasing by two might pick 8-10-12, but not 3-5-7.
+
+.. [#bayes] Also known as Bayes' Theorem, this involves calculating the odds
+   of an event occurring based on conditions related to the event.
+
+[See what one is seeking]
+
+Giving up our beliefs can be painful. Because of this, we're more likely to
+question information which goes against them than information which agrees with them. [NICKERSON1998]_
+This tendency to seek largely positive evidence to match a theory uncovers
+patterns which may not exist — as with Wason's 2-4-6 task — but also limits
+discovery.
+
+In testing evidence, we're also more likely to ask questions whose answer is
+"yes" if the hypothesis is true. For instance, in one study on test selection,
+participants were given a profile of someone described as either an extrovert
+or an introvert. They were then asked to interview people to determine if they
+fit that personality type. Participants picked questions which, if answered
+with "yes", were seen as strongly confirming the personality type, and strongly
+disconfirming the type if answered with "no". [NICKERSON1998]_ For instance, someone given a profile flagged as an extrovert might ask "Do you enjoy large parties?" This reinforcement of our initial belief through positive tests leads us to be
+more confident in our belief, even if the information we collect has no value.
+[KLAYMAN1995]_ [JONES2000]_
+
+Once we've selectively collected and testing evidence, we interpret our
+findings. Our confirmation bias
+kicks in here as well, especially where the evidence is ambiguous or vague.
+When evidence is open to interpretation, we tend to give our beliefs
+the benefit of the doubt. [KLAYMAN1995]_ As an example, a teacher might
+interpret a student's non-standard answer to a question as either stupid or
+creative, depending on how the teacher feels about the student beforehand.
+
+We're also prone to view confirming evidence as reliable and relevant, and often
+accept it at face value. Evidence which disagrees with our belief, by contrast, is often seen as
+unreliable and unimportant, and is likely to be scrutinized, often hypercritically,
+especially if the source is believed to be subject to error. [RABIN1999]_
+[KLAYMAN1995]_ Because of this, we generally require less confirming evidence
+to uphold a belief than we do disconfirming evidence to reject one. This
+largely depends on our degree of confidence in our belief and the value of
+making a correct conclusion. However, our motivation for truth
+may be outweighed by our need for self-esteem, approval from others, control,
+and internal consistency that confirming evidence may provide. [NICKERSON1998]_
+In many cases, it may be more important for us to maintain our belief preference
+than to be accurate. Being wrong can be painful and is often seen as undesirable.
+We're also told to "have the courage of one's convictions." [KLAYMAN1995]_
+
+Searching for and interpreting evidence, then, can be an internal fight between
+what is right and what feels good. Confirmation bias is not a simple error, but
+an internally coherent pattern of reasoning. [JONES2000]_
+
+[Stats failures, modus ponens, contra-positive with Wason's card experiment]
+
+
+Restricting attention to a favoured belief
+------------------------------------------
+
+Seeing what one is seeking (self-fulfilling prophecies, or illusory correlation)
+--------------------------------------------------------------------------------
+
+
+Does learning truly converge on optimizing behaviour?
+
+
+Why it develops (signals)
+=========================
+
+We now know that confirmation bias grows and persists by ways of a number of
+tendencies. To help us rid ourselves of bias, we need to understand how our
+beliefs can be so easily skewed by it. One way we can do so is by thinking
+about our belief formation as influenced by a series of signals.
+
+We are constantly receiving signals of the true state of the world, through our
+senses and our interactions with it. Reading a tweet, watching a video clip,
+speaking with someone outside our circle — signals like these influence our
+belief. A rational observer who perfectly rates each signal and applies it to
+her beliefs would, after an infinite number of signals, always attain
+near-certain belief. [RABIN1999]_
+
+Few of us are perfectly rational, however. We may start our decision-making
+process believing that two sides to an issue are equally valid, but this
+may change as soon as we receive our first signal. [RABIN1999]_
+[NICKERSON1998]_ As we learned with the primacy effect, if our bias is severe
+enough, that first signal may completely determine our final belief. Once we
+begin leaning towards a belief, we may misinterpret further signals which
+conflict with that belief. We may ignore or underweigh a conflicting signal, or
+overweigh one which agrees with our belief. [RABIN1999]_ Under bias, our belief formation may
+quickly become a feedback loop. Every signal we receive may be used to defend
+or justify our position. [NICKERSON1998]_
+
+Learning, then, may worsen an already severe bias. [RABIN1999]_ Even after an
+infinite number of signals, our bias may compel us to believe with
+near-certainty in a false belief. Chances are, though, that we will become
+convinced of our own belief and stop paying attention to further signals. After
+processing a number of signals, our belief may go from feeling natural, to
+feeling incontestable. [NELSON2015]_
+
+
