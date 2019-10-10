@@ -46,8 +46,8 @@
             <footer>
                 <p>Published on {{ post.pub_date|dateformat('long') }}.
                 {% if post.mediumUrl %}
-                    Also <a href="{{post.mediumUrl}}" rel="alternate">available on Medium.</a>
-                    {% endif %}
+                    Also <a href="{{post.mediumUrl}}" rel="alternate">available on Medium</a>.
+                {% endif %}
                 </p>
             </footer>
         </div>
