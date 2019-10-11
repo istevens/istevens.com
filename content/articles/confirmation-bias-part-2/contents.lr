@@ -49,15 +49,49 @@ How could you have been so wrong? Chances are you took something you heard or
 read at face value, and carried it with you for years. This initial hypothesis generation is where confirmation
 bias starts to take hold.
 
-Governed by something known as the *primacy effect*, that
-initial belief can be powerful and can take root in your brain. The primacy effect says that information
-acquired early can carry more weight and is more easily recalled. Belief
+Governed by something known as *anchoring*, that
+initial belief can be powerful and can take root in our brains. Information
+acquired early carries more weight and is more readily recalled. Belief
 starts to collect around those first pieces of information. With belief
 backed by initial weak evidence, we may have problems correctly interpreting
 better — possibly contradictory — information received later. [RABIN1999]
 
-Once we start to form a belief around initial evidence, we'll often gather supporting
-data. We often feel we're impartial and open, able to adjust our belief
+With that kernel of belief in mind, we'll often gather more evidence to support
+it. This isn't to say that we actively seek out that evidence, although we
+sometimes do. Rather, our brain tends to more readily spot information which
+supports our belief. Have you ever bought or considered a car, an item of
+clothing, or other object, and then suddenly started seeing the same make,
+model, or style much more often? This tendency is called the *frequency
+illusion*, and it plays a part when you're subconciously gathering evidence to
+support a belief. We see what we seek. [NICKERSON1998]
+
+<figure>
+<img src="http://chainsawsuit.com/wp-content/uploads/2014/09/20140916-research.png"/>
+<figcaption><strong>Fig. 2</strong> As in Wason's experiment, we tend to pick evidence which confirms our bias. Source: <a href="http://chainsawsuit.com/comic/2014/09/18/screwing-the-pooch/">Chainsawsuit by Kris Straub</a></figcaption>
+</figure>
+
+Seeing what we're seeking focuses our attention on confirming evidence in a
+number of ways. Our ancestors evolved to have great pattern recognition skills.
+These skills helped us recognize danger, but they also make us see patterns
+where there are none. Thanks to something called *illusory correlation*, we
+tend to see connections between unrelated events. Have you known someone who
+broadly describes a certain group as being bad drivers, bad with money, or
+"cold"? They likely held an unfavourable initial belief about that group, and
+later started seeing a few members of that group exhibit bad behaviour.
+
+[Interpreting and testing]
+
+Giving up our beliefs can be painful. Because of this, we're more likely to
+question information which goes against them than information which agrees with them. [NICKERSON1998]
+This tendency to seek largely positive evidence to match a theory uncovers
+patterns which may not exist — as with Wason's 2-4-6 task — but also limits
+discovery.
+
+Information interpreted as confirming hypothesis
+increases subject's confidence in its truth, even if the information has no
+value — internally coherent pattern of reasoning. [JONES2000] Illusory correlation.
+
+We often feel we're impartial and open, that we adjust our belief
 accordingly, but the opposite is often true. Determining the likelihood that our belief
 is true based on other beliefs — each with their own odds of being true — can be
 difficult. [#bayes] Even the most analytical minds fail at this task. For one, we often prefer positive
@@ -70,19 +104,6 @@ sequence represents even numbers increasing by two might pick 8-10-12, but not 3
 
 .. [#bayes] Also known as Bayes' Theorem, this involves calculating the odds
    of an event occurring based on conditions related to the event.
-
-[See what one is seeking]
-
-<figure>
-<img src="http://chainsawsuit.com/wp-content/uploads/2014/09/20140916-research.png"/>
-<figcaption><strong>Fig. 2</strong> As in Wason's experiment, we tend to pick evidence which confirms our bias. Source: <a href="http://chainsawsuit.com/comic/2014/09/18/screwing-the-pooch/">Chainsawsuit by Kris Straub</a></figcaption>
-</figure>
-
-Giving up our beliefs can be painful. Because of this, we're more likely to
-question information which goes against them than information which agrees with them. [NICKERSON1998]
-This tendency to seek largely positive evidence to match a theory uncovers
-patterns which may not exist — as with Wason's 2-4-6 task — but also limits
-discovery.
 
 In testing evidence, we're also more likely to ask questions whose answer is
 "yes" if the hypothesis is true. For instance, in one study on test selection,
@@ -135,10 +156,6 @@ an internally coherent pattern of reasoning. [JONES2000]
 Restricting attention to a favoured belief
 ------------------------------------------
 
-Seeing what one is seeking (self-fulfilling prophecies, or illusory correlation)
---------------------------------------------------------------------------------
-
-
 Does learning truly converge on optimizing behaviour?
 
 
@@ -166,7 +183,7 @@ begin leaning towards a belief, we may misinterpret further signals which
 conflict with that belief. We may ignore or underweigh a conflicting signal, or
 overweigh one which agrees with our belief. [RABIN1999] Under bias, our belief formation may
 quickly become a feedback loop. Every signal we receive may be used to defend
-or justify our position. [NICKERSON1998]
+or justify our position. [NICKERSON1998] Pretty soon, we're like a boat that's drifted off-course.
 
 Learning, then, may worsen an already severe bias. [RABIN1999] Even after an
 infinite number of signals, our bias may compel us to believe with
