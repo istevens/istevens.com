@@ -76,44 +76,28 @@ These skills helped us recognize danger, but they also make us see patterns
 where there are none. Thanks to something called *illusory correlation*, we
 tend to see connections between unrelated events. Have you known someone who
 broadly describes a certain group as being bad drivers, bad with money, or
-"cold"? They likely held an unfavourable initial belief about that group, and
+having bad manners? They likely held an unfavourable initial belief about that group, and
 later started seeing a few members of that group exhibit bad behaviour.
 
-[Interpreting and testing]
-
-Giving up our beliefs can be painful. Because of this, we're more likely to
-question information which goes against them than information which agrees with them. [NICKERSON1998]
-This tendency to seek largely positive evidence to match a theory uncovers
-patterns which may not exist — as with Wason's 2-4-6 task — but also limits
-discovery.
-
-Information interpreted as confirming hypothesis
-increases subject's confidence in its truth, even if the information has no
-value — internally coherent pattern of reasoning. [JONES2000] Illusory correlation.
-
-We often feel we're impartial and open, that we adjust our belief
-accordingly, but the opposite is often true. Determining the likelihood that our belief
-is true based on other beliefs — each with their own odds of being true — can be
-difficult. [#bayes] Even the most analytical minds fail at this task. For one, we often prefer positive
-tests of belief. These tests can confirm belief but will not uncover false
-negatives. [KLAYMAN1995] Using Wason's 2-4-6 task as an example, subjects
-tested their theory by picking three numbers which fit it, not
-three numbers which would fit a different but also valid theory, or which did not fit
-the theory at all. For example, someone who believes that the 2-4-6 number
-sequence represents even numbers increasing by two might pick 8-10-12, but not 3-5-7.
-
-.. [#bayes] Also known as Bayes' Theorem, this involves calculating the odds
-   of an event occurring based on conditions related to the event.
-
-In testing evidence, we're also more likely to ask questions whose answer is
+When testing our belief, we're more likely to ask questions whose answer is
 "yes" if the hypothesis is true. For instance, in one study on test selection,
 participants were given a profile of someone described as either an extrovert
 or an introvert. They were then asked to interview people to determine if they
 fit that personality type. Participants picked questions which, if answered
 with "yes", were seen as strongly confirming the personality type, and strongly
-disconfirming the type if answered with "no". [NICKERSON1998] For instance, someone given a profile flagged as an extrovert might ask "Do you enjoy large parties?" This reinforcement of our initial belief through positive tests leads us to be
-more confident in our belief, even if the information we collect has no value.
-[KLAYMAN1995] [JONES2000]
+disconfirming the type if answered with "no". [NICKERSON1998] For instance,
+someone given a profile flagged as an extrovert might ask "Do you enjoy large
+parties?" This reinforcement of our initial belief through positive tests leads
+us to be more confident in our belief, even if the information we collect has
+no value. [KLAYMAN1995] [JONES2000]
+
+This tendency to seek and test largely positive evidence can uncover
+patterns which may not exist. This focus on our belief limits discovery. Using Wason's 2-4-6
+task from part 1 as an example, subjects tested their theory by picking three
+numbers which fit it, not three numbers which fit a different but also
+valid theory, or numbers which didn't fit the theory at all. For example, someone who
+believes that the 2-4-6 number sequence represents even numbers increasing by
+two might pick 8-10-12, but not 3-5-7.
 
 Once we've selectively collected and tested evidence, we interpret our
 findings. Our confirmation bias
@@ -145,19 +129,27 @@ We're also told to "have the courage of one's convictions." [KLAYMAN1995]
 >
 > [The Doobie Brothers, "What a Fool Believes"](https://youtu.be/Zjqcf5F0YRg)
 
+Evidence gathered to support a belief is itself subject to testing and
+interpretation. This feedback loop is ongoing. How we test and interpret our evidence
+governs how we see new evidence, as with illusory correlation. We'll quickly
+become more confident in our belief, interpreting even ambiguous evidence as
+supporting it, and with an internally coherent pattern of reasoning.
+[JONES2000] This confidence can make it painful to give up our beliefs. We become more likely to
+question information which goes against them than information which agrees with
+them. [NICKERSON1998] It's this process which influences what we seek and see.
 
 Searching for and interpreting evidence, then, can be an internal fight between
 what is right and what feels good. Confirmation bias is not a simple error, but
 an internally coherent pattern of reasoning. [JONES2000]
 
 [Stats failures, modus ponens, contra-positive with Wason's card experiment]
-
-
-Restricting attention to a favoured belief
-------------------------------------------
-
-Does learning truly converge on optimizing behaviour?
-
+We often feel we're impartial and open, that we adjust our belief
+accordingly, but the opposite is often true. Determining the likelihood that our belief
+is true based on other beliefs — each with their own odds of being true — can be
+difficult. [#bayes] Even the most analytical minds fail at this task. For one, we often prefer positive
+tests of belief. These tests can confirm belief but will not uncover false
+negatives. [KLAYMAN1995] .. [#bayes] Also known as Bayes' Theorem, this involves calculating the odds
+   of an event occurring based on conditions related to the event.
 
 Why it develops (signals)
 =========================
