@@ -24,7 +24,7 @@ it grows and spreads. Finally, the last article explains what we can do to fight
 
 Confirmation bias is one of a number of cognitive biases which
 affect how we reason. It tricks us into accepting untruths and
-nurtures them until we're certain they're true. As a result, we are
+nurtures them until we're certain they're true. As a result, we're
 led to hold false beliefs with greater confidence than evidence
 can justify. Confirmation bias doesn't happen by
 itself. It needs agreeable conditions to grow, flourish, and persist.
@@ -36,21 +36,24 @@ fertile ground for confirmation bias to take hold (See Fig. 1).
 <figcaption><strong>Fig. 1</strong> Our tendencies support the formation of confirmation bias.</figcaption>
 </figure>
 
+If we don't actively choose our information or how we interpret it, how does bias start?
 These tendencies operate while leaving our learning and reasoning process
 intact. We don't see our bias. We feel we're being rational, and we often are,
 but with skewed information. Every stage of belief development is affected,
 from initial hypothesis generation, to searching for, testing, interpreting,
 and recalling evidence. [KLAYMAN1995]
 
-Sometimes we form an initial belief from weak evidence. Have you ever firmly believed something to be true only to find out – years later
+<aside>Confirmation bias starts to take hold with initial hypothesis generation.</aside>
+
+The selective gathering of evidence may start when we form an initial belief from weak evidence. Have you ever firmly believed something to be true only to find out – years later
 – that it had no basis in reality? Maybe you forgot how you had come to
-believe in something which, under scrutiny, you later realised was competely false.
+believe in something which, under scrutiny, you later realised was completely false.
 How could you have been so wrong? Chances are you took something you heard or
-read at face value, and carried it with you for years. This initial hypothesis generation is where confirmation
+read at face value and carried it with you for years. This initial hypothesis generation is where confirmation
 bias starts to take hold.
 
 Governed by something known as *anchoring*, that
-initial belief can be powerful and can take root in our brains. Information
+initial belief is powerful and can take root in our brains. Information
 acquired early carries more weight and is more readily recalled. Belief
 starts to collect around those first pieces of information. With belief
 backed by initial weak evidence, we may have problems correctly interpreting
@@ -58,11 +61,11 @@ better — possibly contradictory — information received later. [RABIN1999]
 
 With that kernel of belief in mind, we'll often gather more evidence to support
 it. This isn't to say that we actively seek out that evidence, although we
-sometimes do. Rather, our brain tends to more readily spot information which
+sometimes do. Rather, our brains tend to more readily spot information which
 supports our belief. Have you ever bought or considered a car, an item of
 clothing, or other object, and then suddenly started seeing the same make,
 model, or style much more often? This tendency is called the *frequency
-illusion*, and it plays a part when you're subconciously gathering evidence to
+illusion*, and it plays a part when you're subconsciously gathering evidence to
 support a belief. We see what we seek. [NICKERSON1998]
 
 <figure>
@@ -71,55 +74,63 @@ support a belief. We see what we seek. [NICKERSON1998]
 </figure>
 
 Seeing what we're seeking focuses our attention on confirming evidence in a
-number of ways. Our ancestors evolved to have great pattern recognition skills.
-These skills helped us recognize danger, but they also make us see patterns
+number of ways. Humans evolved with great pattern recognition skills.
+These skills help us recognize danger, but they also make us see patterns
 where there are none. Thanks to something called *illusory correlation*, we
-tend to see connections between unrelated events. Have you known someone who
+tend to see connections between unrelated events. Do you know someone who
 broadly describes a certain group as being bad drivers, bad with money, or
-having bad manners? They likely held an unfavourable initial belief about that group, and
-later started seeing a few members of that group exhibit bad behaviour.
+having bad manners? They likely started with an unfavourable belief about that group, and
+later noticed members of that group exhibit bad behaviour.
+They saw what they wanted to see, and likely didn't
+register the times the times they saw members of that same
+group avoid that behaviour.
 
-When testing our belief, we're more likely to ask questions whose answer is
-"yes" if the hypothesis is true. For instance, in one study on test selection,
+Gathering evidence isn't always enough. We usually test our beliefs to see if they hold. Our tests are often flawed, however. For one, we're more likely to ask questions whose answer is
+"yes" should our hypothesis be true. In one study on test selection,
 participants were given a profile of someone described as either an extrovert
-or an introvert. They were then asked to interview people to determine if they
-fit that personality type. Participants picked questions which, if answered
-with "yes", were seen as strongly confirming the personality type, and strongly
-disconfirming the type if answered with "no". [NICKERSON1998] For instance,
-someone given a profile flagged as an extrovert might ask "Do you enjoy large
-parties?" This reinforcement of our initial belief through positive tests leads
+or an introvert. Subjects were then asked to interview that person and determine if
+the labeled personality type. Participants usually picked questions which, if answered
+with "yes", would strongly confirm the given personality type, and strongly
+disconfirm it if answered with "no". [NICKERSON1998] For instance,
+someone given a profile flagged as belonging to an extrovert might ask "Do you enjoy large
+parties?" but not "Do you enjoy time alone?" This reinforcement of our initial belief through positive tests leads
 us to be more confident in our belief, even if the information we collect has
 no value. [KLAYMAN1995] [JONES2000]
 
 This tendency to seek and test largely positive evidence can uncover
-patterns which may not exist. This focus on our belief limits discovery. Using Wason's 2-4-6
-task from part 1 as an example, subjects tested their theory by picking three
+patterns which may not exist, limiting discovery. Using Wason's 2-4-6
+task from [part 1](../confirmation-bias-part-1) as an example, subjects tested their theory by picking three
 numbers which fit it, not three numbers which fit a different but also
-valid theory, or numbers which didn't fit the theory at all. For example, someone who
+valid theory, nor numbers which didn't fit their theory at all. For example, someone who
 believes that the 2-4-6 number sequence represents even numbers increasing by
-two might pick 8-10-12, but not 3-5-7.
+two might test it with 8-10-12, but not 3-5-7, nor even 6-4-2.
 
-Once we've selectively collected and tested evidence, we interpret our
-findings. Our confirmation bias
-kicks in here as well, especially where the evidence is ambiguous or vague.
-When evidence is open to interpretation, we tend to give our beliefs
+<figure>
+<img src="full-moon.png"/>
+<figcaption><strong>Fig. 3</strong> We tend to see patterns where there are none, and use tests which confirm our theories.</figcaption>
+</figure>
+
+Test results need to be interpreted to be useful.
+Our confirmation bias kicks in here as well.
+[chart?] Evidence and tests which confirm our belief are prone to be seen as reliable and relevant, and often
+accept it at face value. In contrast, evidence which disagrees with our belief, by contrast, is often seen as
+unreliable and unimportant, and open to scrutiny — often hypercritically,
+especially if the source is believed to be subject to error. [RABIN1999]
+Oddly, when evidence is ambiguous, vague, or open to interpretation, we tend to give our beliefs
 the benefit of the doubt. [KLAYMAN1995] As an example, a teacher might
 interpret a student's non-standard answer to a question as either stupid or
 creative, depending on how the teacher feels about the student beforehand.
+(Recall the study in [part 1](../confirmation-bias-part-1) of a girl playing in urban and suburban neighbourhoods.)
 
-We're also prone to view confirming evidence as reliable and relevant, and often
-accept it at face value. Evidence which disagrees with our belief, by contrast, is often seen as
-unreliable and unimportant, and is likely to be scrutinized, often hypercritically,
-especially if the source is believed to be subject to error. [RABIN1999]
-[KLAYMAN1995] Because of this, we generally require less confirming evidence
-to uphold a belief than we do disconfirming evidence to reject one. This
-largely depends on our degree of confidence in our belief and the value of
-making a correct conclusion. However, our motivation for truth
-may be outweighed by our need for self-esteem, approval from others, control,
-and internal consistency that confirming evidence may provide. [NICKERSON1998]
-In many cases, it may be more important for us to maintain our belief preference
-than to be accurate. Being wrong can be painful and is often seen as undesirable.
-We're also told to "have the courage of one's convictions." [KLAYMAN1995]
+Because of this, we usually require less evidence
+to uphold a belief than we require evidence to reject one.
+There are other factors at issue, such as our degree of confidence in our belief, the value of
+making a correct conclusion, or the cost of making a bad decision. Our motivation for truth,
+however, can still be outweighed by our need for self-esteem, approval from others, control,
+and internal consistency that confirming evidence provides. [NICKERSON1998]
+In many cases, it may be more important for us to maintain our belief
+than to be accurate. Being wrong can be painful and is often seen as undesirable —
+exhibited by the expectation that we "have the courage of one's convictions." [KLAYMAN1995]
 
 > But what a fool believes he sees<br/>
 > No wise man has the power to reason away<br/>
@@ -129,11 +140,18 @@ We're also told to "have the courage of one's convictions." [KLAYMAN1995]
 >
 > [The Doobie Brothers, "What a Fool Believes"](https://youtu.be/Zjqcf5F0YRg)
 
-Evidence gathered to support a belief is itself subject to testing and
-interpretation. This feedback loop is ongoing. How we test and interpret our evidence
-governs how we see new evidence, as with illusory correlation. We'll quickly
-become more confident in our belief, interpreting even ambiguous evidence as
-supporting it, and with an internally coherent pattern of reasoning.
+Interpreting tests and evidence can be quite challenging, even for the most analytical minds. We feel we're impartial and open, that we adjust our belief
+accordingly, but the opposite is often true. If a belief is based on questionable beliefs, it can be difficult to determine the odds of it being true.
+difficult. [#bayes] Even the most analytical minds fail at this task. For one, we often prefer positive
+tests of belief. These tests can confirm belief but will not uncover false
+negatives. [KLAYMAN1995] .. [#bayes] Also known as Bayes' Theorem, this involves calculating the odds
+of an event occurring based on conditions related to the event.
+[Stats failures, modus ponens, contra-positive with Wason's card experiment]
+
+The feedback loop between evidence gathering, testing, and interpretation is ongoing. How we test and interpret our evidence
+governs how we see new evidence. We can quickly
+grow more confident in our belief, interpreting even ambiguous evidence as
+supporting it, all with an internally coherent pattern of reasoning.
 [JONES2000] This confidence can make it painful to give up our beliefs. We become more likely to
 question information which goes against them than information which agrees with
 them. [NICKERSON1998] It's this process which influences what we seek and see.
@@ -141,18 +159,6 @@ them. [NICKERSON1998] It's this process which influences what we seek and see.
 Searching for and interpreting evidence, then, can be an internal fight between
 what is right and what feels good. Confirmation bias is not a simple error, but
 an internally coherent pattern of reasoning. [JONES2000]
-
-[Stats failures, modus ponens, contra-positive with Wason's card experiment]
-We often feel we're impartial and open, that we adjust our belief
-accordingly, but the opposite is often true. Determining the likelihood that our belief
-is true based on other beliefs — each with their own odds of being true — can be
-difficult. [#bayes] Even the most analytical minds fail at this task. For one, we often prefer positive
-tests of belief. These tests can confirm belief but will not uncover false
-negatives. [KLAYMAN1995] .. [#bayes] Also known as Bayes' Theorem, this involves calculating the odds
-   of an event occurring based on conditions related to the event.
-
-Why it develops (signals)
-=========================
 
 We now know that confirmation bias grows and persists by ways of a number of
 tendencies. To help us rid ourselves of bias, we need to understand how our
@@ -166,13 +172,15 @@ belief. A rational observer who perfectly rates each signal and applies it to
 her beliefs would, after an infinite number of signals, always attain
 near-certain belief. [RABIN1999]
 
+[Diagram?]
+
 Few of us are perfectly rational, however. We may start our decision-making
 process believing that two sides to an issue are equally valid. This
 may change as soon as we receive our first signal. [RABIN1999]
-[NICKERSON1998] As we learned with the primacy effect, if our bias is severe
-enough, that first signal may completely determine our final belief. Once we
+[NICKERSON1998] As with the primacy effect,
+that first signal may completely determine our final belief. Once we
 begin leaning towards a belief, we may misinterpret further signals which
-conflict with that belief. We may ignore or underweigh a conflicting signal, or
+conflict with it. We may ignore or underweigh a conflicting signal, or
 overweigh one which agrees with our belief. [RABIN1999] Under bias, our belief formation may
 quickly become a feedback loop. Every signal we receive may be used to defend
 or justify our position. [NICKERSON1998] Pretty soon, we're like a boat that's drifted off-course.
@@ -183,6 +191,13 @@ near-certainty in a false belief. Chances are, though, that we will become
 convinced of our own belief and stop paying attention to further signals. After
 processing a number of signals, our belief may go from feeling natural, to
 feeling incontestable. [NELSON2015]
+
+Given that tendencies supporting bias largely happen subconsciously and are
+entrenched in our brains, can we do something about it? Can we debias
+ourselves? Or are we powerless to continue making bad decisions based on
+selective processes? Awareness is the first step, but what about debiasing
+other individuals or groups we're a part of? Stay tuned for part three of this
+series.
 
 ### References
 
