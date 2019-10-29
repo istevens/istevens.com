@@ -10,6 +10,18 @@ dek: Dek goes here
 ---
 body:
 
+!! A while back I volunteered to contribute to a book on the behaviours and
+history of political, legal, and socio-economic systems. It was to be a primer
+for people creating products with the potential to disrupt those systems. My contribution was a chapter on
+confirmation bias, detailing its effects, its workings, and how it can be
+overcome. Though the book was never published, my research had me reconsidering my
+behaviour. Always careful with my words, I started speaking even more purposefully,
+not wanting to pass bias on to others. The experience had such an impact that I
+couldn't let my chapter sit unread, and split it into three
+articles. [The first speaks to the pernicious influence of
+confirmation bias](../confirmation-bias-part-1/), while [the second describes how
+it grows and spreads](../confirmation-bias-part-2/). The last in the series, explaining what we can do to fight confirmation bias.
+
 Confirmation bias can occur at every stage of our learning process, from
 initial belief to evidence gathering. At every stage, it reinforces itself and
 may become so severe that our bias becomes entrenched. Worse, our internal
@@ -154,10 +166,7 @@ genders, ethnicities, social-economic class, and nationality. [NELSON2015]_
 
 ### References
 
-* <a name="JONES2000"/>[JONES2000] Jones, M., and Sugden, R. (2000). Positive confirmation bias in the acquisition of information. (Dundee Discussion Papers in Economics; No.  115). University of Dundee.
 * <a name="LARRICK2004"/>[LARRICK2004] Larrick, R. P. (2004). Debiasing, in Blackwell Handbook of Judgment and Decision Making (eds D. J. Koehler and N. Harvey), Blackwell Publishing Ltd, Malden, MA, USA.
 * <a name="NELSON2015"/>[NELSON2015] Nelson, J. A. (2015). Are women really more risk-averse than men? A re-analysis of the literature using expanded methods. Journal of Economic Surveys, 29: 566-585.
-* <a name="KLAYMAN1995"/>[KLAYMAN1995] Klayman, J. (1995). Varieties of confirmation bias. In J. Busemeyer, R. Hastie, & D. L. Medin (Eds.), Decision making from a cognitive perspective. New York: Academic Press (Psychology of Learning and Motivation, vol. 32), pp. 365-418.
-* <a name="BIAN2017"/>[BIAN2017] Bian, L., Leslie, S., and Cimpian, A. (2017). Gender stereotypes about intellectual ability emerge early and influence children’s interests.  Science, 27 Jan 2017, Vol. 355, Issue 6323, pp. 389-391.
 * <a name="NICKERSON1998"/>[NICKERSON1998] Nickerson, J. S. (1998). Confirmation bias: a ubiquitous phenomenon in many guises. Review of General Psychology, Vol. 2, No. 2, pp. 175-220.
 * <a name="RABIN1999"/>[RABIN1999] Rabin, Matthew and Schrag, Joel L. (1999). First Impressions Matter: A Model of Confirmatory Bias, The Quarterly Journal of Economics, 114, issue 1, p. 37-82.
