@@ -1,12 +1,14 @@
-title: Three reasons why you make bad decisions, and why it matters
+title: Three reasons why we make bad decisions, and why it matters
 ---
 slug: confirmation-bias-part-1
 ---
-pub_date: 2019-10-14
+pub_date: 2019-10-13
 ---
 author: Ian Stevens
 ---
-dek: How your brain's tendency to selectively gather, interpret, and recall information makes you behave irrationally.
+mediumUrl: https://medium.com/@istevens/confirmation-bias-part-1-1a68d2f9450f
+---
+dek: How our brain's tendency to selectively gather, interpret, and recall information makes us behave irrationally.
 ---
 body:
 
@@ -19,7 +21,7 @@ behaviour. Always careful with my words, I started speaking even more purposeful
 not wanting to pass bias on to others. The experience had such an impact that I
 couldn't let my chapter sit unread, and split it into three articles. This is the first
 of the three, describing the pernicious influence of confirmation bias. The
-other two explain how it grows and spreads, and what we can do to fight it.
+other two explain [how it grows and spreads](../confirmation-bias-part-2/), and what we can do to fight it.
 
 "THIS JUST IN: We're getting reports — around the world — of a disease rapidly spreading out
 of control. The infected are in the millions, and have started behaving
@@ -205,7 +207,7 @@ agreeing with stereotypes, while downplaying or omitting results which
 did not. These confirming results were, in turn, more likely to be published.
 Researchers overlooked situations where women
 naturally take on a great deal of risk, such as with child birth or risk of
-domestic violence. Instead, areas of risk, such as
+domestic violence. Instead, areas of risk such as
 finance were studied and findings extrapolated to a broader context.
 <!-- [NELSON2015](#NELSON2015) -->
 
@@ -223,14 +225,14 @@ Confirmation bias exists and negatively influences human behaviour — so now
 what? We can correct our own bias, although it can be difficult. Awareness helps a great deal, as it turns
 out. There are also habits we can pick up to better keep our bias in check.
 That's in part three of this series. Our next step is to gain a better
-understanding of how confirmation bias grows and spreads, which brings us to
-part two.
+understanding of [how confirmation bias grows and spreads](../confirmation-bias-part-2/), which brings us to
+[part two](../confirmation-bias-part-2/).
 
 ### References
 
+* <a name="BIAN2017"/>[BIAN2017] Bian, L., Leslie, S., and Cimpian, A. (2017). Gender stereotypes about intellectual ability emerge early and influence children’s interests.  Science, 27 Jan 2017, Vol. 355, Issue 6323, pp. 389-391.
 * <a name="JONES2000"/>[JONES2000] Jones, M., and Sugden, R. (2000). Positive confirmation bias in the acquisition of information. (Dundee Discussion Papers in Economics; No.  115). University of Dundee.
 * <a name="LARRICK2004"/>[LARRICK2004] Larrick, R. P. (2004). Debiasing, in Blackwell Handbook of Judgment and Decision Making (eds D. J. Koehler and N. Harvey), Blackwell Publishing Ltd, Malden, MA, USA.
 * <a name="NELSON2015"/>[NELSON2015] Nelson, J. A. (2015). Are women really more risk-averse than men? A re-analysis of the literature using expanded methods. Journal of Economic Surveys, 29: 566-585.
-* <a name="BIAN2017"/>[BIAN2017] Bian, L., Leslie, S., and Cimpian, A. (2017). Gender stereotypes about intellectual ability emerge early and influence children’s interests.  Science, 27 Jan 2017, Vol. 355, Issue 6323, pp. 389-391.
 * <a name="NICKERSON1998"/>[NICKERSON1998] Nickerson, J. S. (1998). Confirmation bias: a ubiquitous phenomenon in many guises. Review of General Psychology, Vol. 2, No. 2, pp. 175-220.
 * <a name="RABIN1999"/>[RABIN1999] Rabin, Matthew and Schrag, Joel L. (1999). First Impressions Matter: A Model of Confirmatory Bias, The Quarterly Journal of Economics, 114, issue 1, p. 37-82.
