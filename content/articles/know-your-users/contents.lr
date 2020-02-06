@@ -14,23 +14,50 @@ alienate — or, worse, anger — a good chunk of your potential userbase.
 
 As a father of young children, I'm regularly reminded of the importance of
 brand and product messaging. I consider myself an average parent. Attentive to
-my children, I encourage their interests and try to nurture their confidence
-and ability. My wife is a superstar, but I'm not far off. We're fairly equal in
-our care of the children, though there are areas where one of us takes the
-lead. I take pride in my role in the family.
+my kids, I encourage their interests and try to nurture their confidence
+and ability. My wife is a superstar, but I'm not far off.
 
-I'm disappointed when that father role is neglected in branding and design of
+I'm disappointed, then, when that father role is neglected in branding and design of
 children's products. Moms are often the focus, especially with products for
 younger kids. Not only are they "Mom Approved", for "Moms Who Care", but entire
-brands and product names are matricentric (eg. 4Moms and Mommaroo, Mothercare,
+brands and product names are matricentric (e.g. 4Moms and Mommaroo, Mothercare,
 Mother's Choice, etc.) Look no further than your supermarket's child products
-aisle.
+aisle:
 
-[Photos of such products from supermarket]
+<figure>
+<img src=""/>
+<figcaption> [Photos of such products from supermarket]</figcaption>
+</figure>
 
-This mom marketing reinforces the stereotype of women as primary child
-caregivers. Families without a mother are lost in the message. Active fathers,
+This mom-marketing reinforces the stereotype of women as primary child
+caregivers. Families without a mother are lost in the message. Active fathers
 are left to feel inadequate and unrepresented.
+
+This isn't a rant against mom-marketing. This is a rant against *one particular
+instance* of mom-marketing and how it could have been done differently. Both
+our children have Nabi Jr. tablets — full-featured Android devices
+loaded with educational and fun apps for kids. They are locked down, but
+parents and caregivers can enter "Mommy Mode" with a password for full web and
+app store access.
+
+You read that right: Mommy Mode. Icons for apps requiring internet access are
+greyed out and overlaid with "Account Required. Ask Mom." There's even a
+helpful lock icon with a bob-haired silhouette. Tapping this icon brings up a
+modal dialog titled "Ask Mom", which is at least consistent. The silhouette is
+revealed to be a smiling woman with a pink hairband:
+
+<figure>
+<img src=""/>
+<figcaption> Mommy mode icon and dialog. Hands up if this looks like you or your mother.</figcaption>
+</figure>
+
+To be fair, it does say "your mom or dad" in the text but still isn't correct
+for many use cases. Consider what this message might evoke if an extended
+family member or another caregiver is responsible for the child. How would it
+affect a child who has lost her parents, or one who is in foster care? These
+are not "edge cases". Over 2 million children in the States live without either
+of their parents. https://www.census.gov/newsroom/press-releases/2016/cb16-192.html
+
 
 
 [How avoided?]
