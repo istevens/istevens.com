@@ -65,8 +65,27 @@ of their parents. https://www.census.gov/newsroom/press-releases/2016/cb16-192.h
 - Team
 - Personas
 
-There were 2 users here: The child, and the parent. They may have neglected to
-consider the parent.
+It's also likely the makers of the Nabi tablet didn't fully consider its
+userbase. There's the child who plays with the Nabi, sure, but there's also
+the parent or caregiver who *supports* it. Broadening that support userbase
+beyond mothers opens us up to many different considerations. Let's briefly
+consider a few updated personas and pair a supporting user with each child:
+
+ * Ofei - 5 years old, two parents; Mother Esi as supporting user
+ * Lee - 3 years old, single Dad with a nanny; Father Tim and nanny Laura as supporting users
+ * Han - 4 years old, lives with grandparents; Grandfather Chen as supporting user
+
+If we consider each of these personas for a child's toy, an outdated image of a
+mother to act as tech support just won't do. We need something else — something
+which conveys "grown up" to a child who likely can't read. Too much detail
+could alienate our child and supporting users. What we need is an abstract
+representation of a grownup.
+
+<figure>
+<img src=""/>
+<figcaption> Support mode icon and dialog.</figcaption>
+</figure>
+
 
 [Alternative]
 
