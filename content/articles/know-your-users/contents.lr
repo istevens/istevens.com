@@ -55,17 +55,20 @@ To be fair, it does say "your mom or dad" in the text but still isn't correct
 for many use cases. Consider what this message might evoke if an extended
 family member or another caregiver is responsible for the child. How would it
 affect a child who has lost her parents, or one who is in foster care? These
-are not "edge cases". Over 2 million children in the States live without either
-of their parents. https://www.census.gov/newsroom/press-releases/2016/cb16-192.html
+are not "edge cases". [Over 2 million children in the States live without either
+of their parents](https://www.census.gov/newsroom/press-releases/2016/cb16-192.html).
 
+So what went wrong? How did Mattel, the makers of the Nabi, get to this point?
+To say they didn't care is probably far from the truth. It's likely the mistake
+slipped past the Nabi product teams because they weren't tuned to it. [Bias
+affects us all](../confirmation-bias-part-1/) and can lead to irrational
+decisions. Many people are biased towards mothers as caregivers and wouldn't
+give this design choice a second thought. It's very possible that the team in
+charge of this product messaging held this bias. Had the team been made up of
+active fathers, ex-foster or adopted children, or people who grew up in
+mixed-family homes, someone would have noticed this mistake sooner.
 
-
-[How avoided?]
-
-- Team
-- Personas
-
-It's also likely the makers of the Nabi tablet didn't fully consider its
+Team makeup isn't the only possibility. It's also likely the makers of the Nabi tablet didn't fully consider its
 userbase. There's the child who plays with the Nabi, sure, but there's also
 the parent or caregiver who *supports* it. Broadening that support userbase
 beyond mothers opens us up to many different considerations. Let's briefly
