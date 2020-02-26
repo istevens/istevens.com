@@ -12,6 +12,7 @@ path: /articles
 count: 3
 ----
 more: yes
+
 #### photo_block ####
 title: Featured Abstracts
 ----
@@ -51,3 +52,12 @@ alt: Toy zebra on wood deck with plastic chair
 id: 7876/47295181901_a57a3858cf
 -----
 alt: Snow falling on railing with tree in background
+
+#### posts ####
+title: Recent Blog Posts
+----
+path: /blog
+----
+count: 3
+----
+more: yes
