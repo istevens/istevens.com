@@ -23,7 +23,7 @@ confirmation bias](../confirmation-bias-part-1/), while [the second describes ho
 it grows and spreads](../confirmation-bias-part-2/). This is the last in the series, explaining what we can do to fight confirmation bias.
 
 If you've been following this series on confirmation bias or already know its
-mechanisms, you might be feeling a little wary of your internal state of
+mechanisms, you may be feeling a little wary of your internal state of
 the world. I know I was during my research. It's alarming to know that we can
 gather false truths, nurture them through selective testing and
 interpretation, and become certain they are true, all while thinking we're
@@ -33,14 +33,17 @@ methods already. Groups can also be prone to biased decision-making, and there a
 lessening this error. As for debiasing others, that can be a touch more
 complicated.
 
-<aside>Though we may never be free of our biases, we can make sure
+<aside>Though we may never be free of our biases, we can try to make
 our decisions and actions remain untainted.</aside>
 
 Entrenched in our brains, confirmation bias seems difficult to combat.
-Though we may never be free of our biases, we can make sure
-our decisions and actions remain untainted. Bias affects
-decisions both big and small — like hiring a new employee, making
-a *gut decision*, crossing the street to avoid someone, or even
+Though we may never be free of our biases, we can try to make sure our
+decisions and actions remain untainted. As you probably realize, this isn't
+easy. Working against stereotypes — a product of confirmation bias — for instance, takes more time and uses
+different parts of our brains than our natural thought processes. [NELSON2015]\_
+It's a battle worth fighting, however. Bias affects
+decisions both big and small — like hiring a new employee,
+crossing the street to avoid someone, or even
 the words we use to describe others. Actions based on bias can
 have long-term consequences, such as an educator forming opinions
 of their students based on where they live, as mentioned in [part
@@ -51,86 +54,101 @@ If we feel we might suffer a loss
 for a biased decision, our desire for approval can help lessen bias.
 That *loss* could be a loss of money, loss of status, or worse. [KLAYMAN1995]\_
 Thankfully, few decisions have such punitive outcomes.
-On the other hand, there is little evidence that incentives
+On the other hand, there's little evidence that incentives
 — such as a reward for considering every course of action — improve
-the reliability of our decision-making. [LARRICK2004]\_ [RABIN1999]\_
+the reliability of our decision-making. We can't just ask and expect
+ourselves and others to "try harder" when making a
+decision. Doing so assumes we already know effective strategies
+and somehow aren't using them properly. [LARRICK2004]\_ [RABIN1999]\_
+In many cases, incentives can produce worse outcomes. A financial advisor
+with fees tied to an increase in portfolio value, for
+example, might be biased towards riskier trades.
 
 Accountability is another way we unknowingly lessen our bias in
 our decisions, and can be better than punishments and incentives
 at countering bias in tasks
 for which we already possess the appropriate strategy, usually due to
-experience in a related field. [example?] We have a strong social need for consistency,
+experience in a related field. **[example?]** We have a strong social need for consistency,
 and are willing to put in the effort and more effectively use information when
 making decisions for which we'll be held accountable. To avoid embarrassment or maintain pride, we're more likely to foresee flaws
 by way of preemptive self-criticism. Our thirst for accountability can go too far, though,
 as we sometimes feel a need to "give people what they want", particularly if we're
-undecided, like fudging a report to match expectations. [LARRICK2004]\_
+undecided — like fudging a report to match expectations. [LARRICK2004]\_
 
-Along with accountability, context is also key when unknowingly making decisions with less bias. It helps to have
+<figure>
+<img src="https://d2f99xq7vri1nk.cloudfront.net/DinoSequentialSmaller.gif"/>
+<figcaption><strong>Fig. 2</strong> Interpreting data through summary statistics alone can be misleading. This animation shows a dozen different datasets with identical summary statistics. Source: <a href="https://www.autodeskresearch.com/publications/samestat">Autodesk Research</a></figcaption>
+</figure>
+
+Along with accountability, context is also key when unknowingly making decisions with less bias.
+With some decisions, such as those related to survival,
+false negative errors have a higher cost. Others may have
+expensive false positive errors. It helps to have
 experience in the area under study, especially if we encounter a problem we've solved before.
+When we encounter these high-cost conditions, we usually err on the side of caution.
 Yet confirmation bias often reappears if we try to map
-that experience to a different domain. One example might be a
-successful day-trader confidently wading into socioeconomic
+that experience to a different domain. [KLAYMAN1995]\_  One example might be a
+successful day-trader confidently wading into socio-economic
 theory with a selective knowledge of the field.
-Reasoning in areas of duty or obligation,
-like social rules or cultural norms, can also be relatively
-bias-free. [example?] [KLAYMAN1995]\_
-
-<aside>There seems to be no guarantee
-that intuition can be improved with more education.</aside>
 
 It's good to know we unknowingly reduce our bias when making
 certain decisions. What can be done to improve that intuition?
 In [part two of this series](../confirmation-bias-part-2/)
 we learned that confirmation bias can often develop if we fail to properly apply formal
 reasoning. We might have some basic logic, economics, or statistics knowledge
-(such as sampling) but may not know when or even how to use it. [For example, median vs. mean]
+— such as sampling — but may not know when or even how to use it.
+For example, people often misinterpret or misuse summary statistics like mean, median, or
+standard deviation (see Fig. 1), and could benefit from refresher training.
+A lesson on how causation and correlation are frequently conflated
+could also help.
 There *is* evidence that
 short training sessions in a domain with which we're comfortable —
 sports statistics, for instance — can help reduce bias in other areas. That assist, however,
-often diminishes after only two weeks. [LARRICK2004]\_ A more thorough study might be
-a better approach, yet little data exists on how specific this training can be
-and how generalizable it is. [KLAYMAN1995]\_ [Meaning? Remove?]
+often diminishes after only two weeks and suffers when learning complex rules,
+like [Bayes theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem). [LARRICK2004]\_
 
-[Training in biases, rep vs. odds — need evidence from LARRICK or KLAYMAN]
+<aside>There seems to be no guarantee
+that intuition can be improved with more education.</aside>
 
 In [part one of this series](../confirmation-bias-part-1/) we
 learned of a 2013 "study of studies" on gender and risk which
 showed that even scholars and
 experts can be victims of bias. [NELSON2015]\_ There seems to be no guarantee
 that intuition can be improved with more education. [KLAYMAN1995]\_ Outside
-motivation — punishment, accountability, etc. — can also only go
-so far, and may sometimes have the
+motivation — punishment, accountability, etc. — isn't always helpful,
+and can sometimes have the
 opposite effect, like taking accountability too far and delivering what is expected.
 We cannot debias
 ourselves by ourselves, as we're likely biased against even the existence of our biases.
-[LARRICK2004]\_ How then can we hope to lessen our bias? Formal approaches exist but are
-more geared towards reducing bias in group decisions.  As it turns out, the most effective strategy for reducing bias
+How can we hope to lessen their impact? Formal approaches exist but are
+more geared towards reducing bias in group decisions. As it turns out,
+simply *knowing* that confirmation bias exists goes a long way.
+Awareness of inconsistencies in
+human reasoning, with no instructions other than "beware",
+can help counter biases. [LARRICK2004]\_ The most effective strategy for reducing bias, however,
 may be to consider the opposite.
 
-<aside>Two people with opposing views may see the same evidence and
-judge it as being consistent with their bias.</aside>
-
-If you've ever argued a position in school – in English or a debate class, perhaps
-– you may have prepared by researching opposing arguments. Considering the
-opposite s also a decent strategy for fighting bias in our beliefs. This
+If you've ever argued a position in school — in English or a debate class, perhaps
+— you may have prepared by researching opposing arguments. Considering the
+opposite is also a decent strategy for fighting bias in our beliefs. This
 might be as simple as asking ourselves how we could be wrong on a position, why,
-and for what reasons. This approach can help reduce overconfidence – a symptom
+and for what reasons. In doing so, we widen our search and direct our attention
+to contrary evidence. This approach can help reduce overconfidence – a symptom
 of confirmation bias – and has been shown to lessen bias when seeking and
 interpreting new information. [LARRICK2004]\_ We also reason better with two theories
-than when evaluating a single hypothesis. Alternative theories can even come
-from other sources. [explain] What's important is that we seriously examine a specific
-opposing belief. [KLAYMAN1995]\_ [Example?]
+than when evaluating a single hypothesis.
+What's important is that we seriously examine a specific
+opposing belief. [KLAYMAN1995]\_
 
 Naturally, *seriously* examining an alternate belief is the key. We might not give an
 opposing belief its due, especially if we feel ours is already viable.
 [KLAYMAN1995]\_ Although paying attention to contrary evidence can help
-counter bias, requiring too many opposing views may backfire. Failing to
+counter bias, requiring too many opposing views can backfire. Failing to
 come up with a required number of alternate theories might make us
 consider weaker ones, making us more
 confident in our own viewpoint. [LARRICK2004]\_ Considering more than one theory at
 once can also divide our attention, unable to give other theories their due. We might prefer to think about alternates
-separately and independently [examples]. [KLAYMAN1995]\_
+separately and independently **[examples]**. [KLAYMAN1995]\_
 
 We might be able to hold our confirmation bias at bay so long as we're aware
 of it, and give serious thought to viewpoints opposed to our own. What about
@@ -138,26 +156,27 @@ people we work with, or our friends and family?
 
 <figure>
 <img src="../confirmation-bias-part-2/signals.png"/>
-<figcaption><strong>Fig. 3</strong> Every signal we receive influences our belief. This chart is a probable timeline of the skew of someone's specific belief.</figcaption>
+<figcaption><strong>Fig. 2</strong> Every signal we receive influences our belief. This chart is a probable timeline of the skew of someone's specific belief.</figcaption>
 </figure>
 
 Unfortunately, when it comes to other individuals, we may just have to grin and
 bear it. In the absence of bias, a rational person could correct their belief with more
-information. However, trying to convince a person affected by confirmation bias to change their belief may
-result in the opposite effect and increase their leanings. Giving the same
+information. With bias, more information is not better. Trying to convince a person affected by confirmation bias to change their belief may
+result in the opposite effect and increase their leanings. This is known as the *backfire effect* or *belief perserverance*.
+Giving the same
 ambiguous information to people with differing beliefs may move their beliefs
-further apart. [RABIN1999]\_ In one study, [cite capital punishment study – comic?]
+further apart. [RABIN1999]\_ In one study, **[cite capital punishment study – comic?]**
 Depending on their viewpoint, two people may see the same evidence and
 interpret it differently, judging it as being more consistent with their bias.
 [NICKERSON1998]\_
 
 Considering belief formation as a series of signals, as in [part two of this series](../confirmation-bias-part-2/), can also show how difficult
 it may be to debias someone else. The effect of each signal depends on those
-which came before it, including any prior beliefs (see Fig. 3). To debias someone, we may
+which came before it, including any prior beliefs (see Fig. 2). To debias someone, we may
 need to know their initial belief on a topic as well as the order of signals
 which followed. [RABIN1999]\_
-Done carefully, with open minds and curiosity, unraveling how they gathered their evidence, as in Getting To Yes, [explain]
-This process, however, depends on reliable narrators with good memories. yet dependent on open and reliable narrators.
+Done carefully, with open minds and curiosity, unraveling how they gathered their evidence, as in Getting To Yes, **[explain]**
+This process, however, depends on reliable and open narrators with good memories. yet dependent on open and reliable narrators.
 In the presence of severe bias, our efforts to reason away another's false belief could be futile, as illustrated by [The Doobie Brothers in "What a Fool Believes"](https://youtu.be/Zjqcf5F0YRg):
 
 > But what a fool believes he sees<br/>
@@ -172,13 +191,13 @@ Our friends and family with severe bias may be lost to it, but our workplace
 can still be saved. Thankfully, many decisions which matter are made by groups,
 which are more readily debiased than individuals. Many
 strategies for lessening bias in groups exist, usually involving a framework or
-tool to help make sound decisions. [table of common techniques?] Groups can make use of decision aids,
+tool to help make sound decisions. Groups can make use of decision aids,
 information displays, statistical models, and other formal decision analysis
-techniques. Complex problems can be split into smaller, simpler ones and
+techniques. Complex problems can be split into smaller, simpler ones — such as listing the pros and cons of a position — and
 assigned to smaller groups. These technical strategies are simply out of reach
 for most people. Whereas individuals can introduce bias at every step of
-the decision-making process, groups can track their progress and use those
-results as feedback. [cite?]
+the decision-making process, groups can track their progress and use the
+results as feedback. **[cite?]**
 
 When using strategies or tools to make unbiased decisions at work,
 adoption can be difficult. Processes like these are often imposed company-wide from the top down, and as such are often rejected or begrudgingly implemented, leading to failure.
@@ -193,24 +212,46 @@ Groups are also prone to *group-think*. Their members may be influenced by
 others with either more seniority, or who are more aggressively persuasive.
 Because of this, groups may anchor on the judgments of a few people. Having group
 members think about their preferences and estimates before a meeting might help
-lessen this risk. Tools and strategies [such as?] can also check errors in the
+lessen this risk. Strategies and tools such as
+[multi-attribute analysis](https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis), or
+[decision support systems](https://en.wikipedia.org/wiki/Decision_support_system)
+prompt groups to think more deeply than otherwise, and
+can also check for errors in the
 decision-making process. It's also a good idea to maintain complementary
 expertise within the group, and be aware of blind spots due to shared errors. [LARRICK2004]\_
 Creating a supportive environment which provides a chance to correct and
 adjust belief or decisions can also help. [KLAYMAN1995]\_
 
-Group-think due to blind spots may be lessened through diversity of experience
+**[comic on group think]**
+
+Group-think due to blind spots can be lessened through diversity of experience
 within the group. While training can help preserve that diversity of
 perspectives, groups can do better by increasing the sample size of experience.
-[LARRICK2004]\_ Drawing people in from a wider community will increase diversity
-of experience and may, in turn, increase diversity of thought. To reduce the
-risk of locally-held beliefs, groups should bring in members of differing
-genders, ethnicities, social-economic class, and nationality. [NELSON2015]\_ [more? example?]
+[LARRICK2004]\_ Drawing people in from a wider community increases diversity
+of experience and, in turn, increases diversity of thought. To reduce the
+risk of locally-held beliefs, groups should members of differing
+genders, ethnicities, social-economic class, and nationalities. [NELSON2015]\_ **[more? example?]**
 
+My research in confirmation bias had a profound impact on me. I was aware of
+it, but I had no idea how often our brains fail to be rational. It made me
+wonder which biases I had adopted, from where, and how much they had affected
+my actions. The possibility of spreading false belief to others bothered me the
+most, however. I vowed that bias would stop with me. Anything I was unsure of
+remained unsaid or was clarified with a disclaimer. I tried to limit my use
+of words like "every" or "none" when I really meant "most" or "few". More
+importantly, I better understood how others could become so firmly attached to
+false belief or prejudice in spite of themselves, and how the slightest action
+borne of that bias could negatively affect others.
 
-[paragraph wrapping up stopping CB]
+Fighting confirmation bias in ourselves and in groups requires careful
+and consistent attention to how we make decisions. At a bare minimum,
+know that bias exists and is widespread. Consider opposing arguments or
+alternate theories to those which drive your actions. Use tools and
+decision-making frameworks when you collaborate at work. Involve people
+with different backgrounds and experiences to rein in group-think. The
+solutions are there — act.
 
-[paragraph on CTA after CB series, How do you feel? Like me? what will you do? Be aware, be careful.]
+**[paragraph on CTA after CB series, How do you feel? Like me? what will you do? Be aware, be careful out there.]**
 
 ### References
 
