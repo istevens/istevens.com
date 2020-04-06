@@ -26,7 +26,7 @@ aisle:
 
 <figure>
 <img src=""/>
-<figcaption> [Photos of such products from supermarket]</figcaption>
+<figcaption>[Photos of such products from supermarket]</figcaption>
 </figure>
 
 This mom-marketing reinforces the stereotype of women as primary child
@@ -48,7 +48,7 @@ revealed to be a smiling woman with a pink hairband:
 
 <figure>
 <img src=""/>
-<figcaption> Mommy mode icon and dialog. Hands up if this looks like you or your mother.</figcaption>
+<figcaption>Mommy Mode app icon overlay, drop-down menu, and dialog. Hands up if this looks like you or your mother.</figcaption>
 </figure>
 
 To be fair, it does say "your mom or dad" in the text but still isn't correct
@@ -72,7 +72,9 @@ Team makeup isn't the only possibility. It's also likely the makers of the Nabi 
 userbase. There's the child who plays with the Nabi, sure, but there's also
 the parent or caregiver who *supports* it. Broadening that support userbase
 beyond mothers opens us up to many different considerations. Let's briefly
-consider a few updated personas and pair a supporting user with each child:
+consider a few personas and pair a supporting user with each child. They're
+contrived, based on assumptions, and would later be validated through
+interviews:
 
  * Ofei - 5 years old, two parents; Mother Esi as supporting user
  * Lee - 3 years old, single Dad with a nanny; Father Tim and nanny Laura as supporting users
@@ -80,17 +82,40 @@ consider a few updated personas and pair a supporting user with each child:
 
 If we consider each of these personas for a child's toy, an outdated image of a
 mother to act as tech support just won't do. We need something else — something
-which conveys "grown up" to a child who likely can't read. Too much detail
-could alienate our child and supporting users. What we need is an abstract
-representation of a grownup.
+which conveys "give this to a grown up" to a child who likely can't read. Too much detail
+could alienate the child and her supporting users. What we need is an abstract
+representation of stereotypical grownup-child interaction.
+
+One idea which comes to mind is a depiction of handing something to a grownup.
+The image below is a rough cut using pictograms to convey a child
+handing something to an adult. More details could be added, like eyes and
+facial expressions, and they can be styled to fit the tablet context. I
+hesitate to add clothes, hair, or skin colour as they would take away from a
+generalized image and feel less inclusive.
 
 <figure>
 <img src=""/>
-<figcaption> Support mode icon and dialog.</figcaption>
+<figcaption>Pictogram of a child handing something to an adult.</figcaption>
 </figure>
 
+In the dialog context, the pictogram is a cue for the children and should be
+prominent. The target child users (3-5 years) likely can't read, so any text is
+meant for an adult. Here's an updated dialog:
 
-[Alternative]
+<figure>
+<img src=""/>
+<figcaption>Updated dialog</figcaption>
+</figure>
+
+That takes care of the dialog, but what about the icon overlay and drop-down
+menu? Those two locations have less space for our pictogram, so we need
+something even more abstract. In this case, we can zoom in on the hands
+reaching out to each other and add a bit of detail:
+
+<figure>
+<img src=""/>
+<figcaption>Pictogram of a child handing something to an adult.</figcaption>
+</figure>
 
 Funny strange that a white man feels unwelcome. It's a little rich, considering
 my privilege. Know that many, many others — women, POC, LGBTQ+, disabled — encounter
