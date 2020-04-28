@@ -6,6 +6,9 @@ body {
 
 blockquote, figure {
     margin: 2rem 0;
+}
+
+blockquote {
     font-style: italic;
 }
 
@@ -30,11 +33,30 @@ article figure>img {
     max-height: 30em;
 }
 
+article table {
+    overflow-x: scroll
+}
+
+.table-centerall th, .table-centerall td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-insideborders tbody td {
+    border-width: 1px;
+    border-style: solid;
+    border: 1px 1px 1px 0;
+}
+
+.table-insideborders tbody th[scope="row"] {
+    border-right: 1px solid black;
+}
+
 figcaption {
     font-style: italic;
     font-size: small;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 article aside {
@@ -111,6 +133,7 @@ header.single-article {
 h1,
 h2,
 article .content h3,
+table,
 blockquote,
 nav,
 aside,
