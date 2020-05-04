@@ -28,9 +28,9 @@
         <a href="/"><h1>{{ name }}</h1></a>
     </nav>
 
-    <section class="container-fluid">
+    <div class="container-fluid">
         {% block body %}{% endblock %}
-    </section>
+    </div >
 
     <footer id="contact">
         {% set footer = site.get('/footer') %}
