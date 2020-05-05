@@ -2,4 +2,5 @@
 {% from "macros/pagination.html" import render_more %}
 {% set posts = site.query(this.path).limit(this.count) %}
 
-{{ render_articles(this.title, posts, render_more(this.path)) }}
+{% set render_more_text = this.more and render_more(this.path) or "" %}
+{{ render_articles(this.title, posts, render_more_text) }}
