@@ -1,3 +1,8 @@
-<section class="underline-titles text-block">
+{% set classes = "underline-titles text-block" %}
+{% if this.record.children.count() > 0 %}
+    {% set classes = classes ~ " content" %}
+{% endif %}
+
+<section class="{{ classes }}">
     {{ this.text }}
 </section>
