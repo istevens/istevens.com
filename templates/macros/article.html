@@ -55,10 +55,16 @@
 </article>
 {% endmacro %}
 
-{% macro render_articles(title, posts, pagination) %}
+{% macro render_articles(section, posts, pagination) %}
     <section class="content posts">
 
-        <header class="underline-titles centered"><h2>{{ title }}</h2></header>
+        <header class="underline-titles centered">
+            <h2>{{ section.title }}</h2>
+
+            {% if section.dek %}
+                <p>{{ section.dek }}</p>
+            {% endif %}
+        </header>
 
         <div class="gallery">
             {% for post in posts %}
