@@ -10,7 +10,7 @@ body:
 
 When designing a product, it's important to get the right message across — one
 that will appeal to *all* your customers. An off-tone design choice could
-alienate — or, worse, anger — a good chunk of your potential userbase.
+alienate — or, worse, anger — a good chunk of your potential userbase. **[more?]**
 
 As a father of young children, I'm regularly reminded of the importance of
 brand and product messaging. I consider myself an average parent. Attentive to
@@ -21,17 +21,11 @@ I'm disappointed, then, when that father role is neglected in branding and desig
 children's products. Moms are often the focus, especially with products for
 younger kids. Not only are they "Mom Approved", for "Moms Who Care", but entire
 brands and product names are matricentric (e.g. 4Moms and Mommaroo, Mothercare,
-Mother's Choice, etc.) Look no further than your supermarket's child products
-aisle:
+Mother's Choice, etc.)
 
-<figure>
-<img src=""/>
-<figcaption>[Photos of such products from supermarket]</figcaption>
-</figure>
-
-This mom-marketing reinforces the stereotype of women as primary child
-caregivers. Families without a mother are lost in the message. Active fathers
-are left to feel inadequate and unrepresented.
+Funny strange that a white man feels unwelcome. It's a little rich, considering
+my privilege. Know that many, many others — women, POC, LGBTQ+, disabled — encounter
+this barrier on a daily basis.
 
 This isn't a rant against mom-marketing. This is a rant against *one particular
 instance* of mom-marketing and how it could have been done differently. Both
@@ -50,25 +44,25 @@ revealed to be a smiling woman with a pink hairband:
 <img src="askmomicon.jpg"/>
 <img src="mommymode.jpg"/>
 <img src="askmomdialog.jpg"/>
-<figcaption>Mommy Mode app icon overlay, drop-down menu, and dialog. Hands up if this looks like you or your mother.</figcaption>
+<figcaption>Mommy Mode app icon overlay, drop-down menu, and dialog. Hands up if this looks like you or your mother. These devices are geared towards children aged 3-4. How may that age can read and understand these text labels?</figcaption>
 </figure>
 
 To be fair, it does say "your mom or dad" in the text but still isn't correct
 for many use cases. Consider what this message might evoke if an extended
 family member or another caregiver is responsible for the child. How would it
-affect a child who has lost her parents, or one who is in foster care? These
+affect a child who has lost her parents, or one in foster care? These
 are not "edge cases". [Over 2 million children in the States live without either
 of their parents](https://www.census.gov/newsroom/press-releases/2016/cb16-192.html).
 
-So what went wrong? How did Mattel, the makers of the Nabi, get to this point?
-To say they didn't care is probably far from the truth. It's likely the mistake
-slipped past the Nabi product teams because they weren't tuned to it. [Bias
+So what went wrong? How did Mattel, the makers of the Nabi miss this detail?
+To say they didn't care is probably far from the truth. It's more likely
+the Nabi product teams weren't tuned to gender bias in parenting. [Bias
 affects us all](../confirmation-bias-part-1/) and can lead to irrational
 decisions. Many people are biased towards mothers as caregivers and wouldn't
-give this design choice a second thought. It's very possible that the team in
+give this design choice a second thought. It wouldn't be very surprising, then, that the team in
 charge of this product messaging held this bias. Had the team been made up of
 active fathers, ex-foster or adopted children, or people who grew up in
-mixed-family homes, someone would have noticed this mistake sooner.
+mixed-family homes, someone would have seized the opportunity for inclusivity.
 
 Team makeup isn't the only possibility. It's also likely the makers of the Nabi tablet didn't fully consider its
 userbase. There's the child who plays with the Nabi, sure, but there's also
@@ -88,7 +82,7 @@ which conveys "give this to a grown up" to a child who likely can't read. Too mu
 could alienate the child and her supporting users. What we need is an abstract
 representation of stereotypical grownup-child interaction.
 
-One idea which comes to mind is a depiction of handing something to a grownup.
+One idea which comes to mind is a depiction of a child handing a tablet to a grownup.
 The image below is a rough cut using pictograms to convey a child
 handing something to an adult. More details could be added, like eyes and
 facial expressions, and they can be styled to fit the tablet context. I
@@ -97,7 +91,7 @@ generalized image and feel less inclusive.
 
 <figure>
 <img src="nabipicto.svg"/>
-<figcaption>Pictogram of a child handing something to an adult.</figcaption>
+<figcaption>Pictogram of a child handing a tablet to an adult.</figcaption>
 </figure>
 
 In the dialog context, the pictogram is a cue for the children and should be
@@ -119,6 +113,6 @@ reaching out to each other and add a bit of detail:
 <figcaption>Pictogram of a child handing something to an adult.</figcaption>
 </figure>
 
-Funny strange that a white man feels unwelcome. It's a little rich, considering
-my privilege. Know that many, many others — women, POC, LGBTQ+, disabled — encounter
-this barrier on a daily basis.
+Again, this image could be given a splash of colour or
+stylized to match the Nabi's design aesthetic.
+
