@@ -74,9 +74,12 @@ article aside {
     text-align: center;
 }
 
-.centered p,
 .text-block {
     text-align: justify;
+}
+
+.centered p {
+    text-align: left;
 }
 
 nav.pagination a[rel='next']::after {
