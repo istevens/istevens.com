@@ -1,11 +1,14 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
     background: #fffff9;
     color: #333;
 }
 
 blockquote, figure {
     margin: 2rem 0;
+}
+
+blockquote {
     font-style: italic;
 }
 
@@ -30,11 +33,30 @@ article figure>img {
     max-height: 30em;
 }
 
+article table {
+    overflow-x: scroll
+}
+
+.table-centerall th, .table-centerall td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table-insideborders tbody td {
+    border-width: 1px;
+    border-style: solid;
+    border: 1px 1px 1px 0;
+}
+
+.table-insideborders tbody th[scope="row"] {
+    border-right: 1px solid black;
+}
+
 figcaption {
     font-style: italic;
     font-size: small;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 article aside {
@@ -50,6 +72,14 @@ article aside {
 
 .centered  {
     text-align: center;
+}
+
+.text-block {
+    text-align: justify;
+}
+
+.centered p {
+    text-align: left;
 }
 
 nav.pagination a[rel='next']::after {
@@ -71,8 +101,13 @@ nav.pagination {
     padding: 3em 1em 5em;
 }
 
+.index .content p {
+    max-width: 20em;
+    margin: auto;
+}
+
 .main #title {
-    padding-bottom: 21em;
+    padding-bottom: 8em;
     display: flex;
     justify-content: center;
 }
@@ -96,6 +131,7 @@ nav.pagination {
 #top-nav h1,
 footer#contact,
 .page .content,
+.content.text-block,
 .index .content > header {
     max-width: 55rem;
     margin-left: auto;
@@ -111,10 +147,13 @@ header.single-article {
 h1,
 h2,
 article .content h3,
+table,
 blockquote,
 nav,
 aside,
-article.dek {
+.content.text-block,
+.dek,
+.centered p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -215,14 +254,18 @@ footer#contact .gallery {
     padding-top: 2em;
 }
 
-article .dek,
 aside,
+.dek,
+.content.text-block,
+.centered p,
 blockquote {
      font-size: 1.25rem;
      line-height: 150%;
 }
 
 article .dek,
+.content.text-block,
+.centered p,
 blockquote {
      font-weight: 300;
 }

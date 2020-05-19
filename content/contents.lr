@@ -4,8 +4,15 @@ title: Written + Seen
 ---
 body:
 
+#### text_block ####
+text:
+
+I'm a problem-solver to the core. Whether I'm writing an article, designing and developing software, illustrating a concept, educating my two children on a topic, taking a picture, or just doing a crossword, I love the challenge. This is a place for me to showcase some of my resulting solutions, mostly in the form of writing and photography.
+
 #### posts ####
 title: Recent Articles
+----
+dek: These are long-form pieces, usually involving a bit of research or structured thinking. I write about topics which interest me, which covers a lot of ground.
 ----
 path: /articles
 ----

@@ -31,7 +31,7 @@
 
         {# Strip enclosing <p> tag #}
         {% if post.dek %}
-            <h3 class="dek">{{ (post.dek|safe)[3:-3] }}</h3>
+            <h3 class="dek">{{ (post.dek|safe)[3:-5] }}</h3>
         {% endif %}
 
         {% if not from_index %}
@@ -55,10 +55,16 @@
 </article>
 {% endmacro %}
 
-{% macro render_articles(title, posts, pagination) %}
+{% macro render_articles(section, posts, pagination) %}
     <section class="content posts">
 
-        <header class="underline-titles centered"><h2>{{ title }}</h2></header>
+        <header class="underline-titles centered">
+            <h2>{{ section.title }}</h2>
+
+            {% if section.dek %}
+                <p>{{ section.dek }}</p>
+            {% endif %}
+        </header>
 
         <div class="gallery">
             {% for post in posts %}

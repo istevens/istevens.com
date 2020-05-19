@@ -9,6 +9,6 @@
 {% block bodyclass %}index{% endblock %}
 {% block body %}
 
-    {{ render_articles(this.title, posts, render_pagination(this.pagination)) }}
+    {{ render_articles(this, posts, render_pagination(this.pagination)) }}
 
 {% endblock %}
