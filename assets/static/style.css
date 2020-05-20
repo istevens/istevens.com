@@ -138,7 +138,7 @@ footer#contact,
     margin-right: auto;
 }
 
-header.single-article {
+.single-article header {
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 3em;
@@ -162,8 +162,12 @@ article>header h2 {
 }
 
 .index #top-nav h1,
-header.single-article h2 {
+.single-article header h2 {
     font-size: 3rem;
+}
+
+.single-article article h3 {
+    padding-top: 1rem;
 }
 
 .article-banner {

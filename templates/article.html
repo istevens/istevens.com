@@ -12,7 +12,7 @@
     <meta property="og:image" content="{{ this.attachments.get('header.jpg').thumbnail(1024)|url(external=True) }}"/>
     <meta property="og:url" content="{{ this|url(external=True) }}"/>
 {% endblock %}
-{% block bodyclass %}page{% endblock %}
+{% block bodyclass %}page single-article{% endblock %}
 {% block body %}
   {{ render_article(this) }}
 {% endblock %}
