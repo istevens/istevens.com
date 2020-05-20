@@ -70,6 +70,14 @@ article aside {
     text-align: center;
 }
 
+article aside.image {
+    padding: 1px;
+}
+
+article aside.image img {
+    width: 100%;
+}
+
 .centered  {
     text-align: center;
 }
@@ -320,6 +328,10 @@ blockquote {
 
     article aside {
         width: calc(100%/3);
+    }
+
+    article aside.image {
+        width: 50%;
     }
 
     article aside:nth-of-type(odd) {
