@@ -1,8 +1,8 @@
-title: Lurking review
+title: [Lurking review from a product perspective]
 ---
-dek: I recently finished *Lurking* by Joanne McNeill
+dek: [This is why do product leaders need to read this book.]
 ---
-pub_date: 2020-04-12
+pub_date: 2020-05-27
 ---
 _slug: lurking-joanne-mcneill-review
 ---
@@ -10,22 +10,23 @@ author: Ian Stevens
 ---
 body:
 
+**[Remove in favor of product-related intro — draw in]**
 I knew I was in for a wild ride when I saw Warren Ellis' — of
 [Transmetropolitan](https://en.wikipedia.org/wiki/Transmetropolitan) fame —
 quote-review on the inside front sleeve: *"The first history of the social
 internet I've seen that has its authentic life and breadth."* It's a valid
 claim.
 
-In a way, this book mirrors my history as an internet denizen, first connecting
-with friends and like-minded strangers through
+This book was interesting to me, not just on a antropological level but
+also because of how it mirrors my history as an internet denizen, first connecting
+with friends and like-minded people through
 [BBSes](https://en.wikipedia.org/wiki/Bulletin_board_system), then facilitating
 those connections as a BBS "sysop", joining the ranks of the internet on
 Usenet, creating a homepage shortly after the advent of HTTP and graphical
 browsers, then coming full circle and connecting with friends and strangers on
 evolving social media platforms, starting with blogs.
 
-Of course, if *Lurking* closely mirrored my
-experience online, it would make for boring reading — to me. McNeill frames the history of the internet user through the
+McNeill frames the history of the internet user through the
 lenses of searching, safety, privacy, identity, community, anonymity, and
 visibility. She often frames these functions with the experiences of members of fringe or
 marginalized communities. The internet's capacity to make good on that
@@ -47,3 +48,8 @@ the potential for a huge impact. At the same time, consider your offering
 through the lenses of searching, safety, privacy, identity, community,
 anonymity, and visibility, as McNeill lays out. Where does your product fit in?
 Are you supporting them, or
+
+[Examples from the book. What went wrong? What would a successful approach have
+looked like?]
+
+[Lessons haven't been learned. Keeps happening again, and again.]
