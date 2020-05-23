@@ -9,7 +9,12 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:title" content="{{ this.title|escape }}"/>
     <meta property="og:description" content="{{ dek }}"/>
-    <meta property="og:image" content="{{ this.attachments.get('header.jpg').thumbnail(1024)|url(external=True) }}"/>
+
+    {% set get_image = this.attachments.images.get %}
+    {% set header = get_image('header.jpg') or get_image('header.png') %}
+    {% if header %}
+        <meta property="og:image" content="{{ header.thumbnail(1024)|url(external=True) }}"/>
+    {% endif %}
     <meta property="og:url" content="{{ this|url(external=True) }}"/>
 {% endblock %}
 {% block bodyclass %}page single-article{% endblock %}
