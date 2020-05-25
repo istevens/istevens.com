@@ -4,7 +4,7 @@ dek:
 
 Video games, virtual reality, and augmented reality will appear more
 lifelike and naturally lit thanks to upcoming realtime raytracing chips and
-consoles. I revisit an old scene created *[mumble-mumble]* years ago in POVRay.
+consoles. I revisit an old scene created *[mumble-mumble]* years ago in POV-Ray.
 
 ---
 pub_date: 2020-05-25
@@ -21,12 +21,12 @@ optimizations and shortcuts. With closer scrutiny, lighting,
 shadows, and reflections can appear slightly off. These scenes lack
 *photorealism*, the decades-long "holy grail" of computer graphics.
 
-<aside>A coffee table previewed in your living room will look so real you might be tempted to put your mug on it.</aside>
-
-That holy grail of photorealistic game play is within our grasp. NVIDIA and AMD will ship
+That holy grail of photorealistic game play is now within our grasp. NVIDIA and AMD will ship
 [graphics processors supporting realtime raytracing later this
 year](https://www.bbc.com/news/business-52541218), with Sony and Microsoft
 leveraging their capabilities in new Playstation, Xbox, and Windows releases.
+
+<aside>A coffee table previewed in your living room will look so real you might be tempted to put your mug on it.</aside>
 
 Since 1980, *raytracing* has been the best promise for photorealism in computer
 graphics. The technique involves following (or tracing) rays of light as they
@@ -44,21 +44,21 @@ screen, a director can watch them in a photorealistic scene live on a
 monitor. With realtime raytracing on a chip, movie crews with even the smallest
 budgets will be able to track a complete scene while filming.
 
-If you're an avid gamer, realtime raytracing brings an improved look to
-many of your games. This will likely have the most impact in VR, offering
-increasingly immersive environments. It will eventually find its way to your
-phone, resulting in more natural interactions with AR objects and reality. A
+If you're an avid gamer, realtime raytracing will bring an improved look to
+many of your games. The biggest impact will likely be in VR, offering
+increasingly immersive environments. Eventually your phone will support realtime raytracing,
+resulting in more natural interactions with AR objects and real-world lighting. A
 coffee table previewed in your living room will look so real you
 might be tempted to put your mug on it.
 
 All this thinking about raytracing reminded me of high-school and university when I played around with
-[POVray](http://povray.org/), an open
+[POV-Ray](http://povray.org/), an open
 source raytracer with its own scene description language. I would later write
 my own raytracer for a computer graphics class. Simple scenes took several
 minutes to render. More complex scenes required more computing power than I
 could muster.
 
-I dug up some of my old POVray files to see if I could render them today. What
+I dug up some of my old POV-Ray files to see if I could render them today. What
 I found was an old QuickBASIC program generating 1500+ random spheres connected
 in a sphere shape. I remember being able to draw a portion of that scene, but
 not much else. Luckily there's [a free interpreter and editor for Mac
@@ -67,7 +67,7 @@ scene:
 
 <figure>
 <img src="first_bubble_render.png"/>
-<figcaption>First look of a POVRay scene I created years ago — looks like we need to add light, and maybe zoom out a little.</figcaption>
+<figcaption>First look of a POV-Ray scene I created years ago — looks like we need to add light, and maybe zoom out a little.</figcaption>
 </figure>
 
 The scene took only seconds to render, so I decided to double the number of
@@ -88,3 +88,15 @@ half-spheres to appear as if it was a sphere opened to the camera:
 <img src="open_sphere.png"/>
 <figcaption>The same green object as above, but two of them with better colour and lighting.</figcaption>
 </figure>
+
+To polish up the image, I adjusted the light sources, colours, and textures. My goal
+was for the scene to look like a gold piece on a wooden plane:
+
+<figure>
+<img src="header@1280.png"/>
+<figcaption>Finally, some intricate gold jewellery.</figcaption>
+</figure>
+
+If I were to start this project from scratch today, I obviously wouldn't use
+QuickBASIC. Instead, I would use [Vapory](https://github.com/Zulko/vapory), POV-Ray bindings for Python, to render
+the scene without generating a scene file.

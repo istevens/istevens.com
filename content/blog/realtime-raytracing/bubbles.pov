@@ -1,7 +1,7 @@
-#include "textures.inc"
 #include "colors.inc"
+#include "textures.inc"
 
-global_settings { ambient_light rgb<.8, .8, 0.8> }
+global_settings { ambient_light rgb<.3, .3, 0.3> }
 
 camera {
     location  <3.5, -.5, 1.75>
@@ -10,41 +10,54 @@ camera {
     right x*image_width/image_height
 }
 
-light_source
-{ <100, 10, -150>/50, 1
-      fade_distance 5 fade_power 2
-        area_light x*3, y*3, 12, 12 circular orient adaptive 0
-    }
-
-light_source
-{ <50, 200, 200>/50, <.3,.8,1>
-      fade_distance 5 fade_power 2
-        area_light x*3, y*3, 12, 12 circular orient adaptive 0
+light_source {
+    <3, 3, 0>, 1
+    fade_distance 5
+    fade_power 2
+    area_light x*3, y*3, 12, 12 circular orient adaptive 0
 }
 
 light_source {
-      <4, 7, 2>
-      color White
-      area_light <1, 0, 0>, <0, 0, 1>, 2, 2
-      circular orient
-      fade_power 2
-  }
+    <2, 4, 1>, <.3,.8,1>
+    fade_distance 5
+    fade_power 2
+    area_light x*3, y*3, 12, 12 circular orient adaptive 0
+}
+
+light_source {
+    <0, 4, -0.5> White
+    fade_distance 5
+    fade_power 2
+    area_light x*3, y*3, 12, 12 circular orient adaptive 0
+}
+
+#declare PlankNormal =
+    normal
+    { gradient x 2 slope_map { [0 <0,1>][.05 <1,0>][.95 <1,0>][1 <0,-1>] }
+      scale 2
+};
 
 plane {
     y, -1.125
-    texture {
-      pigment {
-        checker
-        color rgb<0.5, 0, 0>
-        color rgb<0, 0.5, 0.5>
-      }
-      finish {
-        diffuse 0.4
-        ambient 0.2
+    pigment {
+        DMFWood5 turbulence .05
+        color_map {
+            [0 color DarkBrown]
+            [0.9 color VeryDarkBrown]
+            [1 color Black]
+        }
+        scale <0.2, 0.3, 10> * 0.25
+        rotate y*20
+    }
+    normal { average normal_map
+        { [1 PlankNormal]
+          [1 wood .1 slope_map { [0 <0,0>][.5 <.5, 1>][1 <1,0>]}
+              turbulence .5 scale <1,2,10>*.25]
+        } rotate y*20
+    }
+    finish {
+        ambient 0.1
         phong 1
-        phong_size 100
-        reflection 0.25
-      }
     }
 }
 
@@ -5050,13 +5063,15 @@ plane {
    sphere { <-0.145,  0.037,  0.989> 0.005 }
    sphere { < 0.390,  0.898,  0.205> 0.014 }
    rotate <90, 0, 0>
-   texture {
-      Gold_Metal
-      finish { ambient 0.2 reflection {0.7} }
-      pigment {
-           color rgb <.6, .6, .1>
-      }
-   }
+   pigment { BrightGold }
+   finish {
+        ambient 0.1
+        diffuse 0.1
+        specular 1
+        roughness .001
+        metallic
+        reflection {0.75 metallic}
+    }
 }
 
 object {
