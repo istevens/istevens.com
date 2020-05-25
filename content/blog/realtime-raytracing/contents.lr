@@ -1,10 +1,10 @@
-title: Realtime raytracing … and a trip down memory lane
+title: How the "holy grail" of realtime computer graphics will change home entertainment
 ---
 dek:
 
 Video games, virtual reality, and augmented reality will appear more
-lifelike and naturally lit thanks to upcoming realtime raytracing chips and
-consoles. I revisit an old scene created *[mumble-mumble]* years ago in POV-Ray.
+lifelike and naturally lit thanks to new realtime raytracing chips and
+consoles. I also revisit an old scene created *[mumble-mumble]* years ago in POV-Ray.
 
 ---
 pub_date: 2020-05-25
@@ -26,8 +26,6 @@ That holy grail of photorealistic game play is now within our grasp. NVIDIA and 
 year](https://www.bbc.com/news/business-52541218), with Sony and Microsoft
 leveraging their capabilities in new Playstation, Xbox, and Windows releases.
 
-<aside>A coffee table previewed in your living room will look so real you might be tempted to put your mug on it.</aside>
-
 Since 1980, *raytracing* has been the best promise for photorealism in computer
 graphics. The technique involves following (or tracing) rays of light as they
 leave a light source and interact with the scene. That light bounces off
@@ -36,7 +34,9 @@ At every collision, the raytracing algorithm calculates changes in that ray
 of light and adjusts accordingly before it's finally projected onto the resulting
 2-dimensional image.
 
-As you can imagine, this process is extremely intensive, often taking
+<aside>A coffee table previewed in your living room will look so real you might be tempted to put your mug on it.</aside>
+
+As you can imagine, raytracing is extremely intensive, often taking
 hours for a single frame. That hasn't stopped it from being used in movies and
 video, where post-production takes months. Realtime raytracing, though,
 opens up new possibilities. Instead of watching actors in front of a green
@@ -53,21 +53,20 @@ might be tempted to put your mug on it.
 
 All this thinking about raytracing reminded me of high-school and university when I played around with
 [POV-Ray](http://povray.org/), an open
-source raytracer with its own scene description language. I would later write
-my own raytracer for a computer graphics class. Simple scenes took several
+source raytracer with its own scene description language. Simple scenes took several
 minutes to render. More complex scenes required more computing power than I
 could muster.
 
 I dug up some of my old POV-Ray files to see if I could render them today. What
 I found was an old QuickBASIC program generating 1500+ random spheres connected
 in a sphere shape. I remember being able to draw a portion of that scene, but
-not much else. Luckily there's [a free interpreter and editor for Mac
+not much else. Luckily there's [a free QB interpreter and editor for Mac
 OS](https://github.com/QB64Team/qb64/releases). Within a few minutes I had the
 scene:
 
 <figure>
 <img src="first_bubble_render.png"/>
-<figcaption>First look of a POV-Ray scene I created years ago — looks like we need to add light, and maybe zoom out a little.</figcaption>
+<figcaption>First look of a POV-Ray scene I created years ago. Looks like we should add light, and maybe zoom out a touch.</figcaption>
 </figure>
 
 The scene took only seconds to render, so I decided to double the number of
@@ -99,4 +98,5 @@ was for the scene to look like a gold piece on a wooden plane:
 
 If I were to start this project from scratch today, I obviously wouldn't use
 QuickBASIC. Instead, I would use [Vapory](https://github.com/Zulko/vapory), POV-Ray bindings for Python, to render
-the scene without generating a scene file.
+the scene without generating a scene file. It was fun to revisit POV-Ray after
+so many years, and I'll likely come back to it soon.

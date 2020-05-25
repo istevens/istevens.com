@@ -11,21 +11,21 @@ camera {
 }
 
 light_source {
-    <3, 3, 0>, 1
+    <3, 2, 0>, 1
     fade_distance 5
     fade_power 2
     area_light x*3, y*3, 12, 12 circular orient adaptive 0
 }
 
 light_source {
-    <2, 4, 1>, <.3,.8,1>
+    <2, 3, 1>, <1,.8,.1>
     fade_distance 5
     fade_power 2
     area_light x*3, y*3, 12, 12 circular orient adaptive 0
 }
 
 light_source {
-    <0, 4, -0.5> White
+    <-1, 3, 0.5> White
     fade_distance 5
     fade_power 2
     area_light x*3, y*3, 12, 12 circular orient adaptive 0
