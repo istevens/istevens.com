@@ -1,6 +1,11 @@
 title: Realtime raytracing … and a trip down memory lane
 ---
-dek: This is the dek
+dek:
+
+Video games, virtual reality, and augmented reality will appear more
+lifelike and naturally lit thanks to upcoming realtime raytracing chips and
+consoles. I revisit an old scene created *[mumble-mumble]* years ago in POVRay.
+
 ---
 pub_date: 2020-05-25
 ---
@@ -8,22 +13,20 @@ author: Ian Stevens
 ---
 body:
 
-Why raytracing? Photo-realistic with precise light
+Digital gaming and home entertainment is about to get real … well, *more* real,
+not *really* real. Computer-generated scenes have grown increasingly
+realistic, thanks largely to faster hardware. Though recent
+games and demos resemble reality, they subtly fake it by taking advantage of
+optimizations and shortcuts. With closer scrutiny, lighting,
+shadows, and reflections can appear slightly off. These scenes lack
+*photorealism*, the decades-long "holy grail" of computer graphics.
 
-If you've been following the state of computer graphics, you probably heard
-that [realtime raytracing is almost upon
-us](https://www.bbc.com/news/business-52541218). Nvidia and AMD will ship
-graphics cards with this capability later this year, with Sony and Microsoft
+<aside>A coffee table previewed in your living room will look so real you might be tempted to put your mug on it.</aside>
+
+That holy grail of photorealistic game play is within our grasp. NVIDIA and AMD will ship
+[graphics processors supporting realtime raytracing later this
+year](https://www.bbc.com/news/business-52541218), with Sony and Microsoft
 leveraging their capabilities in new Playstation, Xbox, and Windows releases.
-Gaming and home entertainment just got real.
-
-If you *don't* follow computer graphics, you're proabably wondering what all
-this means. Computer-generated scenes have grown increasingly more realistic,
-thanks largely to improvements in computer hardware. Though recent games and
-demos appear realistic, they routinely take advantage of optimizations to
-subtly fake reality. With closer scrutiny, lighting, shadows, and reflections
-can appear slightly off. These scenes lack *photorealism*, the decades-long "holy grail" of
-computer graphics.
 
 Since 1980, *raytracing* has been the best promise for photorealism in computer
 graphics. The technique involves following (or tracing) rays of light as they
@@ -33,25 +36,27 @@ At every collision, the raytracing algorithm calculates changes in that ray
 of light and adjusts accordingly before it's finally projected onto the resulting
 2-dimensional image.
 
-As you can imagine, the raytracing process is extremely intensive, often taking
+As you can imagine, this process is extremely intensive, often taking
 hours for a single frame. That hasn't stopped it from being used in movies and
-video, where post-production often takes months. Realtime raytracing, though,
+video, where post-production takes months. Realtime raytracing, though,
 opens up new possibilities. Instead of watching actors in front of a green
-screen, a director could watch them in a photorealistic scene live on a
+screen, a director can watch them in a photorealistic scene live on a
 monitor. With realtime raytracing on a chip, movie crews with even the smallest
 budgets will be able to track a complete scene while filming.
 
 If you're an avid gamer, realtime raytracing brings an improved look to
-many of your games. This will be likely have the most impact in VR, offering
+many of your games. This will likely have the most impact in VR, offering
 increasingly immersive environments. It will eventually find its way to your
 phone, resulting in more natural interactions with AR objects and reality. A
 coffee table previewed in your living room will look so real you
 might be tempted to put your mug on it.
 
-All this thinking about raytracing reminded me of my days playing around with
-[POVray](http://povray.org/) in high-school and university. Simple scenes
-took several minutes to render. More complex scenes required more computing
-power than I could muster.
+All this thinking about raytracing reminded me of high-school and university when I played around with
+[POVray](http://povray.org/), an open
+source raytracer with its own scene description language. I would later write
+my own raytracer for a computer graphics class. Simple scenes took several
+minutes to render. More complex scenes required more computing power than I
+could muster.
 
 I dug up some of my old POVray files to see if I could render them today. What
 I found was an old QuickBASIC program generating 1500+ random spheres connected
