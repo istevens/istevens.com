@@ -1,6 +1,6 @@
 title: [Lurking review from a product perspective]
 ---
-dek: [This is why do product leaders need to read this book.]
+dek: [This is why do product leaders need to read this book.] Those who don't read history are doomed to repeat it.
 ---
 pub_date: 2020-05-27
 ---
@@ -13,7 +13,7 @@ body:
 **[Remove in favor of product-related intro — draw in]**
 
 I knew I was in for a wild ride when I saw Warren Ellis' — of
-[Transmetropolitan](https://en.wikipedia.org/wiki/Transmetropolitan) fame —
+[Transmetropolitan](https://en.wikipedia.org/wiki/Transmetropolitan) and [Castlevania](https://en.wikipedia.org/wiki/Castlevania_(TV_series%29) fame —
 quote-review on the inside front sleeve: *"The first history of the social
 internet I've seen that has its authentic life and breadth."* It's a valid
 claim.
@@ -27,28 +27,86 @@ Usenet, creating a homepage shortly after the advent of HTTP and graphical
 browsers, then coming full circle and connecting with friends and strangers on
 evolving social media platforms, starting with blogs.
 
-McNeill frames the history of the internet user through the
-lenses of searching, safety, privacy, identity, community, anonymity, and
-visibility. She often frames these functions with the experiences of members of fringe or
-marginalized communities. The internet's capacity to make good on that
-functionality ebbs and flows through time and across various identities, both
-online and IRL.
-
-<aside>… should be required reading if you're creating a digital product or
-service.</aside>
-
-*Lurking* does a great job describing that history and how the
-social internet has shifted over time. If you've been online since birth,
-you'll get a comprehensive look at online life before your time. Even if you've
-been online since there's been an "online", this book pieces it all together
-and offers glimpses you otherwise might have missed.
-
-This book should be required reading if you're creating a digital product or
+If you're a product manager, designer, or developer, there's another
+reason to read *Lurking*. This book should be required reading if you're creating a digital product or
 service. Many companies strive to create a "disruptive" product, one that has
 the potential for a huge impact. At the same time, consider your offering
 through the lenses of searching, safety, privacy, identity, community,
 anonymity, and visibility, as McNeill lays out. Where does your product fit in?
 Are you supporting them, or
+
+McNeill frames the history of the internet user through the
+lenses of searching, safety, privacy, identity, community, anonymity, and
+visibility. The internet's capacity to make good on that
+functionality ebbs and flows through time and across various identities, both
+online and IRL. McNeill often uses experiences of members of fringe or
+marginalized communities to illustrate this inequity.
+
+In *Lurking*, McNeill does a great job describing that history and how the
+social internet has shifted over time. If you've been online since birth,
+you'll get a comprehensive look at online life before your time. Even if you've
+been online since there's been an "online", this book pieces it all together
+and offers glimpses you otherwise might have missed. The world and
+communications are very different, yet we keep making the same
+tone-deaf mistakes in digital products.
+
+One attitude which hasn't changed, unfortunately, is the pass white
+supremacy gets online. As with Facebook today, AOL — that walled
+garden in the internet — [defended their inaction as supporting free speech](https://about.fb.com/news/2019/10/mark-zuckerberg-stands-for-voice-and-free-expression/), despite limiting it elsewhere:
+
+> "In the nineties, AOL even hosted a page for the Texas branch of the
+> Ku Klux Klan. The online provider prohibited racial slurs in search
+> and user profiles and yet this was a First Amendment issue, AOL
+> insisted."
+
+Time and time again, companies make the same mistakes, often under the
+guise of "authenticity". Take Friendster, which hamfistedly removed
+fake accounts created as stand-ins for celebrities, movies, or even
+concepts like *war*. People created these accounts so they could engage with
+like-minded users on an authentic level. Friendster had other ideas —
+they stomped out this behaviour rather than embrace it:
+
+> "But Friendster developers were unbudging about its purpose. Rather
+> than capitalizing on emerging user behavior, they banked on their
+> product as a sorta-kinda dating space that mapped how various people
+> were connected to one another. Fakesters were an innocuous
+> presence, but the company believed they contaminated the data the
+> platform collected and provided as a hook."
+
+Facebook, in its drive for authenticity with real names, also
+kicked off accounts employees deemed fake. Unsurprisingly, some people
+[had their accounts suspended despite using their real
+names](https://en.wikipedia.org/wiki/Facebook_real-name_policy_controversy).
+In her book, McNeill recounts [the story of Lance
+Browneyes](https://www.bbc.com/news/blogs-trending-31699618), an
+Oglala Lakota artist who was kicked off Facebook for using a "fake"
+name. To get his account reinstated he had to to submit proof
+of ID, only to have a Facebook admin inexplicably change his name to
+"Lance Brown". This isn't what you want for your users.
+
+That real name policy often alienated trans users, indigenous
+people, and anyone with names that weren't expressly white. People
+could come right in with a fake account under an "accepted" name, only
+to harrass LGBTQ+ and racialized people, infiltrate their groups, or
+flag them for deletion. Meanwhile, members of those groups could use
+their real names, but only after passing through special hoops,
+requiring passport photos or other official documents. Facebook later
+changed its name policy — in 2015, 11 years after its founding.
+
+It's the stories in *Lurking* which really illustrate the damage
+poorly-designed features can cause. Take a sidebar of supposedly
+most-frequently contacted friends Facebook added in 2010. There are
+stories of girls who started seeing profiles of boys — past boyfriends
+and hookups, crushes, and acquaintances — in that space, despite not
+being connected to and not viewing those profiles. These, the girls
+deduced through experiments, were their lurkers. As you can imagine,
+the presence of this feature induced both anxiety and curiosity.
+
+Another example of unintended consequences is Facebook's "People You
+May Know" feature. One woman once noticed her estranged father of
+twenty-seven in that box. Facebook had decided to force this man back
+into her life as well as any feelings it may have brought up. Again,
+not what you want for your users.
 
 [Examples from the book. What went wrong? What would a successful approach have
 looked like?]
