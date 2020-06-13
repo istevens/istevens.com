@@ -1,6 +1,12 @@
 title: [Lurking review from a product perspective]
 ---
-dek: Released earlier this year, Lurking tells the story of the social internet, including how it's often failed marginalized people. [This is why do product leaders need to read this book.] Those who don't read history are doomed to repeat it.
+dek:
+
+*Lurking* tells the story of the social internet from the perspective of
+its users. It's also a record of how digital products can both uplift and
+fail marginalized people. Product managers and designers alike should read
+this book to avoid repeating those same mistakes.
+
 ---
 pub_date: 2020-06-12
 ---
@@ -10,8 +16,13 @@ author: Ian Stevens
 ---
 body:
 
-How often do you think about the social or psychological impact of your product or feature?
-**[Remove in favor of product-related intro — draw in. WHY?]** *Lurking* is also a great book for anyone designing or building social apps and sites. **[WHY?]**
+"Induce anguish" and "uphold white supremacy and the patriarchy" are —
+hopefully — not on any list of outcomes for a digital product. Even so,
+many social media products of the past and present have done just that.
+Joanne McNeill's *Lurking* follows the digitally connected user of the
+internet and pre-internet. It's a great book for anyone
+designing or building social apps and services. Those who forget the
+social internet's past errors are doomed to repeat them.
 
 I knew I was in for a wild ride when I saw Warren Ellis' — of
 [Transmetropolitan](https://en.wikipedia.org/wiki/Transmetropolitan) and [Castlevania](https://en.wikipedia.org/wiki/Castlevania_(TV_series%29) fame —
@@ -43,12 +54,12 @@ inclusion of Echo, like a for-fee Reddit for the New York arts
 community. If you weren't in NYC in the early 1990s, you would
 have missed it. Likewise, if you haven't been harrassed on social media,
 as many women have — especially racialized ones — you might not know about tech companies' history of largely
-ignoring such threats. *Lurking* tells these stories and others over the
+ignoring such threats. *Lurking* tells these stories and others from the
 30+ year period of the social internet.
 
 If you're a product manager, designer, or developer, there's another
 reason to read *Lurking*. McNeill includes a number of examples of product and feature fails which caused
-anxiety and anguish among users. **[You don't want to repeat *these* mistakes.]REPLACE**
+anxiety and anguish among users — especially marginalized ones.
 Many companies strive to create a "disruptive"
 product, one that has the potential for a huge impact. In doing so, they
 often unknowingly adopt or amplify toxic elements of our society — racism, sexism, etc.
@@ -58,8 +69,8 @@ McNeill frames this disruption and the history of the internet user through the
 lenses of searching, safety, privacy, identity, community, anonymity, and
 visibility. The internet's capacity to make good on those
 functionalities ebbs and flows through time and across various identities.
-**[McNeill often uses experiences of members of fringe or
-marginalized communities to illustrate this inequity.] REPLACE** **[For instance?]**
+*Lurking* includes examples of how marginalized communities have been both
+uplifted and failed by the social internet and its products and services.
 
 Our world and our use of the internet
 are very different today, yet we keep making the same
@@ -73,15 +84,15 @@ garden in the internet — [defended their inaction as supporting free speech](h
 > and user profiles and yet this was a First Amendment issue, AOL
 > insisted."
 
-**[segue?]** Time and again, companies miss the same opportunities. Often a
+Time and again, companies miss the same opportunities. Often a
 guise of "authenticity" results in its rejection.
 Take Friendster, an early social media site. People could
 connect individually, but not as a group around a shared
 interest. To compensate, users started creating fake accounts to engage
 with like-minded users on an authentic level. These
-accounts acted stand-ins for celebrities, movies, or even
-concepts like *war*. Friendster had other ideas —
-they stomped out this behaviour rather than embrace it:
+accounts acted as stand-ins for celebrities, movies, or even
+concepts like *war*. Rather than embrace it, Friendster
+stamped it out:
 
 > "But Friendster developers were unbudging about its purpose. Rather
 > than capitalizing on emerging user behavior, they banked on their
@@ -111,11 +122,11 @@ their real names without passing through special hoops, like
 requiring passport photos or other official documents. Facebook later
 changed its name policy — in 2015, 11 years after its founding.
 
-<aside>*Lurking* will
-give you a backgrounder in how previous products have failed certain
+<aside>Lurking gives
+a backgrounder in how previous products have failed certain
 segments of its users.</aside>
 
-It's the stories in *Lurking* which truly illustrate the damage
+It's the stories in *Lurking* which truly illustrate the emotional damage
 poorly-designed features can cause. Take a Facebook sidebar of supposedly
 most-frequently contacted friends added in 2010. There are
 stories of girls who started seeing profiles of boys — past boyfriends,
@@ -127,14 +138,28 @@ the presence of this feature induced both anxiety and curiosity.
 Another example of unintended consequences is Facebook's "People You
 May Know" feature. One woman once noticed her estranged father of
 twenty-seven years in that box. Facebook had decided to force this man back
-into her life as well as any feelings it may have brought up.
+into her life along with any feelings it dredged up.
 
 These aren't the kinds of experiences you want for your users.
 As a product manager or designer, you also don't want your product
 to amplify racism, sexism, or anxiety — right? *Lurking*
-gives a backgrounder in how previous products have failed certain
-segments of its users. To avoid their mistakes, consider your offering
+gives a backgrounder in how previous social products have failed certain
+segments of its users. To help you avoid their mistakes or loss of
+opportunity, read the book.
+
+While reading, consider your offering
 through the lenses of searching, safety, privacy, identity, community,
 anonymity, and visibility, as McNeill lays out. Where does your product
-fit in? Are you supporting them, or are you inadvertently eroding their
-supports, leading some to anguish?
+fit in? Are you supporting your users' outcomes in each category? In
+which ways might people from marginalized groups disagree with your
+assessment? How might your products erode outcomes or lead to anguish
+or anxiety in those categories?
+
+Errors or oversights can also be limited with teams which better
+represent a product's users. Drawing people in from a wider community
+increases diversity of experience and, in turn, increases diversity of
+thought. To reduce group-think, teams should include members of
+differing genders, ethnicities, nationalities, racial identities, and
+socioeconomic classes. Recognizing possibly damaging unintended
+outcomes won't be easy, but it will be worthwhile knowing your product
+stands a far less chance of ruining someone's day.
