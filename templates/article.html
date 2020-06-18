@@ -11,9 +11,9 @@
     <meta property="og:description" content="{{ dek }}"/>
 
     {% set get_image = this.attachments.images.get %}
-    {% set header = get_image('header.jpg') or get_image('header.png') %}
-    {% if header %}
-        <meta property="og:image" content="{{ header.thumbnail(1024)|url(external=True) }}"/>
+    {% set image = get_image('social.jpg') or get_image('social.png') or get_image('header.jpg') or get_image('header.png') %}
+    {% if image %}
+        <meta property="og:image" content="{{ image.thumbnail(1024)|url(external=True) }}"/>
     {% endif %}
     <meta property="og:url" content="{{ this|url(external=True) }}"/>
 {% endblock %}
