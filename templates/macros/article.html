@@ -1,23 +1,30 @@
+{% macro render_thumbnail(post, from_index=false) %}
+
+    {% set get_image = post.attachments.images.get %}
+    {% set header = get_image('header.jpg') or get_image('header.png') %}
+
+    {% if header %}
+        <img
+        {% if from_index %}
+            src="{{ header.thumbnail(500)|url }}"
+        {% else %}
+            src="{{ header.thumbnail(1280)|url }}" class="article-banner"
+        {% endif %}
+
+        alt="{{ header.description }}" />
+    {% endif %}
+{% endmacro %}
+
 {% macro render_article(post, from_index=false) %}
 <article {% if from_index %} class="gallery-item" {% endif %}>
     <header
         {% if from_index %}
             ><a href="{{ post|url }}">
         {% else %}
-            class="single-article page-header">
+            class="page-header">
         {% endif %}
 
-        {% set header = post.attachments.images.get('header.jpg') %}
-        {% if header %}
-            <img
-            {% if from_index %}
-                src="{{ header.thumbnail(500)|url }}"
-            {% else %}
-                src="{{ header.thumbnail(1280)|url }}" class="article-banner"
-            {% endif %}
-
-            alt="{{ header.description }}" />
-        {% endif %}
+        {{ render_thumbnail(post, from_index) }}
 
         {% if not from_index %}
             <div class="content">
