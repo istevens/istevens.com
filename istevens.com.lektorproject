@@ -2,6 +2,7 @@
 name = Ian Stevens
 url = https://ianstevens.ca/
 url_style = absolute
+included_assets = _redirects
 
 [packages]
 lektor-atom = 0.3
