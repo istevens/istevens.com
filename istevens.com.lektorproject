@@ -2,6 +2,8 @@
 name = Ian Stevens
 url = https://ianstevens.ca/
 url_style = absolute
+included_assets = _redirects
+google_analytics_code = UA-22954563-2
 
 [packages]
 lektor-atom = 0.3

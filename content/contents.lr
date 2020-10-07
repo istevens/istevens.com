@@ -4,50 +4,66 @@ title: Written + Seen
 ---
 body:
 
+#### text_block ####
+text: I'm a problem-solver to the core. Whether I'm writing an article, designing and developing software, illustrating a concept, educating my two children on a topic, taking a picture, or just doing a crossword, I love the challenge. This is a place for me to showcase some of my resulting solutions, mostly in the form of writing and photography.
 #### posts ####
 title: Recent Articles
+----
+dek: I like figuring out how to explain difficult concepts in simple terms. These long-form pieces usually involve a bit of research or structured thinking. I write about topics which interest me, which covers a lot of ground.
 ----
 path: /articles
 ----
 count: 3
 ----
 more: yes
-#### photo_block ####
-title: Featured Abstracts
+#### posts ####
+title: From the Blog
 ----
-dek: For me, photography is about playing with truth. I like to reduce a scene to its barest components, often resulting in an image loosely tied to reality.
+dek: I used to have a blog, and I miss it. I'm starting another place to put half-baked ideas, off-the-cuff thoughts, and casual observations.
+----
+path: /blog
+----
+count: 3
+----
+more: yes
+#### photo_block ####
+title: Featured Nature Photos
+----
+dek: Plants, flowers, and trees are fun to shoot. They tend to sit still, which is a distinct advantage. They're also easy and rewarding subjects, in that they're often close-by and inherently beautiful. Here are a few of my favourite nature shots.
 ----
 photos:
 
 ##### photo #####
-id: 950/42006568831_e6490681de
+id: 65535/48921160988_b1473e9917
 -----
-alt: Red brick, white concrete, and blue background
+alt: Kakabeka Falls with an orange birch
 ##### photo #####
-id: 4574/38200890064_26b9b65c54
+id: 1732/28651772208_631efe67c9
 -----
-alt: Rain falling on an outdoor ping pong table
+alt: Bell-shaped flowers dangling
 ##### photo #####
-id: 4574/24051834417_5451b992bf
+id: 4557/38243953724_a6a109a949
 -----
-alt: Black posts sticking out of red clay
+alt: Green braided plants reaching up
 ##### photo #####
-id: 981/28263187588_de139c2cc8
+id: 1960/30062515047_6d6d5b665e
 -----
-alt: Glass buildings reflected in another glass building
+alt: Red flower with dark background
 ##### photo #####
-id: 1789/42482896504_b26a0e2207
+id: 875/42048778324_458b455020
 -----
-alt: Orange grids
+alt: White flower with pink tinge
 ##### photo #####
-id: 1827/29708294118_faca4587d8
+id: 1791/43107937414_0c302ae236
 -----
-alt: Crane reflected multiple times in glass building
+alt: Trees reflecting in the water at Silent Lake
 ##### photo #####
-id: 4848/44448610590_e049104f6b
+id: 809/26126217587_004ee95fee
 -----
-alt: Toy zebra on wood deck with plastic chair
+alt:
+
+Red tropical flower with backlit silk strands 
 ##### photo #####
-id: 7876/47295181901_a57a3858cf
+id: 4781/25847877657_616937b9fc
 -----
-alt: Snow falling on railing with tree in background
+alt: Palm frond swaying in the wind

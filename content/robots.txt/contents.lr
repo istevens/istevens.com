@@ -1,0 +1,10 @@
+_template: robots.txt
+---
+_model: page
+---
+_discoverable: no
+---
+body:
+
+User-agent: *
+Allow: /

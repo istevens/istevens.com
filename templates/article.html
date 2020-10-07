@@ -4,13 +4,20 @@
 {% block head %}
     <link rel="alternate" type="application/atom+xml" title="Feed for articles on ianstevens.ca" href="/articles/feed.xml">
 
+    {% set dek = this.dek|striptags|escape %}
+    <meta name="description" content="{{ dek }}"/>
     <meta name="twitter:card" content="summary_large_image">
     <meta property="og:title" content="{{ this.title|escape }}"/>
-    <meta property="og:description" content="{{ this.dek|striptags|escape }}"/>
-    <meta property="og:image" content="{{ this.attachments.get('header.jpg').thumbnail(1024)|url(external=True) }}"/>
+    <meta property="og:description" content="{{ dek }}"/>
+
+    {% set get_image = this.attachments.images.get %}
+    {% set image = get_image('social.jpg') or get_image('social.png') or get_image('header.jpg') or get_image('header.png') %}
+    {% if image %}
+        <meta property="og:image" content="{{ image.thumbnail(1024)|url(external=True) }}"/>
+    {% endif %}
     <meta property="og:url" content="{{ this|url(external=True) }}"/>
 {% endblock %}
-{% block bodyclass %}page{% endblock %}
+{% block bodyclass %}page single-article{% endblock %}
 {% block body %}
   {{ render_article(this) }}
 {% endblock %}
