@@ -1,104 +1,125 @@
-title: Is your product microcopy micro-triggering its users?
+title: Is your product's design and microcopy repelling users?
 ---
-pub_date: 2020-10-25
+pub_date: 2020-10-30
 ---
 author: Ian Stevens
 ---
-dek: Dek here
+dek: Is your product design repelling or alienating underrepresented users? An inclusive and welcoming design is within your reach. Here's why it's important, and how to get there.
 ---
 body:
 
-**Other titles: "How to not offend people with your product
-microcopy" "Are you offending people with your product
-microcopy?"**
+Good product design attracts, bad product design
+repels. Yet not everyone experiences bad design in the same
+way. Too often, [marginalized and underrepresented users
+experience unintended product outcomes like anguish, anxiety, and a feeling of
+alienation](../lurking-joanne-mcneil-review/). This can happen
+when a product's entire userbase isn't fully considered in its
+design. The same can be said about product microcopy, those
+labels and small bits of <abbr title="User experience">UX</abbr> text which guide users in
+their tasks. How do you avoid repelling and alienating users
+and build a product that's inclusive and welcoming — one with
+a truly universal appeal?
 
-**[Story intro?]** When designing a product, it's important to get the right message across — one
-that will appeal to *all* your customers. Off-tone UX copy (AKA microcopy) and design could
-alienate — or, worse, anger — a good chunk of your potential userbase. **[work into next paragraph?]**
+As a father of young Black children, I'm regularly reminded of the importance of
+inclusive design. Not only
+must our family navigate the pink and blue aisles
+of children's clothing and toys, we're often disappointed when characters in and on
+those clothes and toys don't match our children's skin
+colour and hair texture. As an example, the only way I was able
+to get a Black Lego minifig was to buy a [Women of NASA kit](https://www.lego.com/en-ca/product/women-of-nasa-21312)
+which included Mae Jemison. [Lego doesn't think it's a problem](https://www.lego.com/en-sg/service/help/fun-for-fans/behind-the-scenes/brick-facts/why-are-minifigures-yellow-bltf9f5e2d63aefa532).
 
-As a father of young children, I'm regularly reminded of the importance of
-brand and product messaging. Designers and marketers of
-children's clothing and toys tell us that boys like blue and
-girls like pink. Boys are
-appealed to with words like "strong", "hero", and "action",
-while girls get words like "sweet", "helpful", and "precious".
-It's lazy.
-
-Lazy copy with gender stereotypes — among others — isn't limited to ads and
-product displays. It's in the products too, in the form of
+This disconnect between child userbase and product isn't just limited
+to the range of products on offer and how they're marketed.
+It's in the products themselves, in their design and
 microcopy. What follows is one example of short-sighted
-design in an electronic product for children — what went wrong and why, and how
-it could have been made better. (You won't believe how the company responsible for the "fixed"
-the design's shortcomings.)
+design in an electronic product for children, what went wrong and why, and how
+it could have been made better. After which, we'll visit how the team responsible for
+the design's shortcomings addressed them. *You won't believe how they did it.*
 
-Both our children have Nabi Jr. tablets, full-featured Android devices loaded
-with educational and fun apps for kids. They're locked down,
+Both my children have Nabi Jr. tablets, full-featured Android devices loaded
+with educational and fun apps for kids aged 3-5. They're locked down,
 but parents and caregivers can enter "Mommy Mode" with a
-password for app store access, usage statistics, and other utilities.
+password for software settings, app store access, and other utilities.
 
 You read that right: Mommy Mode. Icons for apps requiring internet access are
-greyed out and overlaid with "Account Required. Ask Mom." There's even a
-helpful lock icon with a bob-haired silhouette. Tapping it brings up a
-modal dialog titled "Ask Mom". That same "mother" also appears in a menu which slides out from the top of the screen. The silhouette is
-revealed to be a smiling white-presenting woman with a pink hairband. At least the messaging is consistent.
+greyed out and overlaid with "Account Required. Ask Mom." If that wasn't enough, the top-right corners of these icons have what looks like a red ID card with
+with a bob-haired silhouette and a tiny gold lock badge. Tapping the icon brings up a
+modal dialog titled "Ask Mom!". The silhouette is
+revealed to be a smiling white-presenting woman with a pink
+hairband. That same "mom" also appears in a menu which slides
+out from the top of the screen. At least the messaging is
+consistent.
 
 <figure>
 <img src="mommymodemontage.jpg"/>
-<figcaption>Mommy Mode app icon overlay, slide-down top menu, and dialog. Hands up if this looks like you or your mother. These devices are geared towards children aged 3-5. How many that age can read and understand these text labels?</figcaption>
+<figcaption>(L-R) Mommy Mode app icon overlay, slide-down top menu, and dialog. Hands up if this looks like you or your mother. These devices are geared towards children aged 3-5. How many that age can read and understand these text labels?</figcaption>
 </figure>
 
 To be fair, it does say "your mom or dad" in the text of the dialog, but even this messaging is inappropriate
-for many use cases. Consider how this might affect a grandmother or a long-time step-parent as primary caregiver.
-How would it
-affect a child who has lost her parents, or one in foster care? These
+for many use cases. Consider how it might affect a grandmother or a step-parent as primary caregiver.
+How would a child in foster care or an orphan feel when reading it? These
 aren't "edge cases", they're *people*. [Over 2 million children in the States live without either
 of their parents](https://www.census.gov/newsroom/press-releases/2016/cb16-192.html).
 
-That microcopy and design also does disservice to millions of other children
+That microcopy and design also does disservice to many millions of other children
 and parents. Would a child of gay parents — or the gay parents themselves — see
 themselves in this Mommy Mode? What about people of colour and their children? My
-kids and their mother are Black, so the design doesn't fit, as it wouldn't for
-millions of other parents and children in North America. This is a huge oversight.
+children and their mother are Black, and she looks
+nothing like this digital mom. The design doesn't fit,
+as it wouldn't for millions of other parents and
+children in North America. This is a huge oversight.
 
-So what went wrong? How did [Fuhu](https://en.wikipedia.org/wiki/Fuhu), makers of the Nabi, miss this detail?
+<aside>My
+wife is Black, and looks
+nothing like this digital mom. The design doesn't fit,
+as it wouldn't for millions of other parents and
+children in North America.</aside>
+
+So what went wrong? How did [Fuhu](https://en.wikipedia.org/wiki/Fuhu), makers of the Nabi, not consider these tens of millions of users?
 To say they didn't care is probably far from the truth. It's more likely
 the Nabi product teams weren't tuned to gender bias in parenting. [Bias
 affects us all and can lead to irrational
 decisions](../confirmation-bias-part-1/). Many people are biased towards mothers as caregivers and wouldn't
-give a second thought to this design. It wouldn't be very surprising, then, that the team in
-charge of product messaging held this and other biases. Similarly, a biased
-view of their users as white likely stopped the product team from considering
-alternatives to the bob-haired mother. Had the team been made up of
+give a second thought to this design. It wouldn't be surprising, then, if the team in
+charge of design and microcopy held this and other biases.
+
+Similarly, a biased
+view of Nabi's users as white likely stopped its product team from considering
+alternatives to the pale bob-haired mother. Had the team been made up of
 active fathers, ex-foster or adopted children, people who grew up in
 mixed-family homes, as well as people of colour, someone would have
-noticed the limits of that messaging and seized the opportunity for
+noticed the limits of the Mommy Mode design and seized the opportunity for
 inclusivity.
 
-Another possibility is that the Nabi team didn't fully consider its
-userbase. There are the children who play with the Nabi, sure, but there's also
+Another possibility is that the team didn't fully consider their
+userbase. There are the children who *play* with the Nabi, sure, and there's also
 a parent or caregiver who *supports* it. Broadening that support userbase
 beyond mothers — and fathers — opens us up to many different considerations. Let's briefly
-consider a few personas and pair a supporting user with each child. They're
+consider a few user personas and pair a supporting user with each child. They're
 contrived, light on detail, based on assumptions, and would later be validated through
 interviews:
 
- * Ofei - 5 years old, two parents; Mother Esi and Father Kofi as supporting users
- * Lee - 3 years old, single Dad with a nanny; Father Tim and nanny Laura as supporting users
- * Han - 4 years old, lives with grandparents; Grandfather Chen as supporting user
+<figure><ul>
+<li>Ofei - 5 years old, two parents; Mother Esi and Father Kofi as supporting users
+<li>Lee - 3 years old, single Dad with a nanny; Father Tim and nanny Laura as supporting users
+<li>Han - 4 years old, lives with grandparents; Grandfather Chen as supporting user
+</ul></figure>
 
-If we consider each of these personas for a child's toy, a sexist sterotype of a
-mother as primary caregiver just won't do. We need something else — something
-which conveys "give this to a grown up" to a child who probably can't even read. Too much detail
+With these personas, a sexist sterotype of a
+mother as primary caregiver — and a white one at that — just won't do. We need something else, something
+which conveys "give this to a grownup" to a child who probably can't even read. Too much detail
 could alienate the child and her supporting users. What we need is an abstract
 representation of stereotypical grownup-child interaction.
 
-One such depiction could be of a child handing a tablet to a grownup.
+One such abstraction could be of a child handing a tablet to a grownup.
 We could use pictograms,
 as in the image below. More details could be added, like eyes and
 facial expressions, and the figures could be styled to fit existing aesthetics.
-More detail — clothes, hair, skin colour, etc. — could take away from the
+Finer detail — clothes, hair, skin colour, etc. — could take away from the
 inclusive design we're trying to achieve. Cartoon animals and other
 non-human characters could also be used here, but tread carefully.
+Our biases and stereotypes are readily applied to cartoons if not kept in check.
 
 <figure>
 <img src="nabipicto.svg" width="50%"/>
@@ -107,11 +128,11 @@ Placed in the context of the Mommy Mode dialog, this is a signifier for the chil
 prominent.</figcaption>
 </figure>
 
-That takes care of the dialog and top nav, but what about the icon overlay and
+That takes care of the dialog. What about the icon overlay and
 menu that bring us there? Those two locations have less space for our pictogram, so we need
 something even more abstract. In this case, we can zoom in on the hands
 reaching out to each other and add a bit of detail.
-Again, this image could be given a splash of colour or
+Again, this image could be given a splash of colour and
 stylized to match the Nabi's overall design.
 
 <figure>
@@ -120,52 +141,86 @@ stylized to match the Nabi's overall design.
 </figure>
 
 With the relevant design elements out of the way, we can turn to the
-microcopy. *[Should we deal with microcopy first, then design?]*
-Our target users are 3-5 years and likely can't read, so any text is
-meant for an adult. We should first consider what text we can safely remove. Starting with the icon overlay, there are
-several things we can do to make this easier for a child to
+microcopy. Good microcopy enhances design, but shouldn't exist to make up for a bad one.
+Our target users are 3-5 year-olds who likely can't read well, if at all, so any text is
+meant for an adult. Starting with the icon overlay, there are
+several things we can do to make it easier for a child to
 understand its meaning.
 
-To a child who can't read, the existing icon overlay offers few hints
-as to its meaning. Children understand locks, though. Let's
-lean on a representation of one to signify that this content
-is unavailable. As a further signifier, we'll put our hands
-and tablet element in place of the Mommy Mode badge in the
-upper-right corner, as well as in the top menu. As for the
-dialog, we'll use our design with the child and adult
-pictogram figures instead of the "Mom" here.
+<figure>
+<img src="askmomicon.jpg" width="50%"/>
+<figcaption>The Mommy Mode app icon overlay. Note the ID card and lock badge in the top right corner.</figcaption>
+</figure>
 
-For the
-top nav, a rename of "Mommy Mode" is required. "Guardian
-Mode", "Grownup Mode", "Big Person Mode" … any of these would
-fit. The dialog title and copy need a similar tweak, and some easier microcopy
-for beginning readers. Here, then, are some alternatives to the existing
+To a child who can't read, the existing icon overlay offers few hints
+as to its meaning. Children understand locks, but the one in the top right corner is too small to appear important.
+We should draw attention to it by making the lock larger.
+We'll also use our hands
+and tablet design element in place of the Mommy Mode badge in the
+upper-right corner, as well as in the top menu. In the dialog
+we'll replace the "mom" with our child and adult
+pictogram figures.
+
+With these design changes, we can likely get away with less microcopy in the icon overlay. For the
+top menu and dialog copy, a rename of "Mommy Mode" is required.
+"Grownup Mode", "Big Person Mode", "Adult Mode" … any of these would
+fit, although that last one might raise a few eyebrows.
+When I consulted my 7-year-old, she suggested "Guardian Mode" as it could also apply to older siblings and adolescent babysitters. I thought that was a great idea, so we'll use it.
+We'll stick with the same instructions, though. Here, then, are alternatives to the existing
 microcopy and design:
 
 <figure>
-<img src=""/>
-<figcaption>Updated images</figcaption>
+<img src="guardianmodemontage.png"/>
+<figcaption>These are mockups of the (L-R) new Guardian Mode app icon overlay, slide-down top menu, and dialog. Test them with your children! Note that I've also repositioned the links on the dialog, though their functions aren't obvious.</figcaption>
 </figure>
 
-Again, we would probably change the new designs to match the Nabi aesthetic —
-this is just a mock-up after all. Still, we can already see how a small change
-in microcopy and design can lead to a more inclusive product.
+Naturally, we'd test whether children and adults can make sense of these mockups. Still, we can already see how a small change
+in microcopy and design can lead to a more inclusive and usable product.
 
 You're probably curious how the Nabi team solved the Mommy Mode challenge,
-making its design more representative of its users. Easy: a switch under Mommy
-Mode which changes it to Daddy Mode. Problem solved?
+making its design more representative of its users. Easy: a toggle under Mommy
+Mode switches it to Daddy Mode. Would you say this is
+an appropriate solution?
 
 <figure>
-<img src=""/>
-<figcaption>Same images as first but with Daddy Mode</figcaption>
+<img src="daddymode.jpg" width="50%"/>
+<figcaption>The Nabi team solved the Mommy Mode problem with … Daddy Mode. Meet your "Daddy".</figcaption>
 </figure>
 
-If you want to ensure that your products are inclusive and welcoming,
-consider your users and tone earlier in the product development process — with
-personas and team members representative of your customers. Keep in mind any
-[biases you and your team may need to overcome](../confirmation-bias-part-3/).
-As with any design changes, you should also workshop and test your design and
-microcopy. (For more on this, check out [To Design Better Products, Write
-Better UX
+It's interesting to note that, had the Nabi team started with a more
+inclusive design, they wouldn't have needed to develop
+and support the two Mommy and Daddy modes. Developers
+had to add this option to the Nabi settings, and make the labels
+and graphics change depending on the mode.
+Software development is expensive, and these costs didn't need
+to be made.
+
+How can you avoid the same oversight the Nabi team had with their
+product? If you want to ensure that your products are inclusive and welcoming,
+these three objectives will help:
+
+<figure><ol>
+<li>Consider your users, language, and tone during the ideation stage of your product, with
+personas and team members representative of your customers. Aim for diversity of experience, background, and perspective as well.
+Maintain this focus on underrepresented users throughout the product development cycle.</li>
+<li><a href="../confirmation-bias-part-1/">Keep in mind any biases you and your team may need to overcome</a> while designing and developing your product. Diversity in your team and your personas will help overcome bias, but <a href="../confirmation-bias-part-3/">more should be done</a>.</li>
+<li>Workshop your design with people from other departments in your company, and test
+how well your users will understand and act on it.</li>
+</ol></figure>
+
+These goals aren't easy, but they *are*
+worthwhile. Start slow and build momentum
+within your team. Approach building inclusive and welcoming products as a challenge
+and an opportunity to learn more about your
+users.
+You'll find new ways to provide value to your customers, and make your product easier to use — for everyone.
+The result will be
+something welcoming to all instead of repelling to some.
+
+If you want to learn more
+about how appropriate design and microcopy can lead to a better experience, be sure to read [To
+Design Better Products, Write Better UX
 Copy](https://open.nytimes.com/to-design-better-products-consider-the-language-f17b923f8bae)
-by Nina K. Feinberg of the New York Times.
+by Nina K. Feinberg of the New York Times. For a more in-depth read, try the book [Building for Everyone by Annie
+Jean-Baptiste](https://g.co/kgs/FwqBC2), Google's Head of Product Inclusion. Put out earlier this year,
+it's a fantastic and detailed guide to creating inclusive products.
