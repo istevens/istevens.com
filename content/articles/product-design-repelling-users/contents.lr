@@ -1,10 +1,16 @@
-title: Is your product's design and microcopy repelling users?
+title: Are you repelling users with your product design?
 ---
-pub_date: 2020-10-30
+pub_date: 2020-12-14
 ---
 author: Ian Stevens
 ---
-dek: Is your product design repelling or alienating underrepresented users? An inclusive and welcoming design is within your reach. Here's why it's important, and how to get there.
+_slug: child-product-inclusive-redesign
+---
+dek:
+Your seemingly innocuous product design could be repelling or
+alienating underrepresented users. Make it better by adopting a more
+inclusive and welcoming design. Here's why it's important, and how
+to get there.
 ---
 body:
 
@@ -14,11 +20,14 @@ way. Too often, [marginalized and underrepresented users
 experience unintended product outcomes like anguish, anxiety, and a feeling of
 alienation](../lurking-joanne-mcneil-review/). This can happen
 when a product's entire userbase isn't fully considered in its
-design. The same can be said about product microcopy, those
-labels and small bits of <abbr title="User experience">UX</abbr> text which guide users in
-their tasks. How do you avoid repelling and alienating users
-and build a product that's inclusive and welcoming — one with
+design. How do you avoid repelling and alienating users
+and build a product that's inclusive and welcoming, one with
 a truly universal appeal?
+
+<aside>
+This is one example of short-sighted
+design in an electronic product for children.
+</aside>
 
 As a father of young Black children, I'm regularly reminded of the importance of
 inclusive design. Not only
@@ -26,16 +35,13 @@ must our family navigate the pink and blue aisles
 of children's clothing and toys, we're often disappointed when characters in and on
 those clothes and toys don't match our children's skin
 colour and hair texture. As an example, the only way I was able
-to get a Black Lego minifig was to buy a [Women of NASA kit](https://www.lego.com/en-ca/product/women-of-nasa-21312)
+to get a Black Lego minifigure was to buy a [Women of NASA kit](https://www.lego.com/en-ca/product/women-of-nasa-21312)
 which included Mae Jemison. [Lego doesn't think it's a problem](https://www.lego.com/en-sg/service/help/fun-for-fans/behind-the-scenes/brick-facts/why-are-minifigures-yellow-bltf9f5e2d63aefa532).
 
-This disconnect between child userbase and product isn't just limited
-to the range of products on offer and how they're marketed.
-It's in the products themselves, in their design and
-microcopy. What follows is one example of short-sighted
-design in an electronic product for children, what went wrong and why, and how
-it could have been made better. After which, we'll visit how the team responsible for
-the design's shortcomings addressed them. *You won't believe how they did it.*
+Here's one example of short-sighted
+design in an electronic product for children. What went wrong and why did it happen?
+I'll answer those questions, and walk through how the design could be improved. Frankly, I was disappointed when I learned how the team responsible for
+the design's shortcomings addressed them.
 
 Both my children have Nabi Jr. tablets, full-featured Android devices loaded
 with educational and fun apps for kids aged 3-5. They're locked down,
@@ -44,7 +50,7 @@ password for software settings, app store access, and other utilities.
 
 You read that right: Mommy Mode. Icons for apps requiring internet access are
 greyed out and overlaid with "Account Required. Ask Mom." If that wasn't enough, the top-right corners of these icons have what looks like a red ID card with
-with a bob-haired silhouette and a tiny gold lock badge. Tapping the icon brings up a
+a bob-haired silhouette and a tiny gold lock badge. Tapping the icon brings up a
 modal dialog titled "Ask Mom!". The silhouette is
 revealed to be a smiling white-presenting woman with a pink
 hairband. That same "mom" also appears in a menu which slides
@@ -86,7 +92,7 @@ charge of design and microcopy held this and other biases.
 
 Similarly, a biased
 view of Nabi's users as white likely stopped its product team from considering
-alternatives to the pale bob-haired mother. Had the team been made up of
+alternatives to the fair-skinned bob-haired mother. Had the team been made up of
 active fathers, ex-foster or adopted children, people who grew up in
 mixed-family homes, as well as people of colour, someone would have
 noticed the limits of the Mommy Mode design and seized the opportunity for
@@ -106,7 +112,7 @@ interviews:
 <li>Han - 4 years old, lives with grandparents; Grandfather Chen as supporting user
 </ul></figure>
 
-With these personas, a sexist sterotype of a
+With these personas, a sexist stereotype of a
 mother as primary caregiver — and a white one at that — just won't do. We need something else, something
 which conveys "give this to a grownup" to a child who probably can't even read. Too much detail
 could alienate the child and her supporting users. What we need is an abstract
@@ -184,7 +190,7 @@ an appropriate solution?
 
 <figure>
 <img src="daddymode.jpg" width="50%"/>
-<figcaption>The Nabi team solved the Mommy Mode problem with … Daddy Mode. Meet your "Daddy".</figcaption>
+<figcaption>The Nabi team solved the Mommy Mode problem with … Daddy Mode. Meet your "Daddy". (He does sort of look like me, though.)</figcaption>
 </figure>
 
 It's interesting to note that, had the Nabi team started with a more
@@ -217,10 +223,9 @@ You'll find new ways to provide value to your customers, and make your product e
 The result will be
 something welcoming to all instead of repelling to some.
 
-If you want to learn more
+!!! If you want to learn more
 about how appropriate design and microcopy can lead to a better experience, be sure to read [To
 Design Better Products, Write Better UX
 Copy](https://open.nytimes.com/to-design-better-products-consider-the-language-f17b923f8bae)
-by Nina K. Feinberg of the New York Times. For a more in-depth read, try the book [Building for Everyone by Annie
-Jean-Baptiste](https://g.co/kgs/FwqBC2), Google's Head of Product Inclusion. Put out earlier this year,
-it's a fantastic and detailed guide to creating inclusive products.
+by Nina K. Feinberg of the New York Times. For a more in-depth read with a detailed guide to creating inclusive products, try the book [Building for Everyone by Annie
+Jean-Baptiste](https://g.co/kgs/FwqBC2), Google's Head of Product Inclusion.

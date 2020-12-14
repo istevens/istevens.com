@@ -82,7 +82,7 @@ article aside.image img {
     text-align: center;
 }
 
-.text-block {
+.content.text-block {
     text-align: justify;
 }
 
@@ -316,9 +316,12 @@ blockquote {
     padding-left: 1rem;
 }
 
+.admonition {
+    font-style: italic;
+}
+
 .admonition-info {
     padding: 0 1rem 2rem 1rem;
-    font-style: italic;
 }
 
 @media (min-width: 500px) {
