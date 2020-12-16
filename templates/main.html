@@ -8,7 +8,10 @@
 {% block body %}
 
     <header id="title">
-        <h1><span>Written</span> <span>+ Seen</span></h1>
+        {% set ts, te = '<span>', '</span>' %}
+        {% set title = this.title|safe %}
+        {% set title = ts + (te + ts).join(title.split('|')) + te %}
+        <h1>{{ title|safe }}</h1>
     </header>
 
     {{ this.body }}
