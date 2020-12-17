@@ -4,5 +4,14 @@
 {% endif %}
 
 <section class="{{ classes }}">
+    {% if this.title %}
+        <div class="underline-titles centered">
+            <h2>{{ this.title }}</h2>
+    {% endif %}
+
     {{ this.text }}
+
+    {% if this.title %}
+        </div>
+    {% endif %}
 </section>
