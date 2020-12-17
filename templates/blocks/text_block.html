@@ -1,5 +1,5 @@
 {% set classes = "underline-titles text-block" %}
-{% if this.record.children.count() > 0 %}
+{% if this.record._model == 'main' %}
     {% set classes = classes ~ " content" %}
 {% endif %}
 
