@@ -23,7 +23,7 @@ blockquote>p>a:before {
     content: '– ';
 }
 
-article figure> :first-child {
+article figure> :first-child, .index blockquote p {
     display: block;
     max-width: 100%;
     margin: auto;
@@ -78,12 +78,12 @@ article aside.image img {
     width: 100%;
 }
 
-.centered  {
-    text-align: center;
-}
-
 .content.text-block {
     text-align: justify;
+}
+
+.centered {
+    text-align: center;
 }
 
 .centered p {
@@ -109,9 +109,10 @@ nav.pagination {
     padding: 3em 1em 5em;
 }
 
-.index .content p {
+.index .content > p, .index .content > * > p {
     max-width: 20em;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main #title {
@@ -269,7 +270,7 @@ footer#contact .gallery {
 aside,
 .dek,
 .content.text-block,
-.centered p,
+.centered > p,
 blockquote {
      font-size: 1.25rem;
      line-height: 150%;
@@ -277,9 +278,18 @@ blockquote {
 
 article .dek,
 .content.text-block,
-.centered p,
+.centered > p,
 blockquote {
      font-weight: 300;
+}
+
+.main blockquote {
+     text-align: left;
+     padding: 1rem;
+}
+
+.main blockquote:nth-of-type(odd) {
+    background: orange;
 }
 
 #top-nav {

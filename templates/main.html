@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{% block title %}{{ this.title }}{% endblock %}
+{% block title %}{{ this.title|replace('|',' ') }}{% endblock %}
 {% block head %}
     <link rel="alternate" type="application/atom+xml" title="Feed for articles on ianstevens.ca" href="/articles/feed.xml">
 {% endblock %}
