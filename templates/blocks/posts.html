@@ -1,6 +1,16 @@
 {% from "macros/article.html" import render_articles %}
 {% from "macros/pagination.html" import render_more %}
-{% set articles = site.query(this.path).limit(this.count) %}
+
+{% if this.path %}
+    {% set articles = site.query(this.path).limit(this.count) %}
+{% else %}
+    {% set posts = this.posts.blocks %}
+    {% set articles = [] %}
+    {% for post in posts %}
+        {% set p = site.get(post.id) %}
+        {% do articles.append(p) %}
+    {% endfor %}
+{% endif %}
 
 {% set render_more_text = this.more and render_more(this.path) or "" %}
 {{ render_articles(this, articles, render_more_text) }}
