@@ -129,6 +129,11 @@ nav.pagination {
     color: #ccc;
 }
 
+.targeted #title h1 {
+    text-align: center;
+    line-height: 100%;
+}
+
 .main #title span {
     display: block;
 }
@@ -314,6 +319,11 @@ blockquote {
 .index #top-nav h1 {
     text-align: center;
     color: #ccc;
+}
+
+.targeted #top-nav {
+    position: relative;
+    top: -4em;
 }
 
 .page #top-nav {
