@@ -17,6 +17,12 @@ blockquote>p>a {
     display: block;
     text-align: right;
     margin-top: 2rem;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.main blockquote>p>a {
+    font-size: 1.25rem;
 }
 
 blockquote>p>a:before {
@@ -106,11 +112,11 @@ nav.pagination {
 }
 
 .index .content {
-    padding: 3em 1em 5em;
+    padding: 3em 0.5em 5em;
 }
 
 .index .content > p, .index .content > * > p {
-    max-width: 20em;
+    max-width: 21em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -193,7 +199,8 @@ article footer {
     margin-top: 3em;
 }
 
-.index .content::before,
+.index .photos::before,
+.index .posts::before,
 footer#contact::before {
     position: relative;
     left: calc(50% - 0.5em);
@@ -219,8 +226,8 @@ footer#contact::before {
 }
 
 .photos .gallery {
-    margin-left: -1rem;
-    width: calc(100% + 2rem);
+    margin-left: -0.5rem;
+    width: calc(100% + 1rem);
 }
 
 .posts a {
@@ -291,6 +298,7 @@ blockquote {
 .main blockquote {
      text-align: left;
      padding: 1rem;
+     font-weight: normal;
 }
 
 .main blockquote:nth-of-type(odd) {
@@ -345,6 +353,10 @@ blockquote {
 }
 
 @media (min-width: 500px) {
+    .main blockquote {
+        font-size: 1.5rem;
+    }
+
     blockquote, figure {
         margin: 3rem 5rem;
     }
@@ -367,6 +379,10 @@ blockquote {
         margin-left: 0;
     }
 
+    .index .content {
+        padding: 3em 1em 5em;
+    }
+
     .gallery {
         display: flex;
         flex-flow: row wrap;
@@ -378,6 +394,7 @@ blockquote {
     }
 
     .photos .gallery {
+        margin-left: -1rem;
         width: calc(100% + 2rem);
         flex-direction: column;
         max-height: 200vw;
