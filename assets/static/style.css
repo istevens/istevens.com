@@ -4,7 +4,7 @@ body {
     color: #333;
 }
 
-blockquote, figure {
+.centered li, blockquote, figure {
     margin: 2rem 0;
 }
 
@@ -29,7 +29,10 @@ blockquote>p>a:before {
     content: '– ';
 }
 
-article figure> :first-child, .index blockquote p {
+article figure> :first-child,
+.index blockquote p,
+.centered li {
+    position: relative;
     display: block;
     max-width: 100%;
     margin: auto;
@@ -92,8 +95,13 @@ article aside.image img {
     text-align: center;
 }
 
-.centered p {
+.centered p, .centered ul {
     text-align: left;
+}
+
+.centered ul {
+    font-style: italic;
+    list-style: none;
 }
 
 nav.pagination a[rel='next']::after {
@@ -109,6 +117,7 @@ nav.pagination {
 
 .container-fluid {
     padding: 0;
+    overflow: hidden;
 }
 
 .index .content {
@@ -173,7 +182,8 @@ nav,
 aside,
 .content.text-block,
 .dek,
-.centered p {
+.centered p,
+.centered ul {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -283,6 +293,7 @@ aside,
 .dek,
 .content.text-block,
 .centered > p,
+.centered > ul,
 blockquote {
      font-size: 1.25rem;
      line-height: 150%;
@@ -291,18 +302,45 @@ blockquote {
 article .dek,
 .content.text-block,
 .centered > p,
+.centered > ul,
 blockquote {
      font-weight: 300;
 }
 
+.centered li,
 .main blockquote {
      text-align: left;
-     padding: 1rem;
+     padding: 2rem;
      font-weight: normal;
 }
 
-.main blockquote:nth-of-type(odd) {
-    background: orange;
+.main blockquote:first-of-type:before,
+.main blockquote:last-of-type:after {
+    display: block;
+    position: relative;
+    font-size: 20em;
+    color: rgba(255, 165, 0, .25);
+}
+
+.main blockquote:first-of-type:before {
+    content: '\201c';
+    left: -0.2em;
+    top: 0.25em;
+}
+
+.main blockquote:last-of-type:after {
+    content: '\201d';
+    left: calc(100% - 0.35em);
+    bottom: -0.15em;
+}
+
+.centered ul {
+    padding: 0;
+}
+
+.main blockquote:nth-of-type(even),
+.centered li:nth-of-type(odd) {
+    background: rgba(255, 165, 0, .75);
 }
 
 #top-nav {
@@ -353,11 +391,12 @@ blockquote {
 }
 
 @media (min-width: 500px) {
-    .main blockquote {
+    .centered blockquote,
+    .centered ul {
         font-size: 1.5rem;
     }
 
-    blockquote, figure {
+    .centered li, blockquote, figure {
         margin: 3rem 5rem;
     }
 
