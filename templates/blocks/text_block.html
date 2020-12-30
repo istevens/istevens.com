@@ -1,9 +1,11 @@
+{% from "macros/section.html" import render_section %}
+
 {% set classes = "underline-titles text-block" %}
 {% if this.record._model == 'main' %}
     {% set classes = classes ~ " content" %}
 {% endif %}
 
-<section class="{{ classes }}">
+{% macro render_content() %}
     {% if this.title %}
         <div class="underline-titles centered">
             <h2>{{ this.title }}</h2>
@@ -14,4 +16,6 @@
     {% if this.title %}
         </div>
     {% endif %}
-</section>
+{% endmacro %}
+
+{{ render_section(this, classes, render_content) }}

@@ -1,3 +1,5 @@
+{% from "macros/section.html" import render_section %}
+
 {% macro render_thumbnail(post, from_index=false) %}
 
     {% set get_image = post.attachments.images.get %}
@@ -63,8 +65,8 @@
 {% endmacro %}
 
 {% macro render_articles(section, posts, pagination) %}
-    <section class="content posts">
 
+    {% macro render_content() %}
         <header class="underline-titles centered">
             <h2>{{ section.title }}</h2>
 
@@ -80,6 +82,8 @@
         </div>
 
         {{ pagination }}
+    {% endmacro %}
 
-    </section>
+    {{ render_section(section, "content posts", render_content) }}
+
 {% endmacro %}

@@ -1,0 +1,10 @@
+{% macro render_section(section, classes, render_content, id=None) %}
+    {% set id = "" %}
+    {% if section.title %}
+        {% set id = "id=" + section.title|lower|replace(' ','_')|replace('\'','') %}
+    {% endif %}
+
+    <section class="{{ classes }}" {{ id }}>
+        {{ render_content() }}
+    </section>
+{% endmacro %}
