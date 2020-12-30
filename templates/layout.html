@@ -1,5 +1,6 @@
 {% set name = site.config.PROJECT.name %}
 {% set in_index = this._model == 'main' %}
+{% set show_name = this._id == 'targeted' %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,7 +51,7 @@
         <p id="copyright">&copy; {{ name }}, 2020. <a href="https://github.com/istevens/istevens.com/tree/master">Built using Lektor.</a></p>
     </footer>
 
-    {% if not in_index %}
+    {% if not in_index or show_name %}
         <script type="text/javascript">
             window.onscroll = function() {
                 if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

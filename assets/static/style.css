@@ -145,6 +145,7 @@ nav.pagination {
 }
 
 .targeted #title h1 {
+    margin-top: 4rem;
     text-align: center;
     line-height: 100%;
 }
@@ -253,6 +254,7 @@ article.gallery-item img {
 }
 
 .underline-titles>h2 {
+    max-width: 34rem;
     font-weight: 800;
     display: inline-block;
     padding-bottom: 0.25rem;
@@ -293,7 +295,7 @@ aside,
 .dek,
 .content.text-block,
 .centered > p,
-.centered > ul,
+.centered li,
 blockquote {
      font-size: 1.25rem;
      line-height: 150%;
@@ -310,7 +312,7 @@ blockquote {
 .centered li,
 .main blockquote {
      text-align: left;
-     padding: 2rem;
+     padding: 2rem 1rem;
      font-weight: normal;
 }
 
@@ -347,6 +349,7 @@ blockquote {
     background: #fffff9f0;
     width: 100%;
     text-align: left;
+    z-index: 100;
 }
 
 #top-nav h1 {
@@ -367,11 +370,11 @@ blockquote {
     color: #ccc;
 }
 
-.targeted #top-nav {
-    position: relative;
-    top: -4em;
+.targeted #top-nav h1 {
+    color: inherit;
 }
 
+.targeted #top-nav,
 .page #top-nav {
     position: fixed;
     top: -4em;
@@ -392,8 +395,9 @@ blockquote {
 
 @media (min-width: 500px) {
     .centered blockquote,
-    .centered ul {
+    .centered li {
         font-size: 1.5rem;
+        padding: 2em;
     }
 
     .centered li, blockquote, figure {
