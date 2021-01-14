@@ -25,12 +25,13 @@ blockquote>p>a {
     font-size: 1.25rem;
 }
 
-blockquote>p>a:before {
+blockquote>p>a::before {
     content: '– ';
 }
 
 article figure> :first-child,
 .index blockquote p,
+.text-block img,
 .centered li {
     position: relative;
     display: block;
@@ -265,7 +266,11 @@ article.gallery-item img {
 }
 
 .underline-titles {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
+}
+
+.cta {
+    background-color: rgba(0, 90, 255, 0.25);
 }
 
 #copyright {
@@ -316,21 +321,21 @@ blockquote {
      font-weight: normal;
 }
 
-.main blockquote:first-of-type:before,
-.main blockquote:last-of-type:after {
+.main blockquote:first-of-type::before,
+.main blockquote:last-of-type::after {
     display: block;
     position: relative;
     font-size: 20em;
     color: rgba(255, 165, 0, .25);
 }
 
-.main blockquote:first-of-type:before {
+.main blockquote:first-of-type::before {
     content: '\201c';
     left: -0.2em;
     top: 0.25em;
 }
 
-.main blockquote:last-of-type:after {
+.main blockquote:last-of-type::after {
     content: '\201d';
     left: calc(100% - 0.35em);
     bottom: -0.15em;
