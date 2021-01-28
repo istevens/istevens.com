@@ -39,6 +39,10 @@ article figure> :first-child,
     margin: auto;
 }
 
+.text-block img[src *= "#half"] {
+    max-width: 50%;
+}
+
 article figure>img {
     max-height: 30em;
 }
@@ -86,10 +90,6 @@ article aside.image {
 
 article aside.image img {
     width: 100%;
-}
-
-.content.text-block {
-    text-align: justify;
 }
 
 .centered {
@@ -242,7 +242,7 @@ footer#contact::before {
     width: calc(100% + 1rem);
 }
 
-.posts a {
+.gallery header a {
     color: inherit;
 }
 
@@ -405,7 +405,9 @@ blockquote {
         padding: 2em;
     }
 
-    .centered li, blockquote, figure {
+    .centered li,
+    blockquote,
+    figure {
         margin: 3rem 5rem;
     }
 
@@ -437,7 +439,8 @@ blockquote {
         justify-content: space-between;
     }
 
-    .posts .gallery-item, #contact .text-block {
+    .posts .gallery-item,
+    #contact .text-block {
         width: calc(50% - 1rem);
     }
 

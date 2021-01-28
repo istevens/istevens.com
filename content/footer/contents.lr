@@ -42,7 +42,7 @@ text:
 <div class="form-group">
 <textarea class="form-control" name="message" placeholder="Why are you contacting Ian?" maxlength="140" rows="7"></textarea>
 </div>
-<button id="submit" class="btn btn-primary pull-right" type="submit">Get in touch</button>
+<button id="submit" class="btn btn-primary" type="submit">Get in touch</button>
 </form>
 ---
 _hidden: yes
