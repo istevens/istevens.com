@@ -4,8 +4,10 @@ body {
     color: #333;
 }
 
-.centered li, blockquote, figure {
-    margin: 2rem 0;
+.centered li,
+blockquote,
+figure {
+    margin: 1rem 0;
 }
 
 blockquote {
@@ -122,7 +124,9 @@ nav.pagination {
 }
 
 .index .content {
-    padding: 3em 0.5em 5em;
+    margin-bottom: 8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .index .content > p, .index .content > * > p {
@@ -132,7 +136,7 @@ nav.pagination {
 }
 
 .main #title {
-    padding-bottom: 8em;
+    padding-bottom: 8rem;
     display: flex;
     justify-content: center;
 }
@@ -153,10 +157,6 @@ nav.pagination {
 
 .main #title span {
     display: block;
-}
-
-.content {
-    padding: 1em;
 }
 
 #top-nav h1,
@@ -254,7 +254,7 @@ article.gallery-item img {
     margin-bottom: 0.5em;
 }
 
-.underline-titles>h2 {
+.underline-titles h2 {
     max-width: 34rem;
     font-weight: 800;
     display: inline-block;
@@ -265,17 +265,32 @@ article.gallery-item img {
     margin-bottom: 1rem;
 }
 
-.underline-titles {
-    margin-bottom: 2rem;
+header.underline-titles {
+    margin-bottom: 1rem;
 }
 
-.cta {
-    background-color: rgba(0, 90, 255, 0.25);
+.text-block.cta {
+    padding: 0;
+}
+
+.text-block.cta>div {
+    background-color: rgba(0, 100, 255, 0.25);
+    padding: 0.5rem;
+}
+
+.text-block.cta h2 {
+    font-size: 3rem;
+    border-bottom: none;
+}
+
+.text-block.cta p {
+    max-width: 100%;
+    font-weight: normal;
 }
 
 #copyright {
     text-align: right;
-    margin-top: 3em;
+    margin-top: 3rem;
     margin-bottom: 0;
 }
 
@@ -302,8 +317,8 @@ aside,
 .centered > p,
 .centered li,
 blockquote {
-     font-size: 1.25rem;
-     line-height: 150%;
+    font-size: 1.25rem;
+    line-height: 150%;
 }
 
 article .dek,
@@ -311,18 +326,18 @@ article .dek,
 .centered > p,
 .centered > ul,
 blockquote {
-     font-weight: 300;
+    font-weight: 300;
 }
 
 .centered li,
 .main blockquote {
-     text-align: left;
-     padding: 2rem 1rem;
-     font-weight: normal;
+    padding: 2rem 1rem;
+    font-weight: normal;
 }
 
 .main blockquote:first-of-type::before,
 .main blockquote:last-of-type::after {
+    text-align: left;
     display: block;
     position: relative;
     font-size: 20em;
@@ -399,16 +414,35 @@ blockquote {
 }
 
 @media (min-width: 500px) {
+
     .centered blockquote,
     .centered li {
         font-size: 1.5rem;
         padding: 2em;
     }
 
+    header.underline-titles {
+        margin-bottom: 2rem;
+    }
+
     .centered li,
     blockquote,
     figure {
         margin: 3rem 5rem;
+    }
+
+    .text-block.cta.content>div {
+        padding: 3rem;
+    }
+
+    .text-block.cta h2 {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .text-block.cta p {
+        font-weight: inherit;
+        font-size: 2rem;
     }
 
     article aside {
@@ -430,7 +464,9 @@ blockquote {
     }
 
     .index .content {
-        padding: 3em 1em 5em;
+        margin-bottom: 13rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .gallery {
@@ -463,6 +499,10 @@ blockquote {
 @media (min-width: 768px) and (orientation: landscape) {
     .posts .gallery-item {
         width: calc(100%/3 - 1rem);
+    }
+
+    .targeted .posts .gallery-item {
+        margin-bottom: 0;
     }
 }
 
