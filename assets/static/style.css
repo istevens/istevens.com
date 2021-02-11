@@ -116,6 +116,7 @@ nav.pagination {
     width: 100%;
     display: inline-block;
     text-align: center;
+    margin-top: 3rem;
 }
 
 .container-fluid {
@@ -233,8 +234,18 @@ footer#contact::before {
     content: '\e80a  \e80e';
 }
 
-.posts .gallery-item {
-    margin-bottom: 3em;
+.gallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.posts .gallery > * {
+    margin: 3rem 0 0 1rem;
+}
+
+.posts .gallery {
+    margin: -3rem 0 0 -1rem;
 }
 
 .photos .gallery {
@@ -274,7 +285,7 @@ header.underline-titles {
 }
 
 .text-block.cta>div {
-    background-color: rgba(0, 100, 255, 0.25);
+    background-color: rgba(12, 174, 255, 0.25);
     padding: 0.5rem;
 }
 
@@ -469,14 +480,12 @@ blockquote {
         padding-right: 1rem;
     }
 
-    .gallery {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
+    footer#contact .gallery {
+        width: 100%;
     }
 
-    .posts .gallery-item,
-    #contact .text-block {
+    footer#contact .text-block,
+    .posts .gallery-item {
         width: calc(50% - 1rem);
     }
 
@@ -499,10 +508,6 @@ blockquote {
 @media (min-width: 768px) and (orientation: landscape) {
     .posts .gallery-item {
         width: calc(100%/3 - 1rem);
-    }
-
-    .targeted .posts .gallery-item {
-        margin-bottom: 0;
     }
 }
 
