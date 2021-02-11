@@ -98,7 +98,8 @@ article aside.image img {
     text-align: center;
 }
 
-.centered p, .centered ul {
+.centered p,
+.centered ul {
     text-align: left;
 }
 
@@ -214,11 +215,17 @@ article footer {
 
 .index .photos::before,
 .index .posts::before,
+.text-block.cta li,
+footer#contact::before {
+    font-family: 'fontello';
+    font-size: 3rem;
+}
+
+.index .photos::before,
+.index .posts::before,
 footer#contact::before {
     position: relative;
     left: calc(50% - 0.5em);
-    font-family: 'fontello';
-    font-size: 3rem;
 }
 
 .posts::before {
@@ -286,7 +293,7 @@ header.underline-titles {
 
 .text-block.cta>div {
     background-color: rgba(12, 174, 255, 0.25);
-    padding: 0.5rem;
+    padding: 2rem 0.5rem;
 }
 
 .text-block.cta h2 {
@@ -375,6 +382,39 @@ blockquote {
 .centered li:nth-of-type(odd) {
     background: rgba(255, 165, 0, .75);
 }
+
+.text-block.cta ul {
+    display: inline-block;
+    margin: 2rem auto 3rem auto;
+}
+
+.text-block.cta li,
+.text-block.cta li:nth-of-type(odd) {
+    font-style: normal;
+    display: inline;
+    padding: 0 1rem;
+    margin: 0;
+    background: none;
+}
+
+.cta ul a:hover {
+    text-decoration: none;
+}
+
+.cta ul a:hover::before {
+    color: white;
+    background-color: rgba(12, 174, 255);
+}
+
+.cta ul a::before {
+    border-radius: 4rem;
+    padding: 1rem;
+    color: #fffff9;
+    background: #333;
+}
+
+.cta ul a[href *= "twitter"]::before { content: '\f099' }
+.cta ul a[href *= "linkedin"]::before { content: '\f0e1' }
 
 #top-nav {
     background: #fffff9f0;
