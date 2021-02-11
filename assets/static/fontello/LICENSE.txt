@@ -19,12 +19,12 @@ Font license info
    Homepage:  http://www.entypo.com
 
 
-## Modern Pictograms
+## Font Awesome
 
-   Copyright (c) 2012 by John Caserta. All rights reserved.
+   Copyright (C) 2016 by Dave Gandy
 
-   Author:    John Caserta
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
+   Author:    Dave Gandy
+   License:   SIL ()
+   Homepage:  http://fortawesome.github.com/Font-Awesome/
 
 
