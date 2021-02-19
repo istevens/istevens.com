@@ -77,7 +77,7 @@ figcaption {
 
 article aside {
     font-style: italic;
-    background: orange;
+    background: rgba(255, 165, 0, .75);
     color: #333;
     display: block;
     font-size: 1.5em;
@@ -354,35 +354,39 @@ blockquote {
     font-weight: normal;
 }
 
-.main blockquote:first-of-type::before,
-.main blockquote:last-of-type::after {
+.main blockquote::before {
     text-align: left;
     display: block;
     position: relative;
     font-size: 20em;
     color: rgba(255, 165, 0, .25);
-}
-
-.main blockquote:first-of-type::before {
-    content: '\201c';
-    left: -0.2em;
     top: 0.25em;
 }
 
-.main blockquote:last-of-type::after {
+.main blockquote:nth-of-type(odd)::before {
+    content: '\201c';
+    left: -0.2em;
+}
+
+.main blockquote:nth-of-type(even)::before {
     content: '\201d';
     left: calc(100% - 0.35em);
-    bottom: -0.15em;
 }
 
 .centered ul {
     padding: 0;
 }
 
-.main blockquote:nth-of-type(even),
-.centered li:nth-of-type(odd) {
+.centered li {
     border-radius: 3rem;
+}
+
+.centered li:nth-of-type(odd) {
     background: rgba(255, 165, 0, .75);
+}
+
+.centered li:nth-of-type(even) {
+    background: rgba(255, 165, 0, .25);
 }
 
 .text-block.cta ul {
@@ -476,7 +480,7 @@ blockquote {
     .centered blockquote,
     .centered li {
         font-size: 1.5rem;
-        padding: 2em;
+        padding: 3rem;
     }
 
     header.underline-titles {
@@ -489,8 +493,7 @@ blockquote {
         margin: 3rem 5rem;
     }
 
-    .main blockquote:nth-of-type(even),
-    .centered li:nth-of-type(odd) {
+    .centered li {
         border-radius: 5rem;
     }
 
@@ -500,7 +503,6 @@ blockquote {
     }
 
     .text-block.cta h2 {
-        font-size: 3rem;
         padding-bottom: 2rem;
     }
 
