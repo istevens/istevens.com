@@ -3,7 +3,11 @@
 {% block bodyclass %}page{% endblock %}
 {% block body %}
     <div class="content">
-        <h2>{{ this.title }}</h2>
+
+        {% if this.title %}
+            <h2>{{ this.title }}</h2>
+        {% endif %}
+
         {{ this.body }}
     </div>
 {% endblock %}

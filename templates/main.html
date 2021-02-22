@@ -7,12 +7,14 @@
 
 {% block body %}
 
-    <header id="title">
-        {% set ts, te = '<span>', '</span>' %}
-        {% set title = this.title|safe %}
-        {% set title = ts + (te + ts).join(title.split('|')) + te %}
-        <h1>{{ title|safe }}</h1>
-    </header>
+    {% if this.title %}
+        <header id="title">
+            {% set ts, te = '<span>', '</span>' %}
+            {% set title = this.title|safe %}
+            {% set title = ts + (te + ts).join(title.split('|')) + te %}
+            <h1>{{ title|safe }}</h1>
+        </header>
+    {% endif %}
 
     {{ this.body }}
 
