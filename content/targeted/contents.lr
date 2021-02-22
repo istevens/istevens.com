@@ -1,0 +1,261 @@
+_model: main
+---
+title: I'm Ian Stevens.|You should hire me.
+---
+body:
+
+#### text_block ####
+class:
+----
+title:
+----
+text: ![Memoji of Ian Stevens with beard and long hair giving a thumbs-up](thumbs_up.png#half)
+#### text_block ####
+class:
+----
+title:
+----
+text:
+
+***"If you have hard things that need to be done well, I would definitely recommend Ian."***
+
+<p>&nbsp;</p>
+
+I'm on the market for a new role in digital. This is a unique opportunity for
+your company to snap up someone who stands out from the crowd, someone who is
+equal parts **technical, creative, and analytical**, and a curious
+problem-solver who excels at communication.
+
+I've enjoyed cross-functional collaboration with mindful, passionate, and
+engaged team members, and will jump at the chance to do so again. To that end,
+I'm **drawn to product manager and product owner roles**, and have related
+experience across a variety of industries, including permanent and contract
+roles in media, banking, and digital agencies.
+
+I'm a father to two wonderful children, and have been blessed with the privilege of
+extended time off work to be present for them and to pursue my interests.  This
+time away has allowed me to reimagine my career —  and myself —  through
+courses, volunteering, [writing](#i_write_to_be_understood), and
+[photography](#im_also_a_photographer).
+
+I would be a great addition to your company. Read on to see what I have to offer.
+#### text_block ####
+class:
+----
+title: I get results at work
+----
+text:
+
+Whatever the workplace —  in media, in banking, or within an agency —  **I've
+excelled despite any initial lack of domain knowledge**. I work best when I can empower people
+to achieve more with less and approach their job with confidence. I've done
+this through effective software products and services, or clearing the path
+for others to focus on their outcomes.
+
+I've worked for startups with under ten employees, all the way up to enterprise companies
+employing tens of thousands. The *how* of product and services
+development has been my focus, with technical roles as a software
+developer, team lead, and solutions architect.
+It's the *why* and *what* of digital products which now interest me more,
+through product owner, product manager, or similar roles.
+
+- Pre-pandemic, I worked productively with teams I never met in person. This
+  included successfully managing remote third-party development of an
+  API-backed identity and access management service (IAM) which I designed.
+- I've saved people hundreds of hours spent troubleshooting QA environments within a
+  Canadian bank by managing Agile development of a product to verify and
+  visualise host and service configurations.
+- I'm happiest on cross-functional teams. I have successfully collaborated with developers, enterprise
+  architects, data scientists, information and UX architects, quality
+  assurance, designers, business analysts, and other stakeholders.
+- Because of my ability to drive change, a department of one of Canada's largest
+  newspapers not only retained unsatisfied business clients and
+  improved the client experience, but also increased demand and developer productivity.
+#### text_block ####
+class:
+----
+title: People say great things about me
+----
+text:
+
+I leave a positive impression everywhere I go. Here's what people have said about me and my work:
+
+> "Ian needed to collaborate with multiple stakeholders with varying degrees of
+> technical competency, both within the organization as well as with external
+> vendors — an activity he achieved with unfailing diplomacy and
+> professionalism." <a href="https://www.linkedin.com/in/paulbkennedy1">Paul
+> Kennedy, who worked with Ian at&nbsp;The&nbsp;Globe&nbsp;and&nbsp;Mail</a>
+
+[//]: # (break)
+> "I came to trust [Ian's] opinion and instincts regarding the development of
+> the UI elements I was designing and wireframing. Ian is both honest and
+> industrious and willing to extend himself and prototype new ideas. […] I also
+> appreciated Ian's ability to recognize opportunities to innovate the project
+> and programatically build a better solution.." <a
+> href="https://www.linkedin.com/in/vergelevans/">Vergel Evans, Information
+> Architect&nbsp;at&nbsp;Syncapse</a>
+
+[//]: # (break)
+> "Talking with another software architect about the work Ian did on the
+> project, he said that what was most surprising was that Ian was able to make
+> [Apache] Pig do things that he didn't think the language could do — all the
+> more remarkable given that Ian was being asked to learn on the fly. If you
+> have hard things that need to be done well, I would definitely recommend
+> Ian." <a href="https://www.linkedin.com/in/gordonedall/">Gordon Edall, Senior
+> Manager, Intelligence Systems at&nbsp;The&nbsp;Globe&nbsp;and&nbsp;Mail</a>
+#### text_block ####
+class:
+----
+title: I'm a lifelong learner
+----
+text:
+
+Ever curious, I enjoy finding the reason — the *why* — behind a topic or practise. It [allows me to explore other possibilities to meet that *why*](/articles/start-with-why/).
+
+- I've recently completed a [Digital Product Management
+  Specialization](https://www.coursera.org/verify/specialization/2DFU7RHSE3CR)
+  with courses in: [Digital Product Management: Modern
+  Fundamentals](https://www.coursera.org/verify/9FA8APLR55WT),
+  [Hypothesis-Driven
+  Development](https://www.coursera.org/verify/D6NNKLHJLNUS), [Agile Meets
+  Design Thinking](https://www.coursera.org/verify/9FA2VXDNK3TV), and [Managing
+  an Agile Team](https://www.coursera.org/verify/JQDBCGWER3SD).
+- Because I believe in growth and exploration, I've also completed courses in
+  Data Analysis and Statistical Inference, Machine Learning, and Bitcoin and
+  Cryptocurrency Technologies.
+#### text_block ####
+class:
+----
+title: My weekly Toronto startup newsletter reaches thousands
+----
+text:
+
+Since 2018, I've curated and written over 100 issues of a newsletter on
+startup-related news for Toronto. I feel there are many people who might want
+to turn their idea into a startup, but shy away from taking their first steps.
+I think about those people when I write my newsletter, which I send out to
+4500+ subscribers every week. If you know someone in the GTA who could do with
+some encouragement delivered to their inbox, [get them to sign
+up](http://startupdigest.com/digests/toronto).
+#### posts ####
+title: I write to be understood
+----
+dek:
+
+I enjoy figuring out how to explain difficult concepts in simple terms —  which
+is why my 5-year-old knows why and how we're made of "star stuff". I write to
+be understood, and can communicate complex topics for a range of audiences.
+Here are a few [long-form pieces I've written](/articles/) related to product
+development and topics important to me.
+----
+path:
+----
+posts:
+
+##### post #####
+id: /articles/product-design-repelling-users/
+##### post #####
+id: /articles/start-with-why/
+##### post #####
+id: /articles/confirmation-bias-part-1/
+----
+count:
+----
+more: no
+#### text_block ####
+class: cta
+----
+title: Let's work together
+----
+text:
+
+Does your company have a problem which requires curiosity, creativity, collaboration, and technical know-how?
+Having trouble finding a good fit? Get in touch with me; I might
+be able to help:
+
+- [Twitter](https://twitter.com/istevens/)
+- [LinkedIn](https://linkedin.com/in/istevens/)
+- [Medium](https://medium.com/@istevens/)
+- [Github](https://github.com/istevens/)
+
+If you're interested in learning more about my work history, have a look at my resume:
+
+- [Resume](/resume/)
+
+But wait — there's more!
+=====================
+#### photo_block ####
+title: I'm also a photographer
+----
+dek:
+
+In mid-2016 I bought myself a mirrorless digital camera. An [Olympus
+EM-10](https://g.co/kgs/X3Hu9g), it had the feel of an old rangefinder camera —
+think black leatherette body with silver upper — and reminded me of an old
+Pentax SLR my father once gave me.
+
+The Olympus felt great to hold, and its small size meant I could carry it with
+me without feeling weighed down. I vowed to use it to take a picture every day.
+
+I'm still taking those daily pictures. I saw such an improvement in my photography that [I wrote an article on the importance of short, daily practice
+sessions](/articles/everything-is-practice/).
+
+These are a few of my favourite shots.
+----
+photos:
+
+##### photo #####
+id: 65535/48921160988_b1473e9917
+-----
+alt: Kakabeka Falls with an orange birch
+##### photo #####
+id: 1732/28651772208_631efe67c9
+-----
+alt: Bell-shaped flowers dangling
+##### photo #####
+id: 4315/36142735111_84f1a0a232
+-----
+alt: Four people on a raft in a lake with trees in the background
+##### photo #####
+id: 981/28263187588_de139c2cc8
+-----
+alt: Two buildings reflected in a grid of windows
+##### photo #####
+id: 4574/24051834417_5451b992bf
+-----
+alt: Black stakes stuck in red clay with blue sky
+##### photo #####
+id: 913/43431369812_bebd4a3127
+-----
+alt: Grey speaker on grey wall with shadows
+##### photo #####
+id: 1827/29708294118_faca4587d8
+-----
+alt: A construction crane reflected in 8 windows
+##### photo #####
+id: 7876/47295181901_a57a3858cf
+-----
+alt: Snow falling with zigzag fence and a tree
+#### text_block ####
+class:
+----
+title: I even designed this site
+----
+text: Using stock templates for this website would have been far too easy. Instead, I designed and coded it from the templates to the CSS so that I could have the exact look I wanted.
+#### text_block ####
+class: cta
+----
+title: Let's connect
+----
+text:
+
+I'm active on Twitter and LinkedIn. You can also connect with me on:
+
+- [Twitter](https://twitter.com/istevens/)
+- [LinkedIn](https://linkedin.com/in/istevens/)
+- [Medium](https://medium.com/@istevens/)
+- [Github](https://github.com/istevens/)
+---
+_discoverable: no
+---
+_hidden: yes
