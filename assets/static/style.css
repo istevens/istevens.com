@@ -351,6 +351,7 @@ blockquote {
 .centered li,
 .main blockquote {
     padding: 2rem 1rem;
+    margin-bottom: 2rem;
     font-weight: normal;
 }
 
@@ -391,41 +392,54 @@ blockquote {
 
 .text-block.cta ul {
     text-align: center;
-    display: inline-block;
-    margin: 1rem auto 3rem auto;
+    margin: 2rem auto 3rem auto;
 }
 
-.text-block.cta li,
-.text-block.cta li:nth-of-type(odd) {
-    font-style: normal;
+.text-block.cta li {
     display: inline;
-    padding: 0 1rem;
-    margin: 0;
+    font-style: normal;
+    padding: 0;
+    margin: 1rem;
     background: none;
+    height: 5rem;
 }
+
+.cta ul a {
+    visibility: hidden;
+    margin: 0;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.cta ul a::after {
+    visibility: visible;
+    position: absolute;
+    line-height: 5rem;
+    width: 5rem;
+    top: 0;
+    left: 0;
+    border-radius: 5rem;
+    color: #fffff9;
+    background: #333;
+}
+
+.cta ul a[href *= "twitter"]::after { content: '\f099' }
+.cta ul a[href *= "linkedin"]::after { content: '\f0e1' }
+.cta ul a[href *= "medium"]::after { content: '\e800' }
+.cta ul a[href *= "github"]::after{ content: '\e801' }
+.cta ul a[href *= "resume"]::after{ content: '\f15c' }
 
 .cta ul a:hover {
     text-decoration: none;
 }
 
-.cta ul a:hover::before {
+.cta ul a:hover::after {
     color: white;
     background-color: rgba(12, 174, 255);
 }
 
-.cta ul a::before {
-    line-height: calc(5em/3);
-    border-radius: 4rem;
-    width: 5rem;
-    height: 5rem;
-    display: inline-block;
-    text-align: center;
-    color: #fffff9;
-    background: #333;
-}
-
-.cta ul a[href *= "twitter"]::before { content: '\f099' }
-.cta ul a[href *= "linkedin"]::before { content: '\f0e1' }
 
 #top-nav {
     background: #fffff9f0;
