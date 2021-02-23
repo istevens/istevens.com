@@ -125,10 +125,15 @@ nav.pagination {
     overflow: hidden;
 }
 
-.index .content {
-    margin-bottom: 8rem;
+.index .content,
+.page .content,
+footer#contact {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+}
+
+.index .content {
+    margin-bottom: 8rem;
 }
 
 .index .content > p, .index .content > * > p {
@@ -555,6 +560,13 @@ blockquote {
     article aside:nth-of-type(even) {
         float: left;
         margin-left: 0;
+    }
+
+    .index .content,
+    .page .content,
+    footer#contact {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .index .content {
