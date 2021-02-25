@@ -11,16 +11,23 @@
 {% endif %}
 
 {% macro render_content() %}
+    {% set div_class = "" %}
+    {% if this.record._model == 'main' %}
+        {% set div_class = "centered " %}
+    {% endif %}
     {% if this.title %}
-        <div class="underline-titles centered">
+        {% set div_class = div_class ~ "underline-titles " %}
+    {% endif %}
+
+    <div class="{{ div_class }}">
+
+        {% if this.title %}
             <h2>{{ this.title }}</h2>
-    {% endif %}
+        {% endif %}
 
-    {{ this.text }}
+        {{ this.text }}
 
-    {% if this.title %}
-        </div>
-    {% endif %}
+    </div>
 {% endmacro %}
 
 {{ render_section(this, classes, render_content) }}

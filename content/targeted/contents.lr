@@ -83,17 +83,15 @@ I leave a positive impression everywhere I go. Here's what people have said abou
 > "Ian needed to collaborate with multiple stakeholders with varying degrees of
 > technical competency, both within the organization as well as with external
 > vendors — an activity he achieved with unfailing diplomacy and
-> professionalism." <a href="https://www.linkedin.com/in/paulbkennedy1">Paul
-> Kennedy, who worked with Ian at&nbsp;The&nbsp;Globe&nbsp;and&nbsp;Mail</a>
+> professionalism." [Paul
+> Kennedy, to whom Ian reported while at&nbsp;The&nbsp;Globe&nbsp;and&nbsp;Mail](https://www.linkedin.com/in/paulbkennedy1/)
 
 [//]: # (break)
 > "I came to trust [Ian's] opinion and instincts regarding the development of
 > the UI elements I was designing and wireframing. Ian is both honest and
 > industrious and willing to extend himself and prototype new ideas. […] I also
 > appreciated Ian's ability to recognize opportunities to innovate the project
-> and programatically build a better solution.." <a
-> href="https://www.linkedin.com/in/vergelevans/">Vergel Evans, Information
-> Architect&nbsp;at&nbsp;Syncapse</a>
+> and programatically build a better solution.." [Vergel Evans, Information Architect&nbsp;at&nbsp;Syncapse](https://www.linkedin.com/in/vergelevans/)
 
 [//]: # (break)
 > "Talking with another software architect about the work Ian did on the
@@ -101,8 +99,19 @@ I leave a positive impression everywhere I go. Here's what people have said abou
 > [Apache] Pig do things that he didn't think the language could do — all the
 > more remarkable given that Ian was being asked to learn on the fly. If you
 > have hard things that need to be done well, I would definitely recommend
-> Ian." <a href="https://www.linkedin.com/in/gordonedall/">Gordon Edall, Senior
-> Manager, Intelligence Systems at&nbsp;The&nbsp;Globe&nbsp;and&nbsp;Mail</a>
+> Ian." [Gordon Edall, Senior
+> Manager, Intelligence Systems at&nbsp;The&nbsp;Globe&nbsp;and&nbsp;Mail](https://www.linkedin.com/in/gordonedall/)
+#### text_block ####
+class: cta-sm
+----
+title:
+----
+text:
+
+To see more of my work history, have a look at my resume:
+
+- [My resume](/resume/)
+
 #### text_block ####
 class:
 ----
@@ -163,7 +172,7 @@ count:
 ----
 more: no
 #### text_block ####
-class: cta
+class: cta-lg
 ----
 title: Let's work together
 ----
@@ -180,7 +189,7 @@ be able to help:
 
 If you're interested in learning more about my work history, have a look at my resume:
 
-- [Resume](/resume/)
+- [My resume](/resume/)
 
 But wait — there's more!
 =====================

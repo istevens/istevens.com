@@ -4,11 +4,34 @@ body {
     color: #333;
 }
 
+aside,
+.dek,
+.content.text-block,
+.centered > p,
+.centered li,
+blockquote {
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+
 .centered li,
 blockquote,
 figure {
     margin: 1rem 0;
 }
+
+.centered li {
+    border-radius: 3rem;
+}
+
+.centered li:nth-of-type(odd) {
+    background: rgba(255, 165, 0, .75);
+}
+
+.centered li:nth-of-type(even) {
+    background: rgba(255, 165, 0, .25);
+}
+
 
 blockquote {
     font-style: italic;
@@ -136,10 +159,15 @@ footer#contact {
     margin-bottom: 8rem;
 }
 
-.index .content > p, .index .content > * > p {
+.index .content > p,
+.index .content > * > p {
     max-width: 21em;
     margin-left: auto;
     margin-right: auto;
+}
+
+.index .content.cta-sm {
+    max-width: 34rem;
 }
 
 .main #title {
@@ -224,7 +252,7 @@ article footer {
 
 .index .photos::before,
 .index .posts::before,
-.text-block.cta li,
+[class*=" cta"] .centered li,
 footer#contact::before {
     font-family: 'fontello';
     font-size: 3rem;
@@ -296,7 +324,7 @@ header.underline-titles {
     margin-bottom: 1rem;
 }
 
-.text-block.cta,
+.index .content[class*=" cta"],
 .text-block.full-screen {
     padding: 0;
 }
@@ -314,20 +342,27 @@ body.resume header#title {
     display: none;
 }
 
-.text-block.cta>div {
+[class*=" cta"] > div {
     border-radius: 3rem;
     background-color: rgba(12, 174, 255, 0.25);
     padding: 2rem 0.5rem;
 }
 
-.text-block.cta h2 {
+.cta-sm > div {
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+[class*=" cta"] h2 {
     font-size: 3rem;
     border-bottom: none;
 }
 
-.text-block.cta p {
-    max-width: 100%;
-    font-weight: normal;
+.index .content[class*=" cta"] p {
+    max-width: 55rem;
+}
+
+.cta-sm p {
+    padding: 0 1rem;
 }
 
 #copyright {
@@ -347,16 +382,6 @@ footer#contact .underline-titles>h2 {
 
 footer#contact .gallery {
     padding-top: 2em;
-}
-
-aside,
-.dek,
-.content.text-block,
-.centered > p,
-.centered li,
-blockquote {
-    font-size: 1.25rem;
-    line-height: 150%;
 }
 
 article .dek,
@@ -397,68 +422,56 @@ blockquote {
     padding: 0;
 }
 
-.centered li {
-    border-radius: 3rem;
-}
-
-.centered li:nth-of-type(odd) {
-    background: rgba(255, 165, 0, .75);
-}
-
-.centered li:nth-of-type(even) {
-    background: rgba(255, 165, 0, .25);
-}
-
-.text-block.cta ul {
+[class*=" cta"] .centered ul {
     text-align: center;
     margin: 2rem auto 3rem auto;
 }
 
-.text-block.cta li {
+.cta-sm .centered ul {
+    margin: 1rem auto;
+}
+
+[class*=" cta"] .centered li {
     display: inline;
     font-style: normal;
     padding: 0;
     margin: 1rem;
     background: none;
-    height: 5rem;
 }
 
-.cta ul a {
+[class*=" cta"] li a {
     visibility: hidden;
-    margin: 0;
-    display: inline-block;
+    display: inline-flex;
     width: 5rem;
     height: 5rem;
     margin-bottom: 1rem;
 }
 
-.cta ul a::after {
+[class*=" cta"] li a::after {
     visibility: visible;
     position: absolute;
     line-height: 5rem;
     width: 5rem;
     top: 0;
-    left: 0;
     border-radius: 5rem;
     color: #fffff9;
     background: #333;
 }
 
-.cta ul a[href *= "twitter"]::after { content: '\f099' }
-.cta ul a[href *= "linkedin"]::after { content: '\f0e1' }
-.cta ul a[href *= "medium"]::after { content: '\e800' }
-.cta ul a[href *= "github"]::after{ content: '\e801' }
-.cta ul a[href *= "resume"]::after{ content: '\f15c' }
+[class*=" cta"] li a[href *= "twitter"]::after { content: '\f099' }
+[class*=" cta"] li a[href *= "linkedin"]::after { content: '\f0e1' }
+[class*=" cta"] li a[href *= "medium"]::after { content: '\e800' }
+[class*=" cta"] li a[href *= "github"]::after{ content: '\e801' }
+[class*=" cta"] li a[href *= "resume"]::after{ content: '\f15c' }
 
-.cta ul a:hover {
+[class*=" cta"] li a:hover {
     text-decoration: none;
 }
 
-.cta ul a:hover::after {
+[class*=" cta"] li a:hover::after {
     color: white;
     background-color: rgba(12, 174, 255);
 }
-
 
 #top-nav {
     background: #fffff9f0;
@@ -530,16 +543,20 @@ blockquote {
         border-radius: 5rem;
     }
 
-    .text-block.cta.content>div {
+    [class*=" cta"] > div {
         border-radius: 5rem;
         padding: 3rem;
     }
 
-    .text-block.cta h2 {
+    .cta-sm > div {
+        padding: 2rem;
+    }
+
+    [class*=" cta"] h2 {
         padding-bottom: 2rem;
     }
 
-    .text-block.cta p {
+    [class*=" cta"] p {
         font-weight: inherit;
         font-size: 2rem;
     }
@@ -562,6 +579,7 @@ blockquote {
         margin-left: 0;
     }
 
+    .index .content[class*=" cta"],
     .index .content,
     .page .content,
     footer#contact {
@@ -571,8 +589,6 @@ blockquote {
 
     .index .content {
         margin-bottom: 13rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
     }
 
     footer#contact .gallery {
