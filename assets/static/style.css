@@ -64,8 +64,15 @@ article figure> :first-child,
     margin: auto;
 }
 
-.text-block img[src *= "#half"] {
+.text-block img[src *= "headshot"] {
     max-width: 50%;
+    min-width: 15rem;
+    border-radius: 50%;
+    background: rgba(12, 174, 255, 0.5);
+    background: linear-gradient(220deg, rgba(12,174,255,0.75) 50%, rgba(12,174,255,0.25) 100%);
+    background-clip: content-box;
+    padding: 5px;
+    border: 1px solid rgba(12, 174, 255, 0.5);
 }
 
 article figure>img {
