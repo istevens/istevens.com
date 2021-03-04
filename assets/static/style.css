@@ -178,7 +178,7 @@ footer#contact {
 }
 
 .main #title {
-    padding-bottom: 8rem;
+    margin-bottom: 8rem;
     display: flex;
     justify-content: center;
 }
@@ -346,7 +346,7 @@ header.underline-titles {
 }
 
 body.resume header#title {
-    display: none;
+    margin-bottom: 1rem;
 }
 
 [class*=" cta"] > div {
