@@ -1,5 +1,5 @@
 {% set name = site.config.PROJECT.name %}
-{% set show_name_onscroll = this._id == 'targeted' or this._model == 'article' %}
+{% set show_name_onscroll = this._id == 'hire' or this._model == 'article' %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,7 +25,7 @@
     {% block head %}{% endblock %}
 </head>
 
-<body class="{% block bodyclass %}{{this._model}} {{this._id}}{% endblock %}">
+<body class="{% block bodyclass %}{{this._model}} {{this._id}} {{ "showTitleOnScroll" if show_name_onscroll }}{% endblock %}">
 
     <nav id="top-nav" class="heading">
         <a href="/"><h1>{{ name }}</h1></a>

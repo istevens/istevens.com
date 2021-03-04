@@ -191,7 +191,7 @@ footer#contact {
     color: #ccc;
 }
 
-.targeted #title h1 {
+.showTitleOnScroll #title h1 {
     margin-top: 4rem;
     text-align: center;
     line-height: 100%;
@@ -505,11 +505,11 @@ blockquote {
     color: #ccc;
 }
 
-.targeted #top-nav h1 {
+.showTitleOnScroll #top-nav h1 {
     color: inherit;
 }
 
-.targeted #top-nav,
+.showTitleOnScroll #top-nav,
 .page #top-nav {
     position: fixed;
     top: -4em;
