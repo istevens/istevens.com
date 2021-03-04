@@ -1,13 +1,13 @@
 {% from "macros/section.html" import render_section %}
 
-{% macro render_thumbnail(post, from_index=false) %}
+{% macro render_thumbnail(post, in_article_list=false) %}
 
     {% set get_image = post.attachments.images.get %}
     {% set header = get_image('header.jpg') or get_image('header.png') %}
 
     {% if header %}
         <img
-        {% if from_index %}
+        {% if in_article_list %}
             src="{{ header.thumbnail(500)|url }}"
         {% else %}
             src="{{ header.thumbnail(1280)|url }}" class="article-banner"
@@ -17,24 +17,24 @@
     {% endif %}
 {% endmacro %}
 
-{% macro render_article(post, from_index=false) %}
-<article {% if from_index %} class="gallery-item" {% endif %}>
+{% macro render_article(post, in_article_list=false) %}
+<article {% if in_article_list %} class="gallery-item" {% endif %}>
     <header
-        {% if from_index %}
+        {% if in_article_list %}
             ><a href="{{ post|url }}">
         {% else %}
             class="page-header">
         {% endif %}
 
-        {{ render_thumbnail(post, from_index) }}
+        {{ render_thumbnail(post, in_article_list) }}
 
-        {% if not from_index %}
+        {% if not in_article_list %}
             <div class="content">
         {% endif %}
 
         <h2>{{ post.title }}</h2>
 
-        {% if from_index %}
+        {% if in_article_list %}
                 </a>
         {% endif %}
 
@@ -43,12 +43,12 @@
             <h3 class="dek">{{ (post.dek|safe)[3:-5] }}</h3>
         {% endif %}
 
-        {% if not from_index %}
+        {% if not in_article_list %}
             </div>
         {% endif %}
     </header>
 
-    {% if not from_index %}
+    {% if not in_article_list %}
         <div class="content">
             {{ post.body }}
 

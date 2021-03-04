@@ -17,7 +17,7 @@
     {% endif %}
     <meta property="og:url" content="{{ this|url(external=True) }}"/>
 {% endblock %}
-{% block bodyclass %}page single-article{% endblock %}
+{% block bodyclass %}{{ super() }} page single-article{% endblock %}
 {% block body %}
   {{ render_article(this) }}
 {% endblock %}

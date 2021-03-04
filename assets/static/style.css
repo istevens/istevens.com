@@ -55,7 +55,7 @@ blockquote>p>a::before {
 }
 
 article figure> :first-child,
-.index blockquote p,
+.main blockquote p,
 .text-block img,
 .centered li {
     position: relative;
@@ -155,25 +155,25 @@ nav.pagination {
     overflow: hidden;
 }
 
-.index .content,
+.main .content,
 .page .content,
 footer#contact {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
 
-.index .content {
+.main .content {
     margin-bottom: 8rem;
 }
 
-.index .content > p,
-.index .content > * > p {
+.main .content > p,
+.main .content > * > p {
     max-width: 21em;
     margin-left: auto;
     margin-right: auto;
 }
 
-.index .content.cta-sm {
+.main .content.cta-sm {
     max-width: 34rem;
 }
 
@@ -205,7 +205,7 @@ footer#contact {
 footer#contact,
 .page .content,
 .content.text-block,
-.index .content > header {
+.main .content > header {
     max-width: 55rem;
     margin-left: auto;
     margin-right: auto;
@@ -239,7 +239,7 @@ article>header h2 {
     text-transform: capitalize;
 }
 
-.index #top-nav h1,
+.main #top-nav h1,
 .single-article header h2 {
     font-size: 3rem;
 }
@@ -257,16 +257,16 @@ article footer {
     margin-top: 3em;
 }
 
-.index .photos::before,
-.index .posts::before,
+.main .photos::before,
+.main .posts::before,
 [class*=" cta"] .centered li,
 footer#contact::before {
     font-family: 'fontello';
     font-size: 3rem;
 }
 
-.index .photos::before,
-.index .posts::before,
+.main .photos::before,
+.main .posts::before,
 footer#contact::before {
     position: relative;
     left: calc(50% - 0.5em);
@@ -331,7 +331,7 @@ header.underline-titles {
     margin-bottom: 1rem;
 }
 
-.index .content[class*=" cta"],
+.main .content[class*=" cta"],
 .text-block.full-screen {
     padding: 0;
 }
@@ -364,7 +364,7 @@ body.resume header#title {
     border-bottom: none;
 }
 
-.index .content[class*=" cta"] p {
+.main .content[class*=" cta"] p {
     max-width: 55rem;
 }
 
@@ -500,7 +500,7 @@ blockquote {
     color: #333;
 }
 
-.index #top-nav h1 {
+.main #top-nav h1 {
     text-align: center;
     color: #ccc;
 }
@@ -586,15 +586,15 @@ blockquote {
         margin-left: 0;
     }
 
-    .index .content[class*=" cta"],
-    .index .content,
+    .main .content[class*=" cta"],
+    .main .content,
     .page .content,
     footer#contact {
         padding-left: 1rem;
         padding-right: 1rem;
     }
 
-    .index .content {
+    .main .content {
         margin-bottom: 13rem;
     }
 
