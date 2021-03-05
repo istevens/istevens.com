@@ -1,3 +1,7 @@
 [build]
     publish = "build"
-    command = "lektor build --output-path ./build"
+    command = "make"
+
+[context.branch-deploy]
+    publish = "build/hire"
+    command = "make hire"
