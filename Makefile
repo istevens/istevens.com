@@ -1,44 +1,60 @@
-NAME?=
-COMPANY?=
+AUTHORIZATION_BEARER := -H 'Authorization: Bearer $(NETLIFY_SECRET_BEARER)'
+NETLIFY_SITE_API := https:\/\/api.netlify.com/api/v1/sites/
+SITE_ROOT := hire.ianstevens.ca
+BUILD_DIR := build
 
 ROOT := https:\/\/ianstevens.ca
 ANCHOR := s/\(href=\"\).*\(\#[a-z0-9_]*\)/\1\2/
 IMAGES := s/\(img src=\"\)$(ROOT).*\(\/.*\"\)/\1\2/
 ASSETS := s/\(href=\"\)$(ROOT)\(\/static\/.*\"\)/\1\2/
 
-default:
-	lektor build -O build
+build:
+	lektor build -O $(BUILD_DIR)
+
+clean:
+	rm -rf $(BUILD_DIR)
 
 DASH := -
 EMPTY :=
 SPACE := $(EMPTY) $(EMPTY)
 space2dash = $(shell echo $(subst $(SPACE),$(DASH),$(strip $(1))) | tr '[:upper:]' '[:lower:]')
 name_company := $(call space2dash,$(NAME) $(COMPANY))
-sum := $(shell echo -ne $(name_company) | md5sum | cut -c 1-10)
-branch := $(name_company)-$(sum)
+sum := $(shell echo -ne $(name_company) | md5sum | cut -c 1-6)
+new_branch := $(name_company)-$(sum)
 hire-branch:
-	git branch $(branch)
-	git co $(branch)
-
-hire-deploy: hire-build
-	# git branch --show-current
-	# zip tree
-	# curl deploy
+	git branch $(new_branch)
+	git co $(new_branch)
 
 hire-build:
-	sed -i .bak "s/absolute/external/" istevens.com.lektorproject
-	sed -i .bak "/^_hidden/d" content/hire/contents.lr
+	sed -i "" "s/absolute/external/" istevens.com.lektorproject
+	sed -i "" "/^_hidden/d" content/hire/contents.lr
 
-	lektor build -O build
+	lektor build -O $(BUILD_DIR)
 
 	# change img, anchor links, assets to relative
-	sed -i "" "$(ANCHOR);$(IMAGES);$(ASSETS)" build/hire/index.html
+	sed -i "" "$(ANCHOR);$(IMAGES);$(ASSETS)" $(BUILD_DIR)/hire/index.html
 
 	# Include only assets, hire
-	cp -r build/static build/hire
+	cp -r $(BUILD_DIR)/static $(BUILD_DIR)/hire/
 
 	# assets/_redirect?
 	# robots.txt?
 
-clean:
-	rm -rf build/
+branch := $(shell git branch --show-current)
+hire-deploy: hire-build
+	cd $(BUILD_DIR)/hire && zip -r $(branch).zip .
+
+	# Create site, then deploy
+	curl -H "Content-Type: application/json" \
+		 $(AUTHORIZATION_BEARER) \
+		 --data '{"name": "$(branch)", "custom_domain": "$(branch).$(SITE_ROOT)"}'\
+		 $(NETLIFY_SITE_API)
+
+	curl -H "Content-Type: application/zip" \
+		 $(AUTHORIZATION_BEARER) \
+		 --data-binary "@$(BUILD_DIR)/hire/$(branch).zip" \
+		 $(NETLIFY_SITE_API)$(branch).$(SITE_ROOT)/deploys
+
+hire-undeploy:
+	curl -X DELETE $(AUTHORIZATION_BEARER) \
+		 $(NETLIFY_SITE_API)$(branch).$(SITE_ROOT)
