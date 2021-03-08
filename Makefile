@@ -26,8 +26,10 @@ hire-branch:
 	git co $(new_branch)
 
 hire-build:
-	sed -i ".bak" "s/absolute/external/" istevens.com.lektorproject
-	sed -i ".bak" "/^_hidden/d" content/hire/contents.lr
+	mv istevens.com.lektorproject istevens.com.lektorproject.bak
+	mv content/hire/contents.lr content/hire/contents.lr.bak
+	sed "s/absolute/external/" istevens.com.lektorproject.bak > istevens.com.lektorproject
+	sed "/^_hidden/d" content/hire/contents.lr.bak > content/hire/contents.lr
 
 	lektor build -O $(BUILD_DIR)
 
