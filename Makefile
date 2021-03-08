@@ -5,8 +5,7 @@ BUILD_DIR := build
 
 ROOT := https:\/\/ianstevens.ca
 ANCHOR := s/\(href=\"\).*\(\#[a-z0-9_]*\)/\1\2/
-IMAGES := s/\(img src=\"\)$(ROOT).*\(\/.*\"\)/\1\2/
-ASSETS := s/\(href=\"\)$(ROOT)\(\/static\/.*\"\)/\1\2/
+IMAGES := /\/static\//! s/\(img src=\"\)$(ROOT).*\(\/.*\"\)/\1\2/
 
 build:
 	lektor build -O $(BUILD_DIR)
@@ -35,7 +34,7 @@ hire-build:
 
 	# change img, anchor links, assets to relative
 	mv $(BUILD_DIR)/hire/index.html $(BUILD_DIR)/hire/index.html.bak
-	sed "$(ANCHOR);$(IMAGES);$(ASSETS)" $(BUILD_DIR)/hire/index.html.bak > $(BUILD_DIR)/hire/index.html
+	sed "$(ANCHOR);$(IMAGES)" $(BUILD_DIR)/hire/index.html.bak > $(BUILD_DIR)/hire/index.html
 	rm $(BUILD_DIR)/hire/index.html.bak
 
 	# Include only assets, hire
