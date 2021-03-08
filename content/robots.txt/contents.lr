@@ -8,3 +8,4 @@ body:
 
 User-agent: *
 Allow: /
+Sitemap: https://ianstevens.ca/sitemap.xml
