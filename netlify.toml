@@ -1,7 +1,0 @@
-[build]
-    publish = "build"
-    command = "make"
-
-[context.branch-deploy]
-    publish = "build/hire"
-    command = "make hire"
