@@ -9,7 +9,7 @@ class:
 ----
 title:
 ----
-text: ![Photo of Ian Stevens smiling on a blue background](headshot.webp)
+text: ![Photo of Ian Stevens smiling on a blue background](/static/headshot.webp)
 #### text_block ####
 class:
 ----
@@ -111,7 +111,6 @@ text:
 To see more of my work history, have a look at my resume:
 
 - [My resume](/resume/)
-
 #### text_block ####
 class:
 ----
