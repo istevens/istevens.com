@@ -26,8 +26,8 @@ hire-branch:
 	git co $(new_branch)
 
 hire-build:
-	sed -i "" "s/absolute/external/" istevens.com.lektorproject
-	sed -i "" "/^_hidden/d" content/hire/contents.lr
+	sed -i ".bak" "s/absolute/external/" istevens.com.lektorproject
+	sed -i ".bak" "/^_hidden/d" content/hire/contents.lr
 
 	lektor build -O $(BUILD_DIR)
 
@@ -39,6 +39,9 @@ hire-build:
 
 	# assets/_redirect?
 	# robots.txt?
+
+	mv istevens.com.lektorproject.bak istevens.com.lektorproject
+	mv content/hire/contents.lr.bak content/hire/contents.lr
 
 branch := $(shell git branch --show-current)
 hire-deploy: hire-build
