@@ -34,7 +34,9 @@ hire-build:
 	lektor build -O $(BUILD_DIR)
 
 	# change img, anchor links, assets to relative
-	sed -i "" "$(ANCHOR);$(IMAGES);$(ASSETS)" $(BUILD_DIR)/hire/index.html
+	mv $(BUILD_DIR)/hire/index.html $(BUILD_DIR)/hire/index.html.bak
+	sed "$(ANCHOR);$(IMAGES);$(ASSETS)" $(BUILD_DIR)/hire/index.html.bak > $(BUILD_DIR)/hire/index.html
+	rm $(BUILD_DIR)/hire/index.html.bak
 
 	# Include only assets, hire
 	cp -r $(BUILD_DIR)/static $(BUILD_DIR)/hire/
