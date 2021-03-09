@@ -23,6 +23,20 @@ path: /articles
 count: 3
 ----
 more: yes
+#### text_block ####
+class:
+----
+title: My weekly Toronto startup newsletter aims to inspire
+----
+text:
+
+Since 2018, I've curated and written over 100 issues of a newsletter on
+startup-related news for Toronto. I feel there are many people who might want
+to turn their idea into a startup, but shy away from taking their first steps.
+I think about those people when I write my newsletter, which I send out to
+4500+ subscribers every week. If you know someone in the GTA who could do with
+some encouragement delivered to their inbox, [get them to sign
+up](http://startupdigest.com/digests/toronto).
 #### photo_block ####
 title: Featured Nature Photos
 ----
