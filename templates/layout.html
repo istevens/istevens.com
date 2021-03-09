@@ -4,14 +4,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% set google_analytics_code = config.PROJECT.google_analytics_code %}
-    {% if google_analytics_code %}
+    {% set universal_analytics_code = config.PROJECT.universal_analytics_code %}
+    {% if universal_analytics_code %}
         <script>
             window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-            ga('create', '{{ google_analytics_code }}', 'auto');
+            ga('create', '{{ universal_analytics_code }}', 'auto');
             ga('send', 'pageview');
         </script>
         <script async src='https://www.google-analytics.com/analytics.js'></script>
+    {% endif %}
+
+    {% set google_analytics_code = config.PROJECT.google_analytics_code %}
+    {% if google_analytics_code %}
+        <script async src="https://www.googletagmanager.com/gtag/js?id={{ google_analytics_code }}"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '{{ google_analytics_code }}');
+        </script>
     {% endif %}
 
     <meta charset="utf-8">
