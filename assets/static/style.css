@@ -547,11 +547,11 @@ blockquote {
     }
 
     .centered li {
-        border-radius: 5rem;
+        border-radius: 3rem;
     }
 
     [class*=" cta"] > div {
-        border-radius: 5rem;
+        border-radius: 4rem;
         padding: 3rem;
     }
 
