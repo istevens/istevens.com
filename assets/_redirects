@@ -5,9 +5,9 @@ https://istevens.com/* https://ianstevens.ca/:splat 301!
 https://istevens.ca/* https://ianstevens.ca/:splat 301!
 
 # External properties
-/photos http://flickriver.com/photos/istevens/popular-interesting/
-/resume https://drive.google.com/uc?export=download&id=0B2xDdQg0Z1RieEpaWk5SUFJIMHc
-/techstars https://read.letterhead.email/techstars-toronto
+/photos http://flickriver.com/photos/istevens/popular-interesting/ 302!
+/resume https://drive.google.com/uc?export=download&id=0B2xDdQg0Z1RieEpaWk5SUFJIMHc 302!
+/techstars https://read.letterhead.email/techstars-toronto 302!
 
 # Internal redirects
-/confirmation-bias-part-:part /articles/confirmation-bias-part-:part/ 301
+/confirmation-bias-part-* /articles/confirmation-bias-part-:splat 301
