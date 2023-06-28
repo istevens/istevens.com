@@ -3,6 +3,7 @@ http://istevens.ca/* https://ianstevens.ca/:splat 301!
 https://istevens.com/* https://ianstevens.ca/:splat 301!
 https://istevens.ca/* https://ianstevens.ca/:splat 301!
 
+/confirmation-bias-part-:part /articles/confirmation-bias-part-:part/ 301!
 /photos http://flickriver.com/photos/istevens/popular-interesting/ 302
 /resume https://drive.google.com/uc?export=download&id=0B2xDdQg0Z1RieEpaWk5SUFJIMHc 302
 /techstars https://www.getrevue.co/profile/toronto 302
