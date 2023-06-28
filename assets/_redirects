@@ -1,9 +1,13 @@
+# These should be handled by Netlify DNS, possible duplicate
 http://istevens.com/* https://ianstevens.ca/:splat 301!
 http://istevens.ca/* https://ianstevens.ca/:splat 301!
 https://istevens.com/* https://ianstevens.ca/:splat 301!
 https://istevens.ca/* https://ianstevens.ca/:splat 301!
 
-/confirmation-bias-part-:part /articles/confirmation-bias-part-:part/ 301!
-/photos http://flickriver.com/photos/istevens/popular-interesting/ 302
-/resume https://drive.google.com/uc?export=download&id=0B2xDdQg0Z1RieEpaWk5SUFJIMHc 302
-/techstars https://www.getrevue.co/profile/toronto 302
+# External properties
+/photos http://flickriver.com/photos/istevens/popular-interesting/
+/resume https://drive.google.com/uc?export=download&id=0B2xDdQg0Z1RieEpaWk5SUFJIMHc
+/techstars https://read.letterhead.email/techstars-toronto
+
+# Internal redirects
+/confirmation-bias-part-:part /articles/confirmation-bias-part-:part/ 301
