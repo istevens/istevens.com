@@ -7,6 +7,9 @@ ROOT := https:\/\/ianstevens.ca
 ANCHOR := s/\(href=\"\).*\(\#[a-z0-9_]*\)/\1\2/
 IMAGES := /\/static\//! s/\(img src=\"\)$(ROOT).*\(\/.*\"\)/\1\2/
 
+host:
+	lektor serve
+
 build:
 	lektor build -O $(BUILD_DIR)
 
