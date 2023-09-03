@@ -8,6 +8,10 @@ https://istevens.ca/* https://ianstevens.ca/:splat 301!
 /photos http://flickriver.com/photos/istevens/popular-interesting/ 302!
 /resume https://drive.google.com/uc?export=download&id=0B2xDdQg0Z1RieEpaWk5SUFJIMHc 302!
 /techstars https://read.letterhead.email/techstars-toronto 302!
+/twitter https://twitter.com/istevens 302!
+/linkedin https://linkedin.com/in/istevens 302!
+/flickr https://flickr.com/istevens 302!
+/mastodon https://mastodon.cloud/@istevens 302!
 
 # Internal redirects
 /confirmation-bias-part-* /articles/confirmation-bias-part-:splat 301
